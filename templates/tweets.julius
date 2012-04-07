@@ -1,21 +1,31 @@
 // vim: set ft=javascript:
 
-function GetLastTweet(UserName) {
-    url = 'https://api.twitter.com/1/statuses/user_timeline/' + UserName + '.json?callback=?';
-    $.getJSON(url, function (tweet) {
-        $("##{tweetDiv}").html(tweet[0].text);
-    });
-}
-
 function GetTweets(UserName, NoOfTweets) {
     url = 'https://api.twitter.com/1/statuses/user_timeline/' + UserName + '.json?callback=?';
     $.getJSON(url, function (tweets) {
+        $("##{tweetDiv}").html("");
         for (var i = 0; i < NoOfTweets; i++) {
-            $("#tweet-div").append(tweets[i].text + "<br/>");
+            tw = tweets[i];
+            $("##{tweetDiv}").append(makeTweet(tw));
         }
     });
 }
 
+function makeTweet(tweet) {
+
+    var text = "";
+
+    text = "<p class=\"tweettext\">" + tweet.text + "</p>";
+    var d = Date.parse(tweet.created_at);
+    var dateText = d.toString("yyyyMMdd HH:mm:ss");
+
+    text = text + "<p class=\"tweetsig\">&mdash; @" + tweet.user.screen_name + " at "+ dateText +"</p>";
+
+
+
+
+    return text;
+}
 function GetProfileImage(UserName) {
     url = 'https://api.twitter.com/1/statuses/user_timeline/' + UserName + '.json?callback=?';
     $.getJSON(url, function (image) {
