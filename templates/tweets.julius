@@ -23,8 +23,9 @@ function makeTweet(tweet) {
     text += "<p class=\"tweettext\">" + tweet.text + "</p>";
     text += "<p class=\"tweetsig\">&mdash; @" +
         tweet.user.screen_name +
-        " at " + dateText + "</p>";
+        ", " + dateText + "</p>";
 
+    text += "<hr class=\"tweethr\"/>";
 
 
 

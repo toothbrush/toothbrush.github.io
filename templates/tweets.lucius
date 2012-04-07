@@ -1,7 +1,52 @@
 
+@tweetColour: gray;
 
 div##{tweetDiv} {
 
-    border: 1px solid
+    width: 280px;
+    display: block;
+    position: absolute;
+    top:0;
+    right:0;
+    color: #{tweetColour};
+    border: 1px solid #{tweetColour};
+
+
+}
+
+p.tweetsig {
+
+    font-family: courier;
+    font-size: 10pt;
+}
+
+p.tweettext {
+    font-style: italic;
+}
+
+img.tweetimg {
+
+    float: left;
+    margin: 4px;
+}
+
+p.tweettext {
+    margin-bottom: 0.1em;
+}
+p.tweetsig {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+hr.tweethr {
+
+    border-width:1px 0 0 0;
+    height:0;
+    line-height:0px;
+    font-size:0;
+    margin:0;
+    padding:0;
+    border: 1px 0 0 0 dashed #{tweetColour};
+
 
 }
