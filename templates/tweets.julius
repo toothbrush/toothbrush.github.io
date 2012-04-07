@@ -13,13 +13,17 @@ function GetTweets(UserName, NoOfTweets) {
 
 function makeTweet(tweet) {
 
-    var text = "";
-
-    text = "<p class=\"tweettext\">" + tweet.text + "</p>";
     var d = Date.parse(tweet.created_at);
     var dateText = d.toString("yyyyMMdd HH:mm:ss");
+    var text = "";
 
-    text = text + "<p class=\"tweetsig\">&mdash; @" + tweet.user.screen_name + " at "+ dateText +"</p>";
+    text += "<img src=\"" +
+        tweet.user.profile_image_url_https +
+        "\" class=\"tweetimg\" />";
+    text += "<p class=\"tweettext\">" + tweet.text + "</p>";
+    text += "<p class=\"tweetsig\">&mdash; @" +
+        tweet.user.screen_name +
+        " at " + dateText + "</p>";
 
 
 
