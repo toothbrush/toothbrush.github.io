@@ -14,7 +14,7 @@ getRootR = do
     defaultLayout $ do
         h2id     <- lift newIdent
         tweetDiv <- lift newIdent
-        setTitle "denknerd homepage"
+        setTitle "denknerd.org"
         addScript (StaticR js_jquery_1_7_2_min_js)
         addScript (StaticR js_date_js)
         $(widgetFile "tweets")

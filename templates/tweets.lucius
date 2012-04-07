@@ -9,9 +9,14 @@ div##{tweetDiv} {
     top:0;
     right:0;
     color: #{tweetColour};
-    border: 1px solid #{tweetColour};
+    border: 1px dashed #{tweetColour};
 
 
+}
+
+div.tweetdiv {
+
+    display: block;
 }
 
 p.tweetsig {

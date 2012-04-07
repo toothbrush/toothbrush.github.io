@@ -1,3 +1,2 @@
-<h1>_{MsgHello}
 <div ##{tweetDiv}>Loading tweets...
 <img src="@{StaticR img_caravaggio_jpg}" alt="a picture of some handsome bloke" />
