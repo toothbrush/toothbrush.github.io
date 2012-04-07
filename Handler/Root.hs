@@ -12,6 +12,10 @@ import Import
 getRootR :: Handler RepHtml
 getRootR = do
     defaultLayout $ do
-        h2id <- lift newIdent
+        h2id     <- lift newIdent
+        tweetDiv <- lift newIdent
         setTitle "denknerd homepage"
+        addScript (StaticR js_jquery_1_7_2_min_js)
+        $(widgetFile "tweets")
         $(widgetFile "homepage")
+
