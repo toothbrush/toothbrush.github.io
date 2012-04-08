@@ -1,3 +1,5 @@
+/* vim: set ft=css: */
+
 @link:      #276b6b;
 @active:    #27fffc;
 @base:      #403532;
@@ -5,7 +7,7 @@
 
 
 body {
-    font-family: times, serif;
+    font-family: 'Imprima', times, serif;
     background-color: black;
     color: white;
 
@@ -13,12 +15,12 @@ body {
 
 a:hover {
     color: #{active};
-    border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    box-shadow: 0 0 5px #{active};
-    -webkit-box-shadow: 0 0 5px #{active};
-    -moz-box-shadow:    0 0 5px #{active};
+    /*border-radius:3px;*/
+    /*-webkit-border-radius:3px;*/
+    /*-moz-border-radius:3px;*/
+    /*box-shadow: 0 0 5px #{active};*/
+    /*-webkit-box-shadow: 0 0 5px #{active};*/
+    /*-moz-box-shadow:    0 0 5px #{active};*/
 }
 
 a {

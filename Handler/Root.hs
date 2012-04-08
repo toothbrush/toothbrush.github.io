@@ -17,6 +17,7 @@ getRootR = do
         setTitle "denknerd.org"
         addScript (StaticR js_jquery_1_7_2_min_js)
         addScript (StaticR js_date_js)
+        addScript (StaticR js_googlefonts_js)
         $(widgetFile "tweets")
         $(widgetFile "homepage")
 

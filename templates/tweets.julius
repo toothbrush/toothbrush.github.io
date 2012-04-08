@@ -1,6 +1,7 @@
 // vim: set ft=javascript:
 
 function GetTweets(UserName, NoOfTweets) {
+    $("##{tweetDiv}").hide();
     url = 'https://api.twitter.com/1/statuses/user_timeline/' + UserName + '.json?callback=?';
     $.getJSON(url, function (tweets) {
         $("##{tweetDiv}").html("");
@@ -8,6 +9,9 @@ function GetTweets(UserName, NoOfTweets) {
             tw = tweets[i];
             $("##{tweetDiv}").append(makeTweet(tw, i+1==NoOfTweets));
         }
+        // tweets loaded, fade in div:
+
+        $("##{tweetDiv}").fadeIn();
     });
 }
 
@@ -18,10 +22,10 @@ function makeTweet(tweet,last) {
     var text = "";
 
     // TODO: make pic and text next to each other, sig always on new line.
-    text += "<img src=\"" +
+    text += "<p class=\"tweettext\">" + "<img src=\"" +
         tweet.user.profile_image_url_https +
         "\" class=\"tweetimg\" />";
-    text += "<p class=\"tweettext\">" + urlify(tweet.text) + "</p>";
+    text += urlify(tweet.text) + "</p>";
     text += "<p class=\"tweetsig\">&mdash; @" +
         tweet.user.screen_name +
         ", " + dateText + "</p>";

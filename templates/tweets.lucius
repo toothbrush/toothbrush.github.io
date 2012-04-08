@@ -1,17 +1,21 @@
+/* vim: set ft=css: */
 
 @tweetColour: gray;
+@margin: 5px;
 
 div##{tweetDiv} {
 
     width: 280px;
     display: block;
     position: absolute;
-    top:0;
-    right:0;
+    top: #{margin};
+    right: #{margin};
     color: #{tweetColour};
     border: 1px dashed #{tweetColour};
+}
 
-
+span.tweetloading {
+    font-family: cursive, sans-serif;
 }
 
 div.tweetdiv {
@@ -20,13 +24,12 @@ div.tweetdiv {
 }
 
 p.tweetsig {
-
-    font-family: courier;
     font-size: 10pt;
 }
 
 p.tweettext {
-    font-style: italic;
+    font-family: 'Marck Script', cursive, sans-serif;
+    font-size: 14pt;
 }
 
 img.tweetimg {
@@ -36,11 +39,11 @@ img.tweetimg {
 }
 
 p.tweettext {
-    margin-bottom: 0.1em;
+    margin: 0.1em 0.1em 0.1em 0.1em;
+    min-height: 60px; /* make sure sig is on newline */
 }
 p.tweetsig {
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
+    margin: 0.1em 0.1em 0.1em 0.1em;
 }
 
 hr.tweethr {
