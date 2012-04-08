@@ -1,1 +1,7 @@
 <img src="@{StaticR img_caravaggio_jpg}" alt="a picture of some handsome bloke" />
+
+
+
+<p> This makes grateful use of at least the following great packages: <a href="http://www.vim.org">Vim</a>,
+        <a href="http://www.yesodweb.com/">Yesod</a>, <a href="http://www.haskell.org">Haskell</a>, <a href="http://www.jquery.com">jQuery</a>,
+        <a href="https://github.com/JoelBesada/scrollpath">Scrollpath</a>.

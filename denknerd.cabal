@@ -2,15 +2,15 @@ name:              denknerd
 version:           0.1
 license:           BSD3
 license-file:      LICENSE
-author:            Paul van der Walt
+author:            Paul van der Walt <paul@denknerd.org>
 maintainer:        Paul van der Walt
-synopsis:          The greatest Yesod web application ever.
-description:       I'm sure you can say something clever here if you try.
+synopsis:          My home page.
+description:       Attempt at revamping my homepage.
 category:          Web
 stability:         Experimental
 cabal-version:     >= 1.6
 build-type:        Simple
-homepage:          http://denknerd.yesodweb.com/
+homepage:          http://denknerd.org/
 
 Flag dev
     Description:   Turn on development settings, like auto-reload templates.

@@ -8,6 +8,8 @@ Development:
   <<: *defaults
 
 Testing:
+  approot: "http://beta.denknerd.org"
+  port: 4321
   <<: *defaults
 
 Staging:
@@ -15,4 +17,5 @@ Staging:
 
 Production:
   approot: "https://denknerd.org"
+  port: 4321
   <<: *defaults
