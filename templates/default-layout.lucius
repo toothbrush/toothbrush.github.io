@@ -13,16 +13,6 @@ body {
 
 }
 
-a:hover {
-    color: #{active};
-    /*border-radius:3px;*/
-    /*-webkit-border-radius:3px;*/
-    /*-moz-border-radius:3px;*/
-    /*box-shadow: 0 0 5px #{active};*/
-    /*-webkit-box-shadow: 0 0 5px #{active};*/
-    /*-moz-box-shadow:    0 0 5px #{active};*/
-}
-
 a {
     text-decoration:none;
     color: #{link};
@@ -34,3 +24,13 @@ a {
 a:visited {
     color: #{link};
 }
+a:hover {
+    color: #{active};
+    /*border-radius:3px;*/
+    /*-webkit-border-radius:3px;*/
+    /*-moz-border-radius:3px;*/
+    /*box-shadow: 0 0 5px #{active};*/
+    /*-webkit-box-shadow: 0 0 5px #{active};*/
+    /*-moz-box-shadow:    0 0 5px #{active};*/
+}
+
