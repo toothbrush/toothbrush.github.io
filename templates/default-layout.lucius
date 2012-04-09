@@ -2,8 +2,8 @@
 
 @link:      #276b6b;
 @active:    #27fffc;
-@base:      #403532;
-@basel:     #613528;
+@basel:      #403532;
+@base:     #613528;
 
 
 body {
@@ -27,14 +27,26 @@ a:visited {
 }
 a:hover {
     color: #{active};
-    /*border-radius:3px;*/
-    /*-webkit-border-radius:3px;*/
-    /*-moz-border-radius:3px;*/
-    /*box-shadow: 0 0 5px #{active};*/
-    /*-webkit-box-shadow: 0 0 5px #{active};*/
-    /*-moz-box-shadow:    0 0 5px #{active};*/
 }
 
 footer {
     color: #000;
 }
+
+
+a.cardlink {
+    text-decoration:none;
+    color: #{base};
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+a.cardlink:visited {
+    color: #{base};
+}
+a.cardlink:hover {
+    color: #{basel};
+}
+
+
