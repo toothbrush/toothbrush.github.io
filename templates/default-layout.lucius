@@ -35,3 +35,6 @@ a:hover {
     /*-moz-box-shadow:    0 0 5px #{active};*/
 }
 
+footer {
+    color: #000;
+}

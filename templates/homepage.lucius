@@ -1,4 +1,27 @@
 h1 {
-    text-align: center
+    text-align: center;
+}
+
+/* stuff for scrollpath */
+div.scrollwrapper {
+    position: absolute;
+}
+
+.card {
+    background-color: red;
+    position:absolute;
+}
+
+
+div.projects {
+    width: 600px;
+}
+
+div.frame2 {
+    width: 300px;
+}
+
+div.final {
+    width: 400px;
 }
 

@@ -18,6 +18,10 @@ getRootR = do
         addScript (StaticR js_jquery_1_7_2_min_js)
         addScript (StaticR js_date_js)
         addScript (StaticR js_googlefonts_js)
+        addStylesheet  (StaticR css_scrollpath_css)
+        addScript (StaticR js_lib_jquery_easing_js)
+        addScript (StaticR js_jquery_scrollpath_js)
         $(widgetFile "tweets")
         $(widgetFile "homepage")
+        addScript (StaticR js_init_scrollpath_js)
 
