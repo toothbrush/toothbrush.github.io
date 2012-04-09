@@ -3,8 +3,8 @@
 function init() {
   /* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
 
-    var radius = 500;
-  $.fn.scrollPath("getPath")
+    var radius = 1000;
+  $.fn.scrollPath("getPath", {scrollSpeed: 80})
     // Arc down and line to 'syntax'
     .arc(radius, 0, radius, -Math.PI,  Math.PI, true,
             {rotate:2*Math.PI}
@@ -31,7 +31,7 @@ function init() {
 
   // We're done with the path, let's initate the plugin on our wrapper element
     $(".scrollwrapper").scrollPath({
-        drawPath:   true,
+        drawPath:   false,
         wrapAround: true,
       scrollBar:  true
   });
