@@ -31,10 +31,11 @@ function makeTweet(tweet) {
 
     text += '<div class="atweet">';
 
-    text += "<p class=\"tweettext\">" + "<img src=\"" +
+    text += "<div class=\"tweettext\">" + "<img src=\"" +
         tweet.user.profile_image_url_https +
         "\" class=\"tweetimg\" />";
-    text += urlify(tweet.text) + "</p>";
+    text += "<div class=\"innertweettext\">";
+    text += urlify(tweet.text) + "</div></div>";
     text += "<p class=\"tweetsig\">&mdash; @" +
         tweet.user.screen_name +
         ", " + dateText + "</p>";

@@ -3,6 +3,10 @@
 @tweetColour: #ccc;
 @margin: 5px;
 
+@gradientBlack: #111;
+@gradientGray:  #191919;
+
+
 div##{tweetDiv} {
 
     width: 280px;
@@ -11,9 +15,43 @@ div##{tweetDiv} {
     top: 50%;
     right: 0;
     color: #{tweetColour};
-    border: 1px 1px 1px 0 solid #{tweetColour};
+    border-top: 1px solid #{gradientBlack};
+    border-left: 1px solid #{gradientBlack};
+    border-bottom: 1px solid #{gradientGray};
+    border-top-left-radius: #{margin};
+    border-bottom-left-radius: #{margin};
 }
 
+div.atweet {
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #{gradientGray} 0%, #{gradientBlack} 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #{gradientGray} 0%, #{gradientBlack} 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #{gradientGray}), color-stop(1, #{gradientBlack}));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #{gradientGray} 0%, #{gradientBlack} 100%);
+
+/* Proposed W3C Markup */ 
+background-image: linear-gradient(top, #{gradientGray} 0%, #{gradientBlack} 100%);
+
+border-top: 1px solid #222;
+border-bottom: 1px solid black;
+}
+div.atweet:first-child {
+
+    border-top: 0;
+
+}
+
+div.atweet:last-child {
+
+    border-bottom: 0;
+
+}
 span.tweetloading {
     font-family: cursive, sans-serif;
 }
@@ -25,24 +63,31 @@ div.tweetdiv {
 
 p.tweetsig {
     font-size: 10pt;
+    font-style: italic;
 }
 
-p.tweettext {
-    font-family: 'Marck Script', cursive, sans-serif;
-    font-size: 14pt;
+div.tweettext {
+    font-family: 'Play', cursive, sans-serif;
+    /* font-family: 'Marck Script', cursive, sans-serif; */
+    font-size: 11pt;
+    margin: 0px;
+    padding: 5px;
+    min-height: 60px; /* make sure sig is on newline */
 }
 
 img.tweetimg {
 
     float: left;
-    margin: 4px;
+    margin: 3px 2px 2px 2px;
+    -webkit-box-shadow: 0 0 5px #333;
+    -moz-box-shadow: 0 0 5px #333;
 }
 
-p.tweettext {
-    margin: 0.1em 0.1em 0.1em 0.1em;
-    min-height: 60px; /* make sure sig is on newline */
-}
 p.tweetsig {
-    margin: 0.1em 0.1em 0.1em 0.1em;
+    margin: 0px;
+    padding: 4px;
 }
 
+div.innertweettext {
+    margin-left: 60px;
+}

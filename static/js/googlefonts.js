@@ -1,5 +1,5 @@
 WebFontConfig = {
-    google: { families: [ 'Marck Script', 'Imprima' ] }
+    google: { families: [ 'Marck Script', 'Imprima', 'Play' ] }
 };
 (function() {
     var wf = document.createElement('script');
