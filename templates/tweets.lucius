@@ -1,17 +1,17 @@
 /* vim: set ft=css: */
 
-@tweetColour: gray;
+@tweetColour: #ccc;
 @margin: 5px;
 
 div##{tweetDiv} {
 
     width: 280px;
     display: block;
-    position: absolute;
-    top: #{margin};
-    right: #{margin};
+    position: fixed;
+    top: 50%;
+    right: 0;
     color: #{tweetColour};
-    border: 1px dashed #{tweetColour};
+    border: 1px 1px 1px 0 solid #{tweetColour};
 }
 
 span.tweetloading {
@@ -46,15 +46,3 @@ p.tweetsig {
     margin: 0.1em 0.1em 0.1em 0.1em;
 }
 
-hr.tweethr {
-
-    border-width:1px 0 0 0;
-    height:0;
-    line-height:0px;
-    font-size:0;
-    margin:0;
-    padding:0;
-    border: 1px 0 0 0 dashed #{tweetColour};
-
-
-}

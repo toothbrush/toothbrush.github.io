@@ -1,27 +1,36 @@
 // vim: set ft=javascript:
 
 function GetTweets(UserName, NoOfTweets) {
+    $(window).resize(function(){
+        var top = ($(window).height() - $("##{tweetDiv}").outerHeight())/2;
+        $("##{tweetDiv}").css({
+            top: ($(window).height() - $("##{tweetDiv}").outerHeight())/2
+        });
+    });
     $("##{tweetDiv}").hide();
     url = 'https://api.twitter.com/1/statuses/user_timeline/' + UserName + '.json?callback=?';
     $.getJSON(url, function (tweets) {
         $("##{tweetDiv}").html("");
         for (var i = 0; i < NoOfTweets; i++) {
             tw = tweets[i];
-            $("##{tweetDiv}").append(makeTweet(tw, i+1==NoOfTweets));
+            $("##{tweetDiv}").append(makeTweet(tw));
         }
         // tweets loaded, fade in div:
 
+        // To initially run the function:
+        $(window).resize();
         $("##{tweetDiv}").fadeIn();
     });
 }
 
-function makeTweet(tweet,last) {
+function makeTweet(tweet) {
 
     var d = Date.parse(tweet.created_at);
     var dateText = d.toString("yyyyMMdd HH:mm:ss");
     var text = "";
 
-    // TODO: make pic and text next to each other, sig always on new line.
+    text += '<div class="atweet">';
+
     text += "<p class=\"tweettext\">" + "<img src=\"" +
         tweet.user.profile_image_url_https +
         "\" class=\"tweetimg\" />";
@@ -29,13 +38,7 @@ function makeTweet(tweet,last) {
     text += "<p class=\"tweetsig\">&mdash; @" +
         tweet.user.screen_name +
         ", " + dateText + "</p>";
-
-    if(!last) {
-        text += "<hr class=\"tweethr\"/>";
-    }
-
-
-
+    text += '</div>';
     return text;
 }
 
