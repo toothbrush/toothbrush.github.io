@@ -1,9 +1,10 @@
 ---
 title: Reflection in Agda
 authors: Paul van der Walt
-subline: M.Sc. thesis.
+subline: M.Sc. thesis, 2012.
 ---
 
+#### Supervised by Wouter Swierstra and Johan Jeuring
 ### Abstract
 
 Download full text here: [Utrecht University library](http://igitur-archive.library.uu.nl/student-theses/2012-1030-200720/UUindex.html)
