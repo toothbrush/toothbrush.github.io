@@ -3,11 +3,18 @@
 import           Control.Applicative ((<$>))
 import           Data.Monoid         (mappend)
 import           Hakyll
-
+import Text.Printf
+import Data.Time.Clock
+import Data.Time.Calendar
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main =
+ do (y,m,d) <- getCurrentTime >>= return . toGregorian . utctDay
+
+
+    hakyll $ do
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -16,29 +23,33 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match "pdf/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match (fromList ["projects.rst"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" (myCtx y m d)
             >>= relativizeUrls
 
-    match "posts/*" $ do
+    match "pubs/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/pub.html"    (pubCtx `mappend` myCtx y m d)
+            >>= loadAndApplyTemplate "templates/default.html" (pubCtx `mappend` myCtx y m d)
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["pubs.html"] $ do
         route idRoute
         compile $ do
             let archiveCtx =
-                    field "posts" (\_ -> postList recentFirst) `mappend`
-                    constField "title" "Archives"              `mappend`
-                    defaultContext
+                    field "pubs" (\_ -> pubList recentFirst) `mappend`
+                    constField "title" "Publications"              `mappend`
+                    myCtx y m d
 
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/pubs.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
@@ -46,27 +57,29 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            let indexCtx = field "posts" $ \_ -> postList (take 3 . recentFirst)
+            let indexCtx = field "pubs" $ \_ -> pubList (take 3 . recentFirst)
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
+                >>= loadAndApplyTemplate "templates/default.html" (pubCtx `mappend` myCtx y m d)
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
 
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
+pubCtx :: Context String
+pubCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
+myCtx :: Integer -> Int -> Int -> Context String
+myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` defaultContext
 
 --------------------------------------------------------------------------------
-postList :: ([Item String] -> [Item String]) -> Compiler String
-postList sortFilter = do
-    posts   <- sortFilter <$> loadAll "posts/*"
-    itemTpl <- loadBody "templates/post-item.html"
-    list    <- applyTemplateList itemTpl postCtx posts
+pubList :: ([Item String] -> [Item String]) -> Compiler String
+pubList sortFilter = do
+    pubs   <- sortFilter <$> loadAll "pubs/*"
+    itemTpl <- loadBody "templates/pub-item.html"
+    list    <- applyTemplateList itemTpl pubCtx pubs
     return list
