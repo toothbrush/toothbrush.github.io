@@ -1,3 +1,0 @@
-
-// this is placed after the body, so executed after load.
-GetTweets('tchwala', 5);
