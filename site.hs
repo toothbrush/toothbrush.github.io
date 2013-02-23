@@ -27,12 +27,6 @@ main =
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["projects.rst"]) $ do
-        route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" (myCtx y m d)
-            >>= relativizeUrls
-
     match "pubs/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
@@ -54,7 +48,7 @@ main =
                 >>= relativizeUrls
 
 
-    match "index.html" $ do
+    match (fromList ["index.html", "projects.html"]) $ do
         route idRoute
         compile $ do
             let indexCtx = field "pubs" $ \_ -> pubList (take 3 . recentFirst)
