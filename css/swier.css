@@ -6,8 +6,9 @@ body {
   width:80%;
   margin: 0 auto;
   font-family:palatino,times, "Times New Roman", serif;
-  color: rgb(35,35,35);
-  background:#fff;
+  color: rgb(220,220,220);
+  /*background: black;*/
+  background: rgb(35,35,35);
   min-width:600px;
   font-size:90%;
 }
@@ -21,14 +22,16 @@ p, dl, ul, ol {
 
 /* Links */
 a {
-  color:#369;
-  text-decoration:none;
+        color: #27fffc;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
 }
 a:hover {
-  text-decoration:underline;
-}
-a:visited {
-  color:#a20813;
+    color: #276b6b;
+    /*text-underline: 1px;*/
+    /*text-decoration: underline;*/
 }
 
 /* Paragraph settings */
@@ -91,7 +94,8 @@ h3 {
 }
 /* Left menu settings */
 .leftmenu {
-  background:#fff;
+  /*background: black;*/
+ background: rgb(35,35,35);
 }
 .leftmenu .colleft {
   right:75%;
