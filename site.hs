@@ -38,7 +38,7 @@ main =
         route idRoute
         compile $ do
             let archiveCtx =
-                    field "pubs" (\_ -> pubList recentFirst) `mappend`
+                    field "pubs" (\_ -> pubList) `mappend`
                     constField "title" "Publications"              `mappend`
                     myCtx y m d
 
@@ -51,7 +51,7 @@ main =
     match (fromList ["index.html", "projects.html"]) $ do
         route idRoute
         compile $ do
-            let indexCtx = field "pubs" $ \_ -> pubList (take 3 . recentFirst)
+            let indexCtx = field "pubs" $ \_ -> pubList
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -71,9 +71,9 @@ myCtx :: Integer -> Int -> Int -> Context String
 myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` defaultContext
 
 --------------------------------------------------------------------------------
-pubList :: ([Item String] -> [Item String]) -> Compiler String
-pubList sortFilter = do
-    pubs   <- sortFilter <$> loadAll "pubs/*"
+pubList :: Compiler String
+pubList = do
+    pubs    <- loadAll "pubs/*" >>= recentFirst
     itemTpl <- loadBody "templates/pub-item.html"
     list    <- applyTemplateList itemTpl pubCtx pubs
     return list
