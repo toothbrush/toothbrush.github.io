@@ -1,0 +1,9 @@
+vim: ft=bib
+
+@inproceedings{reflection,
+  Author     = {Paul van der Walt and Wouter Swierstra},
+  Booktitle  = {Implementation and Application of Functional Languages - 24th International Symposium},
+  Editor     = {Ralf Hinze},
+  Title      = {Engineering Proof by Reflection in Agda},
+  Year       = {2012}}
+}

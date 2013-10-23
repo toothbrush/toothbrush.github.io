@@ -23,6 +23,10 @@ main =
         route   idRoute
         compile compressCssCompiler
 
+    match "bib/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "pdf/*" $ do
         route   idRoute
         compile copyFileCompiler
