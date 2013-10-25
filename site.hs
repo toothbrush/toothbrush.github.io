@@ -6,12 +6,15 @@ import           Hakyll
 import Text.Printf
 import Data.Time.Clock
 import Data.Time.Calendar
+import Git
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main =
  do (y,m,d) <- getCurrentTime >>= return . toGregorian . utctDay
-
+--     repo   <- openRepository "." False
+--     commitFromRef <- lookupCommit repo "HEAD"
+--     let c = maybe "--" id commitFromRef
 
     hakyll $ do
 
