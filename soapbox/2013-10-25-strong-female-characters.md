@@ -1,5 +1,5 @@
 ---
-title: Strong Female Characters
+title: I, too, hate Strong Female Characters
 ---
 
 Link: [http://www.newstatesman.com/culture/2013/08/i-hate-strong-female-characters](http://www.newstatesman.com/culture/2013/08/i-hate-strong-female-characters)
