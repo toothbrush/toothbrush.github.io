@@ -107,7 +107,10 @@ articleDateCtx =
     defaultContext
 
 myCtx :: Integer -> Int -> Int -> Context String
-myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` defaultContext
+myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` 
+    constField "lfmtheme" "basicrt10" `mappend`
+    --constField "lfmtheme" "SidebarPlain" `mappend`
+    defaultContext
 
 --------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
