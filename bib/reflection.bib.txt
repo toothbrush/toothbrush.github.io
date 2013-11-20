@@ -1,9 +1,17 @@
 vim: ft=bib
 
-@inproceedings{reflection,
-  Author     = {Paul van der Walt and Wouter Swierstra},
-  Booktitle  = {Implementation and Application of Functional Languages - 24th International Symposium},
-  Editor     = {Ralf Hinze},
-  Title      = {Engineering Proof by Reflection in Agda},
-  Year       = {2012}}
+@incollection{agda-reflection,
+    year={2013},
+    isbn={978-3-642-41581-4},
+    booktitle={Implementation and Application of Functional Languages},
+    series={Lecture Notes in Computer Science},
+    editor={Hinze, Ralf},
+    doi={10.1007/978-3-642-41582-1_10},
+    title={Engineering Proof by Reflection in Agda},
+    url={http://dx.doi.org/10.1007/978-3-642-41582-1_10},
+    publisher={Springer Berlin Heidelberg},
+    keywords={Dependently-typed programming; Reflection; Agda; Proof by reflection; Metaprogramming},
+    author={Paul van der Walt and Wouter Swierstra},
+    pages={157-173},
+    language={English}
 }
