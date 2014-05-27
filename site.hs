@@ -6,7 +6,7 @@ import           Hakyll
 import Text.Printf
 import Data.Time.Clock
 import Data.Time.Calendar
-import Git
+--import Git
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -45,7 +45,7 @@ main =
                        >>= loadAndApplyTemplate "templates/default.html" sbCtx
                        >>= relativizeUrls
 
-    match "pubs/*" $ do
+    match "pubs/*.md" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/pub.html"    articleDateCtx
