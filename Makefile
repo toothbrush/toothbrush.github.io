@@ -1,5 +1,5 @@
 preview: site
-	./site preview
+	./site watch
 
 build: site
 	./site build
