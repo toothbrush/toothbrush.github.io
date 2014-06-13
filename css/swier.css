@@ -5,7 +5,7 @@ body {
   border:0;
   width:80%;
   margin: 0 auto;
-  font-family: 'Alegreya', palatino,times, "Times New Roman", serif;
+  font-family: palatino, times, "Times New Roman", serif;
   color: rgb(220,220,220);
   /*background: black;*/
   background: rgb(35,35,35);
@@ -15,14 +15,13 @@ body {
 
 /* More roomy lists and paragraphs*/
 p, dl, ul, ol {
-  margin-top: 0;
+    margin-top: 0;
     line-height: 150%;
 }
 
-
 /* Links */
 a {
-        color: #27fffc;
+    color: #27fffc;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -143,6 +142,9 @@ h3 {
 {
     letter-spacing:-1px;
     font-size:1.5em;
+}
+#normallink {
+    font-size:1.0em;
 }
 .col2 p
 {
