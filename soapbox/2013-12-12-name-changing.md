@@ -1,5 +1,5 @@
 ---
-title: On name-changing, marriage, sexism -- tired tropes
+title: On name-changing, marriage, sexism &ndash; tired tropes
 ---
 
 Link: [Jezebel: Men who insist you change your name make terrible husbands](http://jezebel.com/men-who-insist-you-change-your-name-make-terrible-husba-1446543344)
