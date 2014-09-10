@@ -1,3 +1,9 @@
+---
+title: Mexican lasagne
+date: 2014-09-10
+tags: main
+---
+
 *source: nigella.com* ![Cheesy cholesterolly
 goodness!](Mexican_lasagne.jpg "fig:Cheesy cholesterolly goodness!")
 Serves: 8

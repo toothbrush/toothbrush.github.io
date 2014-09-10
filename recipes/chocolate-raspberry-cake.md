@@ -1,3 +1,9 @@
+---
+title: Chocolate raspberry cake
+tags: cake
+date: 2012-02-01
+---
+
 seen in Graz:
 
 chocolate cake: add raspberries (keeps the lot moist), serve with icing
