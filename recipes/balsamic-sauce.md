@@ -1,3 +1,8 @@
+---
+title: balsamic-sauce
+date:  2014-09-10
+tags:
+---
 Quick and easy yet tasty sauce, based on balsamic vinegar. Looks
 decadent.
 

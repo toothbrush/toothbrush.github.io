@@ -1,3 +1,8 @@
+---
+title: goats-cheese-caramelised-figs
+date:  2014-09-10
+tags:
+---
 '' source: magazine. Feeds 3. ''
 
 Ingredients

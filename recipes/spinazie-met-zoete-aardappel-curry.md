@@ -1,3 +1,8 @@
+---
+title: spinazie-met-zoete-aardappel-curry
+date:  2014-09-10
+tags:
+---
 Spinazie en zoete aardappel curry
 =================================
 

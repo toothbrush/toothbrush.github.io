@@ -1,3 +1,8 @@
+---
+title: rigatoni-with-mushrooms
+date:  2014-09-10
+tags:
+---
 *source:
 [1](http://www.cookstr.com/recipes/big-pasta-with-mushroom-parsley-garlic-and-thyme),
 Tristan & Linde*

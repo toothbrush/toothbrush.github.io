@@ -1,3 +1,8 @@
+---
+title: hamish-pasta-red-wine
+date:  2014-09-10
+tags:
+---
 *source: Sebastian / Hamish*
 
 Ingredients

@@ -1,3 +1,8 @@
+---
+title: lemon-curd
+date:  2014-09-10
+tags:
+---
 '' source: Recipes from Bechuanaland, Women's Institute, Francistown ''
 
 Ingredients

@@ -1,3 +1,8 @@
+---
+title: sayur
+date:  2014-09-10
+tags:
+---
 *source: Linde's mom*
 
 Ingrediënten:

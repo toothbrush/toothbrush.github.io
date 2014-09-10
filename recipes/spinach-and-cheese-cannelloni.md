@@ -1,3 +1,8 @@
+---
+title: spinach-and-cheese-cannelloni
+date:  2014-09-10
+tags:
+---
 *source: Hamish and
 <http://www.dishbase.com/recipe/spinach-cheese-cannelloni/>*
 

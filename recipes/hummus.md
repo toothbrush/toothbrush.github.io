@@ -1,3 +1,8 @@
+---
+title: hummus
+date:  2014-09-10
+tags:
+---
 ### Ingredients
 
 -   1 can (20 oz.) chick peas

@@ -1,3 +1,8 @@
+---
+title: malay-kerrie
+date:  2014-09-10
+tags:
+---
 Malay kerrie (±6 personen volgens site)
 
 Ingredients

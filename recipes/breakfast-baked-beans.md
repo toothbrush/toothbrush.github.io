@@ -1,3 +1,8 @@
+---
+title: breakfast-baked-beans
+date:  2014-09-10
+tags:
+---
 Nicer baked beans...
 
 -   fry some onion rings (not bad for fried egg flavour either...)

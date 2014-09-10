@@ -1,3 +1,8 @@
+---
+title: grasshopper-pie
+date:  2014-09-10
+tags:
+---
 *source: Nigella via Linde*
 
 Pretty simple fridge-cake-effort involving liquor. Yay. ![Pretty good

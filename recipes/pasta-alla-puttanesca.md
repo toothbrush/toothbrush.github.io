@@ -1,3 +1,8 @@
+---
+title: pasta-alla-puttanesca
+date:  2014-09-10
+tags:
+---
 *source: Hamish*
 
 Ingredients

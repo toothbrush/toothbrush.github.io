@@ -1,3 +1,8 @@
+---
+title: greek-preitaart
+date:  2014-09-10
+tags:
+---
 *recipe from Carolina Dimitriadou's mother (she is Dutch married to
 Greek), via mom*
 

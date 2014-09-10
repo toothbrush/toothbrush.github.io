@@ -1,3 +1,8 @@
+---
+title: imam-bayildi
+date:  2014-09-10
+tags:
+---
 İmam bayıldı
 
 *bron: Tristan, 6 personen*

@@ -1,3 +1,8 @@
+---
+title: baigan-subji
+date:  2014-09-10
+tags:
+---
 *serves ± 6*
 
 -   5 tbs olie

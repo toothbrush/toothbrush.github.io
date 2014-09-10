@@ -1,3 +1,8 @@
+---
+title: todo-recipes
+date:  2014-09-10
+tags:
+---
 intention is to get the recipes for these things:
 
 -   Goat cheese cheesecake with chili jam.

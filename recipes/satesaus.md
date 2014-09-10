@@ -1,3 +1,8 @@
+---
+title: satesaus
+date:  2014-09-10
+tags:
+---
 Ongeveer het volgende moet wel werken. Meestal fruit ik ui en knoflook
 in wat boter.
 

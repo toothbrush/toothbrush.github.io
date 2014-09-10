@@ -1,3 +1,8 @@
+---
+title: lasagne
+date:  2014-09-10
+tags:
+---
 See also the [spicy lasagne](Spicy Lasagne "wikilink").
 
 *bron: zelf*

@@ -1,3 +1,8 @@
+---
+title: lemon-meringue-tart
+date:  2014-09-10
+tags:
+---
 Pretty easy, thanks to Mary Berry.
 <http://www.nrc.nl/koken/2014/02/05/laatste-avondmaal/>
 

@@ -1,3 +1,8 @@
+---
+title: spinach-calzone
+date:  2014-09-10
+tags:
+---
 serves 2.5
 
 ![Bla!](Spinach_calzone.jpg "fig:Bla!") *source: Jamie Oliver*

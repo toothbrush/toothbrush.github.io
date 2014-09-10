@@ -1,3 +1,8 @@
+---
+title: tomatoey-egg-bake
+date:  2014-09-10
+tags:
+---
 ![This is what your egg bake might look like. If it tastes anything like
 this one, you're in luck.
 ](Eggbake.jpg "fig:This is what your egg bake might look like. If it tastes anything like this one, you're in luck. ")

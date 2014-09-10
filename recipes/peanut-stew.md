@@ -1,3 +1,8 @@
+---
+title: peanut-stew
+date:  2014-09-10
+tags:
+---
 <https://lh4.googleusercontent.com/-RplD3ZiUh24/TiOb9a3_f3I/AAAAAAAAE3E/9OlVtwZcA2I/s1600/peanut-stew.jpg>
 
 Ingredients

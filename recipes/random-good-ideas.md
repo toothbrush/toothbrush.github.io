@@ -1,3 +1,8 @@
+---
+title: random-good-ideas
+date:  2014-09-10
+tags:
+---
 ideas are more inspired than others. Beware.
 
 -   vegan whipped cream: <http://www.theppk.com/2011/04/rad-whip/>

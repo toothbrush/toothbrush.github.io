@@ -1,3 +1,8 @@
+---
+title: bacalhau-a-ze-do-pipo
+date:  2014-09-10
+tags:
+---
 Bacalhau à Zé do Pipo
 
 *source: [1](http://www.gastronomias.com/receitas/rec0548.htm), [Nuno

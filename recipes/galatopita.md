@@ -1,3 +1,8 @@
+---
+title: galatopita
+date:  2014-09-10
+tags:
+---
 '' source: Roela Kakaraki via mom '' (original: <Media:Galatopita.jpg>)
 
 TODO: make jpg into a reference.

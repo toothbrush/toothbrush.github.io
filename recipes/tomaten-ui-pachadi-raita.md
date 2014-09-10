@@ -1,3 +1,8 @@
+---
+title: tomaten-ui-pachadi-raita
+date:  2014-09-10
+tags:
+---
 Tomaten-ui pachadi (raita)
 
 -   1.5 cup yoghurt (ong 370 ml)

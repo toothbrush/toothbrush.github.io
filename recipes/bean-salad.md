@@ -1,3 +1,8 @@
+---
+title: bean-salad
+date:  2014-09-10
+tags:
+---
 Mix the following things:
 
 -   kidney beans?

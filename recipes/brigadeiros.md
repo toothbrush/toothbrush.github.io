@@ -1,3 +1,8 @@
+---
+title: brigadeiros
+date:  2014-09-10
+tags:
+---
 Ingredients for brigadeiro
 --------------------------
 

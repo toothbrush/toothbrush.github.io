@@ -1,3 +1,8 @@
+---
+title: chili-sin-carne
+date:  2014-09-10
+tags:
+---
 *source: mom*
 
 Ingredients

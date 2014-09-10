@@ -1,3 +1,8 @@
+---
+title: pecan-nut-pie
+date:  2014-09-10
+tags:
+---
 Use ouma's 'smeerkors', same as for piesangtert and melktert.
 
 source: <http://www.momswhothink.com/pie-recipes/pecan-pie-recipe.html>

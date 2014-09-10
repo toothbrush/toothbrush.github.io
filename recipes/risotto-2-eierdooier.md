@@ -1,3 +1,8 @@
+---
+title: risotto-2-eierdooier
+date:  2014-09-10
+tags:
+---
 *from: <http://www.nrc.nl/koken/2014/01/06/tutto-risotto/>*
 
 Doe de eidooier in een kommetje en roer los met 2 eetlepels koude

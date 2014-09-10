@@ -1,3 +1,8 @@
+---
+title: cape-brandy-tart
+date:  2014-09-10
+tags:
+---
 *source: <http://www.rainbowcooking.co.nz/recipes/cape-brandy-pudding>*
 
 Ingredients for small pudding

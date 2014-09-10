@@ -1,3 +1,8 @@
+---
+title: avocado-ritz
+date:  2014-09-10
+tags:
+---
 Vego Avocado Ritz: (4 persons = half avo p.p.)
 
 -   200g stilton cheese

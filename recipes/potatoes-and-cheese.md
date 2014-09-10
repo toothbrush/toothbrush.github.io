@@ -1,3 +1,8 @@
+---
+title: potatoes-and-cheese
+date:  2014-09-10
+tags:
+---
 ![Looks okay like this,
 no?](Cheesy_broccoli.jpg "Looks okay like this, no?")
 

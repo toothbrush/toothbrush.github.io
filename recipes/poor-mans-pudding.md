@@ -1,3 +1,8 @@
+---
+title: poor-mans-pudding
+date:  2014-09-10
+tags:
+---
 *source: mom, aunt hester = ouma's sister. updates by Elizabeth*
 
 -   1 cup flour

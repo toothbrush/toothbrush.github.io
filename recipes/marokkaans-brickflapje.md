@@ -1,3 +1,8 @@
+---
+title: marokkaans-brickflapje
+date:  2014-09-10
+tags:
+---
 *source: book Vegetarisch Genieten, p. 151*
 
 Belongs with couscous and [Marokkaanse

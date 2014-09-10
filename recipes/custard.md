@@ -1,3 +1,8 @@
+---
+title: custard
+date:  2014-09-10
+tags:
+---
 *from: <http://www.bbc.co.uk/food/recipes/realpropercustard_65614>*
 
 Ingredients

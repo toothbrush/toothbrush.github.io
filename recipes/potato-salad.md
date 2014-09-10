@@ -1,3 +1,8 @@
+---
+title: potato-salad
+date:  2014-09-10
+tags:
+---
 Mom's variant:
 
 -   boiled potatoes

@@ -1,3 +1,8 @@
+---
+title: spinach-curry-with-naan
+date:  2014-09-10
+tags:
+---
 Serves 2
 
 '' source: Tristan ''
