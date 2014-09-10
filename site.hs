@@ -22,7 +22,7 @@ main =
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "css/*.css" $ do
         route   idRoute
         compile compressCssCompiler
 
@@ -34,7 +34,7 @@ main =
         route   idRoute
         compile copyFileCompiler
 
-    match "recipes/*" $ do
+    match "recipes/*.md" $ do
         route $ setExtension "html"
         compile $ do
                 let sbCtx = 
@@ -44,7 +44,7 @@ main =
                        >>= loadAndApplyTemplate "templates/default.html" sbCtx
                        >>= relativizeUrls
 
-    match "soapbox/*" $ do
+    match "soapbox/*.md" $ do
         route $ setExtension "html"
         compile $ do
                 let sbCtx = 
