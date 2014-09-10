@@ -1,7 +1,7 @@
 ---
 title: red-wine-cake
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 '' source:
 [smittenkitchen.com](http://smittenkitchen.com/2011/09/red-wine-chocolate-cake/)

@@ -1,7 +1,7 @@
 ---
 title: pecan-nut-pie
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Use ouma's 'smeerkors', same as for piesangtert and melktert.
 

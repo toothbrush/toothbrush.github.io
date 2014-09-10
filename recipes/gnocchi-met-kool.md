@@ -1,7 +1,7 @@
 ---
 title: gnocchi-met-kool
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Gnocchi met tomaten en kool
 ===========================

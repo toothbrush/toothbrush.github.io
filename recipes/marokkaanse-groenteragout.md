@@ -1,7 +1,7 @@
 ---
 title: marokkaanse-groenteragout
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 ![For example.](Marokkaanse_groenteragout.jpg "fig:For example.") Hoort
 bij couscous (= zout, kokend water, couscous).

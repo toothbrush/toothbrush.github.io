@@ -1,7 +1,7 @@
 ---
 title: cous-cous-salad
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Cous cous salad
 ===============

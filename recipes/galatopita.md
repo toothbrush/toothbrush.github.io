@@ -1,7 +1,7 @@
 ---
 title: galatopita
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 '' source: Roela Kakaraki via mom '' (original: <Media:Galatopita.jpg>)
 

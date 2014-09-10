@@ -1,6 +1,6 @@
 ---
 title: Tart shell
-tags: cake
+tags: untagged cake
 date: 2011-05-01
 ---
 

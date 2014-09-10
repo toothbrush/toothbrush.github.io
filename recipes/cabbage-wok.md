@@ -1,7 +1,7 @@
 ---
 title: cabbage-wok
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Roughly based on a NYTimes random recipe.
 <http://www.nytimes.com/2012/10/18/health/cabbage-and-carrot-noodles-recipes-for-health.html>

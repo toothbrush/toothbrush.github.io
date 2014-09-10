@@ -1,7 +1,7 @@
 ---
 title: really-easy-cream-and-fruit-tarts
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 4 personen, AH receptenkaart
 

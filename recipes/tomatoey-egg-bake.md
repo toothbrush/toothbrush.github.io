@@ -1,7 +1,7 @@
 ---
 title: tomatoey-egg-bake
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 ![This is what your egg bake might look like. If it tastes anything like
 this one, you're in luck.

@@ -1,7 +1,7 @@
 ---
 title: cape-brandy-tart
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 *source: <http://www.rainbowcooking.co.nz/recipes/cape-brandy-pudding>*
 

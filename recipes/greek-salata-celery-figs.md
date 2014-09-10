@@ -1,7 +1,7 @@
 ---
 title: greek-salata-celery-figs
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Σαλάτα του σέλινου με σύκα SALÁTA TOU SELINOU ME SÝKA (Salade van
 selderij met vijgen)

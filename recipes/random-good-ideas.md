@@ -1,7 +1,7 @@
 ---
 title: random-good-ideas
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 ideas are more inspired than others. Beware.
 

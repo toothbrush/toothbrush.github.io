@@ -1,7 +1,7 @@
 ---
 title: Chocolate eclairs
 date: 2014-09-10
-tags: cake
+tags: untagged cake
 ---
 
 '' source: Mr. Davies, 1967 income tax department Bulawayo''

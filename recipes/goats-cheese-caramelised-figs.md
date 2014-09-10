@@ -1,7 +1,7 @@
 ---
 title: goats-cheese-caramelised-figs
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 '' source: magazine. Feeds 3. ''
 

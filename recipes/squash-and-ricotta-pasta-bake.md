@@ -1,7 +1,7 @@
 ---
 title: squash-and-ricotta-pasta-bake
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 serves: 4
 

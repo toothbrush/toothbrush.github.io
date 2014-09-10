@@ -1,7 +1,7 @@
 ---
 title: monchoutaart
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 *voor ±10 man*
 

@@ -1,7 +1,7 @@
 ---
 title: custard
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 *from: <http://www.bbc.co.uk/food/recipes/realpropercustard_65614>*
 

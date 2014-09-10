@@ -1,7 +1,7 @@
 ---
 title: avocado-ritz
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Vego Avocado Ritz: (4 persons = half avo p.p.)
 

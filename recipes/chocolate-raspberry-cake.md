@@ -1,6 +1,6 @@
 ---
 title: Chocolate raspberry cake
-tags: cake
+tags: untagged cake
 date: 2012-02-01
 ---
 

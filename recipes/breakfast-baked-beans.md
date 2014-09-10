@@ -1,7 +1,7 @@
 ---
 title: breakfast-baked-beans
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Nicer baked beans...
 

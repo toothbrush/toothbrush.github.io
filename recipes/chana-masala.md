@@ -1,7 +1,7 @@
 ---
 title: chana-masala
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 *from: Daan (http://www.theppk.com/2011/08/chana-masala/)*
 

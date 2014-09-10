@@ -1,7 +1,7 @@
 ---
 title: tomato-jam
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 This stuff was really good! Kind of like a cross between jam and ketchup
 and chutney.

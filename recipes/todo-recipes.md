@@ -1,7 +1,7 @@
 ---
 title: todo-recipes
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 intention is to get the recipes for these things:
 

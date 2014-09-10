@@ -1,7 +1,7 @@
 ---
 title: spinach-curry-with-naan
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Serves 2
 

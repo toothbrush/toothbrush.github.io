@@ -1,7 +1,7 @@
 ---
 title: Rucola pesto
 date: 2010-01-01
-tags: sauce
+tags: untagged sauce
 ---
 
 *from: <http://www.nrc.nl/koken/2014/01/06/tutto-risotto/>*

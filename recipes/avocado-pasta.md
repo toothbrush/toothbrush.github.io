@@ -1,7 +1,7 @@
 ---
 title: avocado-pasta
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 -   1 medium sized ripe Avocado, pitted
 -   1/2 lemon, juiced + lemon zest to garnish

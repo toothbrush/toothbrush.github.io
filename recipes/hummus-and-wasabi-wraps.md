@@ -1,7 +1,7 @@
 ---
 title: hummus-and-wasabi-wraps
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Hummus and Wasabi Wraps (vegan)
 ===============================

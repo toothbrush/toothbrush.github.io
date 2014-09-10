@@ -1,7 +1,7 @@
 ---
 title: marokkaans-brickflapje
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 *source: book Vegetarisch Genieten, p. 151*
 

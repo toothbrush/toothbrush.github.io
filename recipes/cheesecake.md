@@ -1,7 +1,7 @@
 ---
 title: cheesecake
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 : Next time based on 2 \* 250g mascarpone! ![Pretty good
 stuff.](Cheesecake.jpg "fig:Pretty good stuff.")

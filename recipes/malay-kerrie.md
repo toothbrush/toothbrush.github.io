@@ -1,7 +1,7 @@
 ---
 title: malay-kerrie
 date:  2014-09-10
-tags:
+tags: untagged
 ---
 Malay kerrie (±6 personen volgens site)
 
