@@ -1,7 +1,7 @@
 ---
 title: Tortilla ovenschotel
 date: 2012-04-01
-tags: untagged main
+tags: main
 ---
 
 *source: Kees Teuling*
@@ -48,6 +48,4 @@ mixture on the tofu and cover with crisps and grated cheese. Garnish
 with some pimento (the smokey stuff). Oven 'till the cheese is browned.
 
 Profit. Great served with a fresh, ripe avocado.
-
-<Category:Recipes> <Category:Main>
 

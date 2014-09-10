@@ -1,8 +1,9 @@
 ---
-title: lasagne
+title: Lasagne
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
+
 See also the [spicy lasagne](Spicy Lasagne "wikilink").
 
 *bron: zelf*
@@ -47,6 +48,4 @@ See also the [spicy lasagne](Spicy Lasagne "wikilink").
     (±30min@200degC?)
 
 serves \~4
-
-<Category:Recipes> <Category:Main>
 

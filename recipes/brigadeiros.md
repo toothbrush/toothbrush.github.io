@@ -1,10 +1,11 @@
 ---
-title: brigadeiros
+title: Brigadeiros
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
-Ingredients for brigadeiro
---------------------------
+
+Ingredients for brigadeiros
+---------------------------
 
 For one portion:
 
@@ -43,6 +44,4 @@ Method
 11. Seriously, stop eating this as soon as you make them.
 12. ???
 13. Diabetes! Sweet, sweet diabetes.
-
-<Category:Recipes> <Category:Dessert>
 

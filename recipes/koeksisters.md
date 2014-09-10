@@ -1,7 +1,7 @@
 ---
-title: koeksisters
+title: Koeksisters
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 *source:
 [untrusted](http://mieliepap.wordpress.com/2007/07/25/koeksister-resep/)*
@@ -62,6 +62,4 @@ uithaal.
 
 Gebruik verskillende implemente om die koeksisters in die olie en in die
 stroop te hanteer, vertrou my, jy wil nie stroop in die olie kry nie.
-
-<Category:Recipes> <Category:Cake>
 

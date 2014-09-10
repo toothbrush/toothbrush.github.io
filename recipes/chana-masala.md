@@ -1,7 +1,7 @@
 ---
-title: chana-masala
+title: Chana masala
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *from: Daan (http://www.theppk.com/2011/08/chana-masala/)*
 
@@ -73,6 +73,4 @@ Add lime juice or tamarind concentrate. Taste for seasoning, you might
 want to add a little of this or that. Let sit for 10 minutes or so off
 the heat before serving. Serve with basmati rice and garnished with
 extra cilantro, if you like!
-
-<Category:Recipes> <Category:Main>
 

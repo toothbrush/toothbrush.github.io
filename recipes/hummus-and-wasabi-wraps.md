@@ -1,8 +1,9 @@
 ---
-title: hummus-and-wasabi-wraps
+title: Hummus and wasabi wraps
 date:  2014-09-10
-tags: untagged
+tags: main, vegan
 ---
+
 Hummus and Wasabi Wraps (vegan)
 ===============================
 
@@ -36,6 +37,4 @@ Hummus and Wasabi Wraps (vegan)
 
 Obviously, the recipe can be adapted according to stock/preference/mood.
 The original recipe uses soy sprouts and black sesame seeds.
-
-<Category:Recipes> <Category:Main>
 

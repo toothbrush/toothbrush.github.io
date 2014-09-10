@@ -1,7 +1,7 @@
 ---
-title: bean-salad
+title: Bean salad
 date:  2014-09-10
-tags: untagged
+tags: side
 ---
 Mix the following things:
 
@@ -17,6 +17,4 @@ Mix the following things:
 -   chopped red onion
 -   herbs such as parsley or de Provence.
 -   alternative: mustard, white wine vinegar. capers.
-
-<Category:Recipes> <Category:Side>
 

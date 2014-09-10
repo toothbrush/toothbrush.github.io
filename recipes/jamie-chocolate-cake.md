@@ -1,8 +1,9 @@
 ---
-title: jamie-chocolate-cake
+title: Jamie Oliver's chocolate cake
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
+
 ''source: Jamie Oliver ''
 
 Sauce / Topping
@@ -37,6 +38,4 @@ should be short and crisp and the filling smooth and cut like butter.
 
 Needs to rest a while in the fridge (1 hr plus), otherwise it will
 remain runny.
-
-<Category:Recipes> <Category:Cake>
 

@@ -1,7 +1,7 @@
 ---
-title: tomato-jam
+title: Tomato jam
 date:  2014-09-10
-tags: untagged
+tags: jam
 ---
 This stuff was really good! Kind of like a cross between jam and ketchup
 and chutney.
@@ -20,6 +20,4 @@ Ingredients
 -   1/10 teaspoon ground cloves
 -   1/5 tablespoon salt
 -   1 dried chilli, chopped
-
-<Category:Recipes> <Category:Jam>
 

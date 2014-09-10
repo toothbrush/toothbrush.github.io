@@ -1,7 +1,7 @@
 ---
-title: monchoutaart
+title: Monchoutaart
 date:  2014-09-10
-tags: untagged
+tags: dessert, mediocre
 ---
 *voor ±10 man*
 
@@ -28,6 +28,4 @@ cm springvorm, koekbotermengsel op de bodem duwen en bekoelkasten. Kaas
 met suiker kloppen. Slagroom kloppen met vanille. Voorzichtig de
 slagroom door het kaasmengsel spatelen. Eerst het mengsel en dan de
 kersen over de koekbodem verdelen. 2 uur in de koelkast met rust laten.
-
-<Category:Recipes> <Category:Dessert>
 

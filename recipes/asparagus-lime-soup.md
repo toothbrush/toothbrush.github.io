@@ -1,8 +1,9 @@
 ---
-title: asparagus-lime-soup
+title: Asparagus and lime soup
 date:  2014-09-10
-tags: untagged
+tags: soup
 ---
+
 Ingredients
 -----------
 
@@ -25,6 +26,4 @@ tablespoon or two of flour (possibly some white wine if available). Next
 add a litre or so of vegetable bouillon, and allow to boil. Finally, add
 the chopped white asparagus bits, turn off the heat, cover, and let sit
 for 10-20 minutes.
-
-<Category:Recipes> <Category:Soup>
 

@@ -1,7 +1,7 @@
 ---
-title: carrot-cake
+title: Carrot cake
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 *source: mom*
 
@@ -42,6 +42,4 @@ Method
 
 (maak van gelijke delen mascarpone en poedersuiker een mengsel dat als
 topping voor op de cake kan dienen. possibly add lemon/zest.)
-
-<Category:Recipes> <Category:Cake>
 

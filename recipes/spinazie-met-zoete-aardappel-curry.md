@@ -1,7 +1,7 @@
 ---
-title: spinazie-met-zoete-aardappel-curry
+title: Spinazie met zoete aardappel curry
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Spinazie en zoete aardappel curry
 =================================
@@ -34,6 +34,4 @@ voeg tegen het eind de knoflook toe. Roer de kruiden er door, wees
 voorzichtig met de piment en kruidnagel. Voeg in stukken gesneden santen
 en zoete aardappelen toe en voldoende water om de aardappelen gaar te
 koken. Voeg spinazie toe als de aardappelen net gaar zijn.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,11 +1,9 @@
 ---
-title: galatopita
+title: Galatopita
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
-'' source: Roela Kakaraki via mom '' (original: <Media:Galatopita.jpg>)
-
-TODO: make jpg into a reference.
+* source: Roela Kakaraki via mom *
 
 serves ±4
 
@@ -65,6 +63,4 @@ into a well greased baking dish. Do that with each sheet of pastry.
 Place in oven to bake until golden brown, approx 10-20 minutes or so.
 
 Pour the cold syrup over the hot pastry when it comes out of the oven.
-
-<Category:Recipes> <Category:Dessert>
 

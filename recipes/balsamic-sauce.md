@@ -1,7 +1,7 @@
 ---
-title: balsamic-sauce
+title: Balsamic sauce
 date:  2014-09-10
-tags: untagged
+tags: sauce
 ---
 Quick and easy yet tasty sauce, based on balsamic vinegar. Looks
 decadent.
@@ -19,6 +19,4 @@ Method:
 -   reheat the lot, add the vinegar
 -   boil until reduced to ±1/3 of original volume
 -   let mixture cool down (important, otherwise it remains watery)
-
-<Category:Recipes> <Category:Sauce>
 

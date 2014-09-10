@@ -1,8 +1,9 @@
 ---
-title: marokkaans-brickflapje
+title: Marokkaans brickflapje
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
+
 *source: book Vegetarisch Genieten, p. 151*
 
 Belongs with couscous and [Marokkaanse
@@ -33,6 +34,4 @@ Methode
     Vouw 9u naar 7u, 7u naar 5u, en 5u naar 3u. Je hebt nu een puntig
     pakje. Leg het even opzij en ga zo door tot de vulling op is.
 -   Bak de flapjes aan weerskanten in de pan in voldoende olijfolie.
-
-<Category:Recipes> <Category:Main>
 

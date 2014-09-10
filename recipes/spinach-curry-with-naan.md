@@ -1,11 +1,11 @@
 ---
-title: spinach-curry-with-naan
+title: Spinach curry with naan
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Serves 2
 
-'' source: Tristan ''
+*source: Tristan*
 
 Ingredients
 -----------
@@ -26,6 +26,4 @@ onions are sauted, add chopped tomatoes and reduce. Finally add spinach
 and melt / mix, not forgetting the garlic at some point. Now is a good
 point to stick the naan into the oven, and when that's done, add diced
 feta to mixture. Serve and enjoy.
-
-<Category:Recipes> <Category:Main>
 

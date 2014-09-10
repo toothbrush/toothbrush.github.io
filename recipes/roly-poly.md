@@ -1,7 +1,7 @@
 ---
-title: roly-poly
+title: Roly poly
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 *source: gran*
 
@@ -44,6 +44,4 @@ sauce:
 2.  (while the sugar and water is boiling stir in the thickener)
 3.  take off the heat and add either dessert wine/OBS or brandy (whisky
     might work too)
-
-<Category:Recipes> <Category:Dessert>
 

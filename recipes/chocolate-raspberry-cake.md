@@ -1,10 +1,10 @@
 ---
 title: Chocolate raspberry cake
-tags: untagged cake
+tags: cake
 date: 2012-02-01
 ---
 
-seen in Graz:
+As seen in Graz:
 
 chocolate cake: add raspberries (keeps the lot moist), serve with icing
 sugar sprinkled on top (or whipped cream). Chocolate cake should be
@@ -57,6 +57,4 @@ Method
     clean... it's done! If not put it back in the oven for an additional
     5 minutes and then test again.
 9.  Allow to cool.
-
-<Category:Recipes> [Category:CakeAs](Category:Cake "wikilink")
 

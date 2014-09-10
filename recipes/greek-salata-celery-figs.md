@@ -1,10 +1,12 @@
 ---
-title: greek-salata-celery-figs
+title: Σαλάτα του σέλινου με σύκα (Salade van selderij met vijgen)
 date:  2014-09-10
-tags: untagged
+tags: side
 ---
+
 Σαλάτα του σέλινου με σύκα SALÁTA TOU SELINOU ME SÝKA (Salade van
 selderij met vijgen)
+========
 
 bron:
 [Volkskrant](http://www.volkskrant.nl/vk/nl/2672/Wetenschap-Gezondheid/article/detail/3094503/2011/12/26/Inspiratie-nodig-voor-vanavond-Zie-hier-het-kerstmenu-van-de-Volkskrant.dhtml)
@@ -44,6 +46,4 @@ elkaar en zet tot gebruik koel en afgedekt weg.
 
 3\. Schep de dille en fetablokjes door de salade en maak pittig op smaak
 af met zout en peper.
-
-<Category:Recipes> <Category:Side>
 

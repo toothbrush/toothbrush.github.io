@@ -1,8 +1,13 @@
 ---
-title: karpouzi-with-feta
+title: Karpouzi with feta
 date:  2014-09-10
-tags: untagged
+tags: side
 ---
+
+*source: Melina's mention, my recipe*
+
+*Serves me.*
+
 ### Ingredients:
 
 -   2 cups pink watermelon, sloppily chopped
@@ -16,6 +21,4 @@ tags: untagged
 ### Method:
 
 1.  Use your imagination.
-
-<Category:Recipes> <Category:Side>
 

@@ -1,7 +1,7 @@
 ---
-title: red-wine-cake
+title: Red wine cake
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 '' source:
 [smittenkitchen.com](http://smittenkitchen.com/2011/09/red-wine-chocolate-cake/)
@@ -59,6 +59,4 @@ pretty dusted with powdered sugar.
 Make the topping: Whip mascarpone, cream, sugar and vanilla together
 until soft peaks form — don’t overwhip. Dollop generously on each slice
 of cake. It can also be covered and refrigerated for up to 4 hours.
-
-<Category:Recipes> <Category:Cake>
 

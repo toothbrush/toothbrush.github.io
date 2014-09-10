@@ -1,10 +1,10 @@
 ---
-title: cheesecake
+title: Cheesecake
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
-: Next time based on 2 \* 250g mascarpone! ![Pretty good
-stuff.](Cheesecake.jpg "fig:Pretty good stuff.")
+
+NOTE: Next time based on 2 \* 250g mascarpone!
 
 Cheesecake with sour cream
 ==========================
@@ -55,6 +55,4 @@ then bake it a bit longer. The trick is not to bake it too long as it
 gets dry. Also, I never decorated it, it is nice just the way it is.*
 
 Another idea: add lemon (rind?) to centre layer.
-
-<Category:Recipes> [Category:CakeNOTE](Category:Cake "wikilink")
 

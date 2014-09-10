@@ -1,7 +1,7 @@
 ---
-title: poor-mans-pudding
+title: Poor mans' pudding
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 *source: mom, aunt hester = ouma's sister. updates by Elizabeth*
 
@@ -53,6 +53,4 @@ brandy sauce (optional)
 1.  Boil sugar, water, cinnamon and salt (5-8 min).
 2.  When boiling add thickener,
 3.  when finished add brandy.
-
-<Category:Recipes> <Category:Dessert>
 

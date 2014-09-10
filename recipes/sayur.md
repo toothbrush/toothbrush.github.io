@@ -1,7 +1,7 @@
 ---
-title: sayur
+title: Sayur
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Linde's mom*
 
@@ -56,6 +56,4 @@ pindasambal koken, dan calvé en meer water erbij en nu zachtjes
 verwarmen.
 
 Goed met gekookt ei.
-
-<Category:Recipes> <Category:Main>
 

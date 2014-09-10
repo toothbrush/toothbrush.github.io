@@ -1,7 +1,7 @@
 ---
-title: pasta-alla-puttanesca
+title: Pasta alla puttanesca
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Hamish*
 
@@ -30,6 +30,4 @@ until the ingredients are warm, say about a minute. Then add tomato
 purée, parmesan and basil, leave on heat until hot enough (no longer --
 we don't want the tomatoes to disintegrate). Done. Mix with pasta of
 choice cooked in parallel. Serve with extra parmesan.
-
-<Category:Recipes> <Category:Main>
 

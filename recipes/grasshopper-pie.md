@@ -1,7 +1,7 @@
 ---
-title: grasshopper-pie
+title: Grasshopper pie
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 *source: Nigella via Linde*
 
@@ -63,6 +63,4 @@ layer of plastic wrap and a layer of foil. To thaw, unwrap the pie and
 tent with foil (try not to touch surface with foil as it will leave
 marks), then thaw overnight in the refrigerator. Decorate before
 serving.
-
-<Category:Recipes> <Category:Cake>
 

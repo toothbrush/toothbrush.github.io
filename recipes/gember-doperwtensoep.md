@@ -1,7 +1,7 @@
 ---
 title: Gember doperwtensoep
 date: 2011-12-14
-tags: untagged soup
+tags: soup
 ---
 
 source:

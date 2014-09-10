@@ -1,7 +1,7 @@
 ---
-title: banana-bread
+title: Banana bread
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 '' source: Recipes from Bechuanaland ''
 
@@ -67,6 +67,4 @@ Bake for 50-65 minutes, until the top is golden and a tooth pick comes
 out cleanly. A 9x5 loaf pan will take less time to bake than an 8x4 pan.
 
 Enjoy!
-
-<Category:Recipes> <Category:Cake>
 

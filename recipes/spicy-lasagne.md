@@ -1,7 +1,7 @@
 ---
-title: spicy-lasagne
+title: Spicy lasagne
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Marleen & Paul*
 
@@ -27,6 +27,4 @@ Method
 
 Fry the mushrooms in the wok oil. Add the rest of the ingredients in a
 logical order.
-
-<Category:Recipes> <Category:Main>
 

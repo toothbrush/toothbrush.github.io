@@ -1,5 +1,5 @@
 ---
-title: todo-recipes
+title: TODO recipes
 date:  2014-09-10
 tags: untagged
 ---
@@ -103,5 +103,4 @@ intention is to get the recipes for these things:
 -   tortilla:
     <http://www.ah.nl/recepten/recept?id=668946&rq=aardappelen&sr_type=recipe&course=hoofdgerecht&proteinSource=vegetarisch>
 
-[ The](Category:Recipes "wikilink")
 

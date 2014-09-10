@@ -1,7 +1,7 @@
 ---
-title: pecan-nut-pie
+title: Pecan nut pie
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 Use ouma's 'smeerkors', same as for piesangtert and melktert.
 
@@ -27,6 +27,4 @@ source: <http://www.momswhothink.com/pie-recipes/pecan-pie-recipe.html>
 4.  Bake in a very hot oven (450 degrees F) for 10 minutes. Reduce
     temperature to 350 degrees F and bake an additional 35 minutes
     longer or until knife inserted into the center comes out clean.
-
-<Category:Recipes> <Category:Cake>
 

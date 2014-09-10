@@ -1,10 +1,8 @@
 ---
-title: tiramisu
+title: Tiramisú
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
-Tiramisú
-========
 
 *bron: Sanne B*
 
@@ -38,6 +36,4 @@ maken.
     in koffie, mascarponemengsel en geraspte chocolade.
 5.  Zet de tiramisu ten minste acht uur in de koelkast. Je kan het ook
     invriezen, dan moet het 2 tot 3 uur ontdooien.
-
-<Category:Recipes> <Category:Dessert>
 

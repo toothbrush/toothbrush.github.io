@@ -1,9 +1,10 @@
 ---
-title: marokkaanse-groenteragout
+title: Marokkaanse groenteragout
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
-![For example.](Marokkaanse_groenteragout.jpg "fig:For example.") Hoort
+
+Hoort
 bij couscous (= zout, kokend water, couscous).
 
 *source: book Vegetarisch Genieten, p. 151*
@@ -35,6 +36,4 @@ paprika en de wortelen toe. Laat de groenten eventjes stoven en voeg dan
 de specerijen en de tomaten toe. Voeg, als de groenten bijna gaar zijn,
 de courgette, de kikkererwten en de rozijnen toe. Laat alles nog even
 pruttelen.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,7 +1,7 @@
 ---
-title: preitaart
+title: Prei-/uitaart
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Prei/uitaart à la Frank
 =======================
@@ -49,6 +49,4 @@ Oven voorverwarmen!
 
 40 minuten (tot 60 min) op ca. 200 à 250 graden C, bovenkant moet mooi
 bruin zijn.
-
-<Category:Recipes> <Category:Main>
 

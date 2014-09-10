@@ -1,7 +1,7 @@
 ---
-title: bierstoofpot
+title: Bierstoofpot
 date:  2014-09-10
-tags: untagged
+tags: main, vegetarian
 ---
 Vego bierstoofpot
 =================
@@ -33,6 +33,4 @@ Snij de groenten in hapklare brokken, fruit de ui, gooi de rest erbij en
 laat het pruttelen.
 
 Fijn met aardappelpuree.
-
-<Category:Recipes> <Category:Main>
 

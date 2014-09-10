@@ -1,7 +1,7 @@
 ---
-title: pilaf
+title: Pilaf
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Tofu met prut en perziken voor 10 personen
 ==========================================
@@ -32,6 +32,4 @@ uitgelekte perziksap toevoegen. Paprika's snijden. Dit vervolgens een
 half uur tot een uur laten sudderen (af en toe even roeren). Ondertussen
 de perziken in blokjes snijden en de rijst koken. Ten slotte nog de
 perziken en paprika toevoegen en 2 a 3 minuten mee laten sudderen.
-
-<Category:Recipes> <Category:Main>
 

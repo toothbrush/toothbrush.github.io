@@ -1,7 +1,7 @@
 ---
 title: Rucola pesto
 date: 2010-01-01
-tags: untagged sauce
+tags: sauce
 ---
 
 *from: <http://www.nrc.nl/koken/2014/01/06/tutto-risotto/>*
@@ -38,6 +38,4 @@ Voor 2 personen:
 -   1 dessertlepel olijfolie extra vergine
 -   160 g risottorijst (bijv. Arborio, Carnaroli of Vialone Nano)
 -   25 g versgeraspte Grana Padano
-
-<Category:Recipes> <Category:Main>
 

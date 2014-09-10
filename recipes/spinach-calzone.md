@@ -1,11 +1,11 @@
 ---
-title: spinach-calzone
+title: Spinach Calzone
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 serves 2.5
 
-![Bla!](Spinach_calzone.jpg "fig:Bla!") *source: Jamie Oliver*
+*source: Jamie Oliver*
 
 Ingredients
 -----------
@@ -133,6 +133,4 @@ stone or granite slab.
 
 Cook for 10 to 15 minutes on the bottom of the preheated oven until the
 dough is puffed up and golden on top and the filling is hot.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,7 +1,7 @@
 ---
-title: gnocchi-met-kool
+title: Gnocchi met kool
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Gnocchi met tomaten en kool
 ===========================
@@ -36,6 +36,4 @@ Gnocchi in vergiet laten uitlekken. Kool en tomatenpartjes met vocht
 door gnocchi scheppen. Op smaak brengen met zout en peper. Overdoen in
 ovenschaal en kaasplakjes erop leggen. Onder hete grill kaas in 3-5 min.
 laten smelten.
-
-<Category:Recipes> <Category:Main>
 

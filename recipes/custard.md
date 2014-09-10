@@ -1,7 +1,7 @@
 ---
-title: custard
+title: Custard
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 *from: <http://www.bbc.co.uk/food/recipes/realpropercustard_65614>*
 
@@ -31,6 +31,4 @@ Method
 6.  Pour the custard into a jug and serve at once.
 7.  To keep hot, stand the jug in a pan of hot water and cover the top
     with cling film to prevent skin forming.
-
-<Category:Recipes> <Category:Sauce>
 

@@ -1,8 +1,9 @@
 ---
-title: hummus
+title: Hummus
 date:  2014-09-10
-tags: untagged
+tags: sauce
 ---
+
 ### Ingredients
 
 -   1 can (20 oz.) chick peas
@@ -27,6 +28,4 @@ then add along with remaining ingredients to the blender and blend 5
 more minutes. If too thick, add reserved liquid. Pour into shallow
 serving bowl. Sprinkle with additional olive oil and garnish top with
 reserved chick peas, parsley and cumin or paprika.
-
-<Category:Recipes> <Category:Sauce>
 

@@ -1,9 +1,8 @@
 ---
-title: bacalhau-a-ze-do-pipo
+title: Bacalhau à Zé do Pipo
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
-Bacalhau à Zé do Pipo
 
 *source: [1](http://www.gastronomias.com/receitas/rec0548.htm), [Nuno
 Paixão](http://www.paixao-nuno.eu/)*
@@ -44,6 +43,4 @@ saco e leva-se a gratinar. Enfeita-se com azeitonas pretas.
 Receita de uma célebre casa de pasto que existiu no Porto a cujo
 proprietário davam o nome de Zé do Pipo. Embora levando maionese, esta
 receita faz parte da culinária tradicional do Porto.
-
-<Category:Recipes> <Category:Main>
 

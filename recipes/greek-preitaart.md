@@ -1,10 +1,10 @@
 ---
-title: greek-preitaart
+title: Greek preitaart
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
-*recipe from Carolina Dimitriadou's mother (she is Dutch married to
-Greek), via mom*
+
+*recipe from Carolina Dimitriadou's mother, via mom*
 
 Voor het deeg:
 --------------
@@ -37,6 +37,4 @@ deeg openen en in de blik doen dan de prei mix erin doen dan de tweede
 bal openen en erop doen. Score the top of the dough - met olie erover
 smeren (I forgot this part!!) In voorverwarmde oven 180 1uur bakken.
 Laat af koelen.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,8 +1,11 @@
 ---
-title: risotto-basic
+title: Risotto (basic)
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
+
+*source: Jamie Oliver. serves 6, supposedly*
+
 ### Ingredients:
 
 -   ±1.1 litres stock
@@ -61,6 +64,4 @@ lid on the pan and allow to sit for 2 minutes. This is the most
 important part of making the perfect risotto, as this is when it becomes
 outrageously creamy and oozy like it should be. Eat it as soon as
 possible, while the risotto retains its beautiful texture.
-
-<Category:Recipes> <Category:Main>
 

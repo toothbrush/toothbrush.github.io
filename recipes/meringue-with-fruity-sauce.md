@@ -1,7 +1,7 @@
 ---
-title: meringue-with-fruity-sauce
+title: Meringue with fruity sauce
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 Ingrediënten:
 -------------
@@ -27,6 +27,4 @@ Haal de bakplaat uit de oven en hevel de pavlova over op een grote
 schaal, zonder het bakpapier. Klop de slagroom stijf en schep dit
 bovenop de pavlova. Verdeel het rode fruit erover en serveer het
 nagerecht.
-
-<Category:Recipes> <Category:Dessert>
 

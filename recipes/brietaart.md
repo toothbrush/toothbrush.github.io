@@ -1,7 +1,7 @@
 ---
-title: brietaart
+title: Brietaart
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Wivine*
 
@@ -27,6 +27,4 @@ en plop er daarna plakjes brie op.
 Bak 15 minuten op 210 graden (voor gas en hetelucht, voor electrisch
 220). Het is dus slim om je oven aan te zetten voor je begint met de
 rest. :P
-
-<Category:Recipes>
 

@@ -1,7 +1,7 @@
 ---
-title: pasta-met-spaanse-peper
+title: Pasta met spaanse peper
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 2 personen.
 
@@ -27,6 +27,4 @@ potje zwarte taggia olijven als je het goed wilt doen - ook weer: het
 AH-recept is voor 4 personen maar daar klopt niks van, en ze willen óok
 nog dat je maar 2 lepels kappertjes en n half potje olijven erbij doet,
 maar dan is het echt weinig, dus onzin:P)
-
-<Category:Recipes> <Category:Main>
 

@@ -1,10 +1,10 @@
 ---
 title: Chocolate eclairs
 date: 2014-09-10
-tags: untagged cake
+tags: cake
 ---
 
-'' source: Mr. Davies, 1967 income tax department Bulawayo''
+*source: Mr. Davies, 1967 income tax department Bulawayo*
 
 Makes 10 large or 18-20 small.
 
@@ -46,6 +46,3 @@ Method
 
 Note: If you make these the day before, do not store in a tin or they
 will go soft.
-
-<Category:Recipes> <Category:Cake>
-

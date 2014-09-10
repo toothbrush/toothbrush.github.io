@@ -1,7 +1,7 @@
 ---
-title: baklava
+title: Baklava
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 *source: cookie recipe.com staff*
 
@@ -41,6 +41,4 @@ Method
     discard cinnamon stick.
 9.  Pour honey mixture over hot baklava. Let cool on wire racks. Cut
     into diamonds.
-
-<Category:Recipes> <Category:Dessert>
 

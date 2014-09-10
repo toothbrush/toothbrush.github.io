@@ -1,7 +1,7 @@
 ---
-title: potato-salad
+title: Potato salad
 date:  2014-09-10
-tags: untagged
+tags: side
 ---
 Mom's variant:
 
@@ -15,6 +15,4 @@ My variant:
 
 -   add a lot of cumin
 -   add a Mme. Jeanette
-
-<Category:Recipes>
 

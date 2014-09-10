@@ -1,8 +1,11 @@
 ---
-title: bolos-dom-rodrigos
+title: Bolos Dom Rodrigos
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
+
+*serves 6*
+
 ### Ingredientes
 
 -   250g de Fios de Ovos (pode comprar fios de ovos ja feitos e depois
@@ -34,6 +37,4 @@ tags: untagged
     quadrado e enrole-as.
 
 Bom apetite.
-
-<Category:Recipes> <Category:Cake>
 

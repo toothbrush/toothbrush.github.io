@@ -1,7 +1,7 @@
 ---
-title: spinach-and-cheese-cannelloni
+title: Spinach and cheese cannelloni
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Hamish and
 <http://www.dishbase.com/recipe/spinach-cheese-cannelloni/>*
@@ -63,6 +63,4 @@ Turn on broiler.
 Remove foil and broil cannelloni about 5 inches from heat until lightly
 browned, 2 to 4 minutes. Let stand 5 minutes before serving. Reheat
 remaining sauce and serve on the side.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,9 +1,11 @@
 ---
-title: baigan-subji
+title: Baigan subji
 date:  2014-09-10
 tags: untagged
 ---
 *serves ± 6*
+
+*source: Koen?*
 
 -   5 tbs olie
 -   2 grote ui
@@ -23,6 +25,4 @@ Sauteer de uien goudbruin in olie. Voeg koriander, kurkuma, 'red pepper'
 en tomaten toe en kook tot pap (ong 10-15 min). Voeg aubergine en water
 en zout toe en laat 40 min pruttelen. Voeg citroensap en verse koriander
 toe.
-
-<Category:Recipes> <Category:Main>
 

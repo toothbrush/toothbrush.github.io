@@ -1,7 +1,7 @@
 ---
-title: avocado-ritz
+title: Avocado ritz
 date:  2014-09-10
-tags: untagged
+tags: starter
 ---
 Vego Avocado Ritz: (4 persons = half avo p.p.)
 
@@ -22,6 +22,4 @@ Method
 5.  Cut the avocados in half and remove the stone.
 6.  Divide the Stilton mixture evenly between the avocados. Bake for
     15-20 minutes.
-
-<Category:Recipes> <Category:Starter>
 

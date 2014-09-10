@@ -1,7 +1,7 @@
 ---
-title: pastasalade
+title: Pastasalade
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 some ingredient ideas:
 
@@ -13,6 +13,4 @@ some ingredient ideas:
 -   avo
 -   tomatoes
 -   lettuce or rucola
-
-<Category:Recipes> <Category:Main>
 

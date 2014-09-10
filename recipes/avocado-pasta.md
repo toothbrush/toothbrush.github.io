@@ -1,7 +1,7 @@
 ---
-title: avocado-pasta
+title: Avocado pasta
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 -   1 medium sized ripe Avocado, pitted
 -   1/2 lemon, juiced + lemon zest to garnish
@@ -13,5 +13,4 @@ tags: untagged
     Kamut spaghetti, e.g.)
 -   Freshly ground black pepper, to taste
 
-<Category:Recipes> <Category:Main>
 

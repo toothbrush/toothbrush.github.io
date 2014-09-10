@@ -1,7 +1,7 @@
 ---
-title: shepherds-pie
+title: Shepherds' pie
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 source:
 [epicurious](http://www.epicurious.com/recipes/food/views/Vegetarian-Shepherds-Pie-355994)
@@ -101,6 +101,4 @@ transfer stew to dish.
 
 Spoon potato mixture over stew and spread evenly to cover. Broil about 3
 inches from heat until top is golden, about 5 minutes.
-
-<Category:Recipes> <Category:Main>
 

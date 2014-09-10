@@ -1,7 +1,7 @@
 ---
 title: Panna cotta
 date: 2014-09-10
-tags: untagged dessert
+tags: dessert
 ---
 
 voor 3-4 mensen (een dingetje met 250ml room is prima voor 2)
@@ -35,6 +35,4 @@ Sausvoorbeelden
 ---------------
 
 -   "icing": cacao, poedersuiker, water
-
-<Category:Recipes> <Category:Dessert>
 

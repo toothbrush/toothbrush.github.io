@@ -1,11 +1,10 @@
 ---
-title: tomatoey-egg-bake
+title: Tomatoey egg bake
 date:  2014-09-10
-tags: untagged
+tags: Main
 ---
-![This is what your egg bake might look like. If it tastes anything like
-this one, you're in luck.
-](Eggbake.jpg "fig:This is what your egg bake might look like. If it tastes anything like this one, you're in luck. ")
+
+*source: Linde, with own inspiration. Serves 2.*
 
 ### Ingredients:
 
@@ -38,6 +37,4 @@ scrumptious. Eat at the risk of forever disliking other dishes.
     and fill with raw eggs.
 -   Place in the oven and wait. Interested to see if this turns out
     edible!
-
-<Category:Recipes> <Category:Main>
 

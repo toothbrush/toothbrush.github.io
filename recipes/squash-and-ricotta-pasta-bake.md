@@ -1,7 +1,7 @@
 ---
-title: squash-and-ricotta-pasta-bake
+title: Squash and ricotta pasta bake
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 serves: 4
 
@@ -52,6 +52,4 @@ and bubbling. Serve with a crisp green salad (e.g. on a bed of rocket).
 
 Tip: If you’re a chilli freak like me, try adding a chopped fresh chilli
 to your tomato sauce.
-
-<Category:Recipes> <Category:Main>
 

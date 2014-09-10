@@ -1,7 +1,7 @@
 ---
-title: hamish-pasta-red-wine
+title: Hamish's pasta with red wine
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source: Sebastian / Hamish*
 
@@ -57,6 +57,4 @@ not catch on the bottom of the pan.
 Impress your friends.
 
 Tips - add sun dried tomatoes and chilli for a more intense version.
-
-<Category:Recipes> <Category:Main>
 

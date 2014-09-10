@@ -1,9 +1,9 @@
 ---
-title: basilicum-pesto
+title: Basilicum pesto
 date:  2014-09-10
-tags: untagged
+tags: sauce
 ---
-''bron: Fien ''
+ *bron: Fien*
 
 Basilicum pesto
 ===============
@@ -30,6 +30,4 @@ voor 10 personen
     wordt het te papperig. Doe de pesto in een pot en doe bovenop nog
     een laagje olijfolie. Zo kun je hem zeker een maand bewaren in de
     ijskast.
-
-<Category:Recipes> <Category:Sauce>
 

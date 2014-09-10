@@ -1,9 +1,10 @@
 ---
-title: meringues
+title: Meringues
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
-are mainly for eating on their own. Good when sandwiched with whipped
+
+These are mainly for eating on their own. Good when sandwiched with whipped
 cream.
 
 Ingredients
@@ -24,6 +25,4 @@ SLOWLY add 1 cup of castor sugar. Add 1 tsp white vinegar and 2 tbsp
 boiling water. KEEP BEATING. Fold in 1 tsp baking powder. Preheat oven
 to 120 C and when the meringues go in switch off. Leave for 2 hours (or
 do as mom does: go to sleep). Pipe meringues onto grease-proof paper.
-
-[Category:RecipesThese](Category:Recipes "wikilink")
 

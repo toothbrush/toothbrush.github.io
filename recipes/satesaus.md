@@ -1,7 +1,7 @@
 ---
-title: satesaus
+title: Satésaus
 date:  2014-09-10
-tags: untagged
+tags: sauce
 ---
 Ongeveer het volgende moet wel werken. Meestal fruit ik ui en knoflook
 in wat boter.
@@ -25,6 +25,4 @@ Methode
 3.  Voeg de rest to en gebruik melk of pindakaas om de consistentie goed
     te krijgen
 4.  Let niet op de hoeveelheden, smaak is genoeg
-
-<Category:Recipes> <Category:Sauce>
 

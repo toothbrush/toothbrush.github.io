@@ -1,7 +1,7 @@
 ---
-title: lemon-meringue-tart
+title: Lemon meringue tart
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 Pretty easy, thanks to Mary Berry.
 <http://www.nrc.nl/koken/2014/02/05/laatste-avondmaal/>
@@ -42,6 +42,4 @@ er mooie golfjes in te maken.
 
 Zet de taart 15-20 minuten in een voorverwarmde oven (170 graden) tot de
 eiwitten licht gebruind zijn.
-
-<Category:Recipes> <Category:Cake>
 

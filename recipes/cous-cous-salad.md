@@ -1,7 +1,7 @@
 ---
-title: cous-cous-salad
+title: Cous cous salad
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Cous cous salad
 ===============
@@ -22,6 +22,4 @@ On a bed of rucola:
 -   lots of fresh basil
 
 sprinkle pine nuts if you dare
-
-<Category:Recipes> <Category:Main>
 

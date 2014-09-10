@@ -1,12 +1,9 @@
 ---
-title: frambozen-brulee
+title: Frambozenbrûlée
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
-'' source: Villa d'Arte, mom. makes 4 (hungry people!).''
-
-![Illustratie van frambozenbrûlée in
-glaasjes.](frambozenbrulee.jpg "Illustratie van frambozenbrûlée in glaasjes.")
+*source: Villa d'Arte, mom. makes 4 (hungry people!).*
 
 Ingredients
 -----------
@@ -28,6 +25,4 @@ schaaltjes van 250ml. Zet in koelkast tot ze koud zijn. Klop yoghurt,
 room, suiker en vanille tot een luchtige massa en lepel over het
 frambozenmengsel. Laat even koelen. Bestrooi met suiker en karameliseer
 deze met een crème brûlée brander.
-
-<Category:Recipes> <Category:Dessert>
 

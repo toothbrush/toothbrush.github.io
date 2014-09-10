@@ -1,7 +1,7 @@
 ---
 title: Mexican lasagne
 date: 2014-09-10
-tags: untagged main
+tags: main
 ---
 
 *source: nigella.com* ![Cheesy cholesterolly
@@ -62,6 +62,4 @@ Method
 9.  Bake in the oven for 30 minutes, and let it rest for a good 10–15
     minutes before slicing like a pizza, and eat with the avocado salsa
     opposite.
-
-<Category:Recipes> <Category:Main>
 

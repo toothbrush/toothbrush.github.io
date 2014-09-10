@@ -1,7 +1,7 @@
 ---
-title: cape-brandy-tart
+title: Cape brandy tart
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 *source: <http://www.rainbowcooking.co.nz/recipes/cape-brandy-pudding>*
 
@@ -67,6 +67,4 @@ Method
     and pour over the pudding.
 
 Serve the pudding hot or cold with cream or ice-cream.
-
-<Category:Recipes> <Category:Dessert>
 

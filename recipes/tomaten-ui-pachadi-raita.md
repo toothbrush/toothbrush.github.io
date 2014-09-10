@@ -1,7 +1,7 @@
 ---
-title: tomaten-ui-pachadi-raita
+title: Tomaten-ui pachadi (raita)
 date:  2014-09-10
-tags: untagged
+tags: sauce
 ---
 Tomaten-ui pachadi (raita)
 
@@ -15,6 +15,4 @@ Tomaten-ui pachadi (raita)
 -   1 tsp garam masala
 
 Klop de yoghurt, meng de rest erdoorheen.
-
-<Category:Recipes> <Category:Sauce>
 

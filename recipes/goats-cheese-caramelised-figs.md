@@ -1,5 +1,5 @@
 ---
-title: goats-cheese-caramelised-figs
+title: Goats' cheese and caramelised figs pasta
 date:  2014-09-10
 tags: untagged
 ---
@@ -31,6 +31,4 @@ When the onions are soft and caramelised, add salt and pepper to taste.
 In the meantime, boil pasta in ample, salted water. Once done, stir into
 onion mixture and serve in deep plates. Garnish with goats' cheese and
 decadent olive oil, optionally garnishing with a bit of Parmesan cheese.
-
-<Category:Recipes> <Category:Main>
 

@@ -1,10 +1,8 @@
 ---
-title: potatoes-and-cheese
+title: Potatoes and cheese
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
-![Looks okay like this,
-no?](Cheesy_broccoli.jpg "Looks okay like this, no?")
 
 Potatoes and cheese
 ===================
@@ -37,6 +35,4 @@ By: *yours truly*
 
 That's right, I forgot the red pepper. The idea was to chop it and stir
 it into the roux as well. I'm sure it would be tasty.
-
-<Category:Recipes> <Category:Main>
 

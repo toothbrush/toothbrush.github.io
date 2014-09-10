@@ -1,8 +1,9 @@
 ---
-title: cabbage-wok
+title: Cabbage wok
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
+
 Roughly based on a NYTimes random recipe.
 <http://www.nytimes.com/2012/10/18/health/cabbage-and-carrot-noodles-recipes-for-health.html>
 
@@ -49,6 +50,4 @@ Wait an hour+.
 10. Perhaps add oyster sauce / salt / pepper / chili (paste) to taste.
 
 Serve, yay!
-
-<Category:Recipes> <Category:Main>
 

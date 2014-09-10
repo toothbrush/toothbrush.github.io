@@ -1,7 +1,7 @@
 ---
-title: torta-de-limao
+title: Torta de limão
 date:  2014-09-10
-tags: untagged
+tags: cake
 ---
 bron: Tessa, Jolie / π
 
@@ -28,6 +28,4 @@ gedaan.
 Gooi alles in een kom en zet de mixer erop tot het geheel wat dikker
 geworden is. Verdeel het mengsel over de bodem. Daarna moet de taart een
 aantal uren in de koelkast opstijven -\> klaar supermakkelijk.
-
-<Category:Recipes> <Category:Cake>
 

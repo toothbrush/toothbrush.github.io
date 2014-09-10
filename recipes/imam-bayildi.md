@@ -1,9 +1,8 @@
 ---
-title: imam-bayildi
+title: İmam bayıldı
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
-İmam bayıldı
 
 *bron: Tristan, 6 personen*
 
@@ -40,6 +39,4 @@ tags: untagged
 8.  serveer met Turks brood
 
 Zeer turks. ;)
-
-<Category:Recipes> <Category:Main>
 

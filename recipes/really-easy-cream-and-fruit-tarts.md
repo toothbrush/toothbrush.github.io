@@ -1,7 +1,7 @@
 ---
-title: really-easy-cream-and-fruit-tarts
+title: Really easy cream and fruit tarts
 date:  2014-09-10
-tags: untagged
+tags: dessert
 ---
 4 personen, AH receptenkaart
 
@@ -25,6 +25,4 @@ en de vanillesuiker met de mixer tot een luchtig beslag. Schenk het
 beslag over de kersen. Bak het gebak in het midden van de oven in 20
 min. gaar. Strooi de poedersuiker eroverheen en serveer de
 kersentaartjes warm.
-
-<Category:Recipes> <Category:Dessert>
 

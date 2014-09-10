@@ -1,7 +1,7 @@
 ---
-title: malay-kerrie
+title: Malay kerrie
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 Malay kerrie (±6 personen volgens site)
 
@@ -53,6 +53,4 @@ Directions
     serving.
 6.  Serve this curry with yellow rice and a variety of sambals and
     atjars.
-
-<Category:Recipes> <Category:Main>
 

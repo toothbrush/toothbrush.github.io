@@ -1,10 +1,10 @@
 ---
 title: Tart shell
-tags: untagged cake
+tags: cake
 date: 2011-05-01
 ---
 
-''source: Jamie Oliver ''
+*source: Jamie Oliver*
 
 Tart shell
 ==========
@@ -56,6 +56,4 @@ a filling and have a fresh tart for company.)
 
 Preheat oven to 180 degrees C. Bake the shell for about 15 minutes. This
 will cook the tart shell all the way through, colouring it slightly.
-
-<Category:Recipes> <Category:Cake>
 

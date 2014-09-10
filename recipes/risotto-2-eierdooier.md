@@ -1,7 +1,7 @@
 ---
-title: risotto-2-eierdooier
+title: Risotto 2 (met eierdooier)
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *from: <http://www.nrc.nl/koken/2014/01/06/tutto-risotto/>*
 
@@ -37,6 +37,4 @@ Voor 2 personen:
 -   1 dessertlepel olijfolie extra vergine
 -   160 g risottorijst (bijv. Arborio, Carnaroli of Vialone Nano)
 -   25 g versgeraspte Grana Padano
-
-<Category:Recipes> <Category:Main>
 

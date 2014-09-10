@@ -1,7 +1,7 @@
 ---
-title: rigatoni-with-mushrooms
+title: Rigatoni with mushrooms
 date:  2014-09-10
-tags: untagged
+tags: main
 ---
 *source:
 [1](http://www.cookstr.com/recipes/big-pasta-with-mushroom-parsley-garlic-and-thyme),
@@ -70,6 +70,4 @@ begins to turn golden in places.
 
 When the pan comes out of the oven, sprinkle with some more chopped
 parsley and some sprigs of fresh thyme.
-
-<Category:Recipes> <Category:Main>
 

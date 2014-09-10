@@ -1,5 +1,5 @@
 ---
-title: random-good-ideas
+title: Random good ideas
 date:  2014-09-10
 tags: untagged
 ---
@@ -73,6 +73,4 @@ Parents:
     Sauce](http://www.foodnetwork.com/recipes/giada-de-laurentiis/marinara-sauce-recipe/index.html)
 -   [Red Onion & Goat Cheese
     Pancake](http://www.eatingwell.com/recipes/red_onion_goat_cheese_pancake.html)
-
-[ Some](Category:Recipes "wikilink")
 
