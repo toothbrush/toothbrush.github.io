@@ -3,7 +3,7 @@ title: Lemon curd
 date:  2014-09-10
 tags: sauce
 ---
-'' source: Recipes from Bechuanaland, Women's Institute, Francistown ''
+*source: Recipes from Bechuanaland, Women's Institute, Francistown*
 
 Ingredients
 -----------

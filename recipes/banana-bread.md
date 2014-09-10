@@ -3,7 +3,7 @@ title: Banana bread
 date:  2014-09-10
 tags: cake
 ---
-'' source: Recipes from Bechuanaland ''
+*source: Recipes from Bechuanaland*
 
 Ingredients
 -----------

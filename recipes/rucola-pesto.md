@@ -4,38 +4,33 @@ date: 2010-01-01
 tags: sauce
 ---
 
-*from: <http://www.nrc.nl/koken/2014/01/06/tutto-risotto/>*
+*bron: Fien*
 
-Doe de eidooier in een kommetje en roer los met 2 eetlepels koude
-kippenbouillon.
+Pesto van rucola
+================
 
-Breng de rest van de bouillon aan de kook.
+(zelfde recept als [Recipes:basilicum
+pesto](Recipes:basilicum pesto "wikilink"), i.p.v. basilicum gebruik je
+rucola )
 
-Verwarm op vrij laag vuur de olie in een ruime, lage pan en fruit daarin
-de stukjes pancetta al roerend tot het spek vrijwel geheel is
-uitgebakken (niet hard laten worden).
+voor 10 personen
 
-Roer de rijst erdoor en rooster de korrels tot ze ‘warm onder de duim’
-zijn (heet aanvoelen). Blus af met 2 grote soeplepels kokende bouillon
-en kook de risotto bijtgaar in 15 - 19 minuten, waarbij je telkens
-wanneer de rijst dreigt droog te vallen twee nieuwe soeplepels bouillon
-toevoegt, en intussen voortdurend roert met een houten pollepel.
+### Ingredienten
 
-Roer de helft van de kaas door het dooiermengsel en roer dit, van het
-vuur af, door de rijst. Proef en maak de risotto op smaak met zout en
-versgemalen peper.
+-   1,111 zakken rucola,
+-   1,667 teentjes knoflook
+-   1,111 dl olijfolie (extra vierge)
+-   27,778 gram pijnboompitten
+-   55,556 gram verse geraspte parmesan
 
-Laat de risotto 2 minuten staan in de gesloten pan en serveer in diepe,
-voorverwarmde borden.
+### Bereidingswijze
 
-Bestrooi met de rest van de Grana Padano.
-
-Voor 2 personen:
-
--   1 groot biologisch ei, gesplitst
--   1 liter kippenbouillon \*
--   20 g pancetta, in kleine stukjes
--   1 dessertlepel olijfolie extra vergine
--   160 g risottorijst (bijv. Arborio, Carnaroli of Vialone Nano)
--   25 g versgeraspte Grana Padano
+1.  Als je een keukenmachine hebt: doe de gepelde knoflook samen met de
+    rucola in de machine, heel even laten draaien. Doe daarna de
+    olijfolie en de pijnboompitten erdoor, laat weer even draaien. Als
+    laatst heel even de parmesan erdoor.
+2.  Het is belangrijk dat je de machine niet te lang laat draaien anders
+    wordt het te papperig. Doe de pesto in een pot en doe bovenop nog
+    een laagje olijfolie. Zo kun je hem zeker een maand bewaren in de
+    ijskast.
 

@@ -3,7 +3,7 @@ title: Galatopita
 date:  2014-09-10
 tags: dessert
 ---
-* source: Roela Kakaraki via mom *
+*source: Roela Kakaraki via mom*
 
 serves ±4
 

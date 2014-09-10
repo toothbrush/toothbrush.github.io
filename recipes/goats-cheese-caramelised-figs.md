@@ -3,7 +3,7 @@ title: Goats' cheese and caramelised figs pasta
 date:  2014-09-10
 tags: untagged
 ---
-'' source: magazine. Feeds 3. ''
+*source: magazine. Feeds 3.*
 
 Ingredients
 -----------

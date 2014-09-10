@@ -3,7 +3,7 @@ title: Chana masala
 date:  2014-09-10
 tags: main
 ---
-*from: Daan (http://www.theppk.com/2011/08/chana-masala/)*
+*from: Daan <http://www.theppk.com/2011/08/chana-masala/>*
 
 I use fresh tomatoes in Indian inspired meals when I can because the
 clunky canned ones can end up tasting like spaghetti sauce. And when

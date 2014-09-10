@@ -6,7 +6,6 @@ tags: cake
 *source:
 [untrusted](http://mieliepap.wordpress.com/2007/07/25/koeksister-resep/)*
 
-Also: <Media:Kitskoeksisters.pdf>, <Media:Regte.koeksisters.pdf>
 
 Hartseer soos wat mag wees, is omtrent al my hits is van mense wat soek
 na koeksister resepte. (‘n ander een wat my onverwags betrap het is
