@@ -34,6 +34,16 @@ main =
         route   idRoute
         compile copyFileCompiler
 
+    match "recipes/*" $ do
+        route $ setExtension "html"
+        compile $ do
+                let sbCtx = 
+                       myCtx y m d
+                pandocCompiler
+                       >>= loadAndApplyTemplate "templates/recipe-body.html"  sbCtx
+                       >>= loadAndApplyTemplate "templates/default.html" sbCtx
+                       >>= relativizeUrls
+
     match "soapbox/*" $ do
         route $ setExtension "html"
         compile $ do
@@ -52,14 +62,26 @@ main =
             >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
             >>= relativizeUrls
 
+    create ["recipes-index.html"] $ do
+        route idRoute
+        compile $ do
+            let archiveCtx =
+                    field "recipes" (\_ -> recipesIndex Nothing) `mappend`
+                    constField "title" "Recipes"  `mappend`
+                    myCtx y m d
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/recipes-index.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
+
     create ["soapbox-index.html"] $ do
         route idRoute
         compile $ do
             let archiveCtx =
                     field "soaps" (\_ -> sbIndex Nothing) `mappend`
+                    constField "title" "Soapbox"  `mappend`
                     myCtx y m d `mappend`
                     articleDateCtx
-
             makeItem ""
                 >>= loadAndApplyTemplate "templates/soapbox-index.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
@@ -111,6 +133,16 @@ myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mapp
     constField "lfmtheme" "Awesome35" `mappend`
     defaultContext
 
+--------------------------------------------------------------------------------
+recipesIndex :: Maybe Int -> Compiler String
+recipesIndex recent = do
+    all     <- loadAll "recipes/*" >>= recentFirst
+    let pubs = case recent of
+                    Nothing -> all
+                    Just recent -> take recent all
+    itemTpl <- loadBody "templates/recipe-item.html"
+    list    <- applyTemplateList itemTpl defaultContext pubs
+    return list
 --------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
 sbIndex recent = do

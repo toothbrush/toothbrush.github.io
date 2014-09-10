@@ -10,6 +10,9 @@ site: site.hs
 nothing:
 	@echo "Use 'make upload' to upload"
 
-.PHONY: upload nothing build
+clean:
+	rm -f site
+
+.PHONY: upload nothing build clean
 upload: build
 	rsync -av _site/ nfs:/home/public/
