@@ -1,0 +1,16 @@
+### Ingredients:
+
+-   2 cups pink watermelon, sloppily chopped
+-   **proper** feta cheese
+-   freshly squeezed lemon, about 2 tbsp (or balsamico... As always)
+-   sea salt
+-   freshly ground black pepper (obviously)
+-   fresh mint leaves, chopped
+-   **good** olive oil
+
+### Method:
+
+1.  Use your imagination.
+
+<Category:Recipes> <Category:Side>
+
