@@ -1,8 +1,8 @@
+build: site
+	./site rebuild
+
 preview: site
 	./site watch
-
-build: site
-	./site build
 
 site: site.hs
 	ghc --make site.hs
