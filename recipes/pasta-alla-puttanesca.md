@@ -12,12 +12,13 @@ Ingredients
 -   garlic (lots; diced or crushed as you like)
 -   olives (whole, pitted, or diced, as you like)
 -   capers
--   anchovies (25 to 50g, as you like)
+-   anchovies (25 to 50g, as you like, or not, if you're vegetarian)
 -   cherry tomatoes
 -   tomato purée
 -   parmesan (optional)
 -   basil (optional; preferably crushed, otherwise diced)
--   pasta of choice (penne work well)
+-   pasta of choice (penne work well, spaghetti often recommended)
+-   don't forget some Cayenne (very little)
 
 Method
 ------
@@ -31,3 +32,4 @@ purée, parmesan and basil, leave on heat until hot enough (no longer --
 we don't want the tomatoes to disintegrate). Done. Mix with pasta of
 choice cooked in parallel. Serve with extra parmesan.
 
+Freshly ground black pepper is also smart.
