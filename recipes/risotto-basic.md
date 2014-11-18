@@ -13,7 +13,7 @@ tags: main
 -   2 tablespoons olive oil
 -   1 large onion, finely chopped
 -   2 cloves of garlic, finely chopped
--   ~~½ a head of celery, finely chopped~~
+-   ½ a head of celery, finely chopped
 -   400g risotto rice
 -   2 wine glasses of dry white wine
 
