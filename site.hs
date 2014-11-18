@@ -62,7 +62,7 @@ main =
             >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
             >>= relativizeUrls
 
-    create ["recipes-index.html"] $ do
+    create ["recipes/index.html", "recipes-index.html"] $ do
         route idRoute
         compile $ do
             let archiveCtx =
@@ -74,7 +74,7 @@ main =
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    create ["soapbox-index.html"] $ do
+    create ["soapbox/index.html", "soapbox-index.html"] $ do
         route idRoute
         compile $ do
             let archiveCtx =
@@ -91,11 +91,11 @@ main =
         route idRoute
         compile $ do
             let archiveCtx = myCtx y m d
-            (pub:_) <- loadAll "soapbox/*" >>= recentFirst
+            (pub:_) <- loadAll "soapbox/*.md" >>= recentFirst
             makeItem (itemBody pub)
                 >>= relativizeUrls
 
-    create ["pubs.html"] $ do
+    create ["pubs/index.html", "pubs.html"] $ do
         route idRoute
         compile $ do
             let archiveCtx =
@@ -136,7 +136,7 @@ myCtx y m d = field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mapp
 --------------------------------------------------------------------------------
 recipesIndex :: Maybe Int -> Compiler String
 recipesIndex recent = do
-    all     <- loadAll "recipes/*" >>= recentFirst
+    all     <- loadAll "recipes/*.md" >>= recentFirst
     let pubs = case recent of
                     Nothing -> all
                     Just recent -> take recent all
@@ -146,7 +146,7 @@ recipesIndex recent = do
 --------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
 sbIndex recent = do
-    all     <- loadAll "soapbox/*" >>= recentFirst
+    all     <- loadAll "soapbox/*.md" >>= recentFirst
     let pubs = case recent of
                     Nothing -> all
                     Just recent -> take recent all
@@ -156,7 +156,7 @@ sbIndex recent = do
 --------------------------------------------------------------------------------
 pubList :: Compiler String
 pubList = do
-    pubs    <- loadAll "pubs/*" >>= recentFirst
+    pubs    <- loadAll "pubs/*.md" >>= recentFirst
     itemTpl <- loadBody "templates/pub-item.html"
     list    <- applyTemplateList itemTpl articleDateCtx pubs
     return list
