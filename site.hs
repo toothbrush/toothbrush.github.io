@@ -6,12 +6,15 @@ import           Hakyll
 import Text.Printf
 import Data.Time.Clock
 import Data.Time.Calendar
+import Data.Function (on)
+import Control.Monad (liftM)
+import Data.List (sortBy)
 --import Git
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main =
- do (y,m,d) <- getCurrentTime >>= return . toGregorian . utctDay
+ do (y,m,d) <- liftM (toGregorian . utctDay) getCurrentTime 
 --     repo   <- openRepository "." False
 --     commitFromRef <- lookupCommit repo "HEAD"
 --     let c = maybe "--" id commitFromRef
@@ -99,7 +102,7 @@ main =
         route idRoute
         compile $ do
             let archiveCtx =
-                    field "pubs" (\_ -> pubList)       `mappend`
+                    field "pubs" (const pubList)       `mappend`
                     constField "title" "Publications"  `mappend`
                     myCtx y m d
 
@@ -112,7 +115,7 @@ main =
     match (fromList ["index.html", "projects.html"]) $ do
         route idRoute
         compile $ do
-            let indexCtx = field "pubs" (\_ -> pubList) `mappend`
+            let indexCtx = field "pubs" (const pubList) `mappend`
                     field "soaps" (\_ -> sbIndex $ Just 3)
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -141,8 +144,8 @@ recipesIndex recent = do
                     Nothing -> all
                     Just recent -> take recent all
     itemTpl <- loadBody "templates/recipe-item.html"
-    list    <- applyTemplateList itemTpl defaultContext pubs
-    return list
+    applyTemplateList itemTpl defaultContext (sortBy (compare `on` itemIdentifier) pubs)
+    
 --------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
 sbIndex recent = do
@@ -151,12 +154,11 @@ sbIndex recent = do
                     Nothing -> all
                     Just recent -> take recent all
     itemTpl <- loadBody "templates/sb-item.html"
-    list    <- applyTemplateList itemTpl articleDateCtx pubs
-    return list
+    applyTemplateList itemTpl articleDateCtx pubs
+   
 --------------------------------------------------------------------------------
 pubList :: Compiler String
 pubList = do
     pubs    <- loadAll "pubs/*.md" >>= recentFirst
     itemTpl <- loadBody "templates/pub-item.html"
-    list    <- applyTemplateList itemTpl articleDateCtx pubs
-    return list
+    applyTemplateList itemTpl articleDateCtx pubs

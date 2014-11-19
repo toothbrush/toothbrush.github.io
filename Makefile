@@ -6,6 +6,7 @@ preview: site
 
 site: site.hs
 	ghc --make site.hs
+	hlint -c site.hs
 
 nothing:
 	@echo "Use 'make upload' to upload"
