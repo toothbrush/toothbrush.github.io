@@ -1,0 +1,19 @@
+name: denknerd
+version: 0.1.0.0
+build-type: Simple
+cabal-version: >= 1.18
+executable site
+  main-is: site.hs
+  build-depends: base == 4.*
+               , hakyll == 4.6.*
+               , system-filepath
+               , directory
+               , text
+               , bytestring
+               , gitlib-libgit2
+               , gitlib == 3.*
+               , monads-tf
+               , monad-logger
+               , time
+  ghc-options: -threaded
+  default-language: Haskell2010
