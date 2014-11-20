@@ -109,7 +109,7 @@ main =
              >>= relativizeUrls
 
 
-      create ["recipes/tags.html"] $ do
+      create ["recipes/index.html", "recipes-index.html"] $ do
           route idRoute
           compile $ do
               let archiveCtx = 
@@ -117,30 +117,16 @@ main =
                       myCtx y m d hash
 
               let allTags = map fst (tagsMap tags)
-              list <- recipeList tags (explorePattern tags "main")
-              list2 <- recipeList tags (explorePattern tags "cake")
-              
-              makeItem ""
-                  >>= loadAndApplyTemplate "templates/recipes-index.html" (constField "body" list `mappend` archiveCtx)
-                  >>= loadAndApplyTemplate "templates/recipes-index.html" (constField "body" list2 `mappend` archiveCtx)
-                  >>= withItemBody (\ a -> return "frooble")
-                  -- >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                  >>= relativizeUrls
-              
 
-      create ["recipes/index.html", "recipes-index.html"] $ do
-          route idRoute
-          compile $ do
-              let archiveCtx = 
-                      constField "title" "Recipes"  `mappend`
-                      tagsField "tags" tags `mappend`
-                      myCtx y m d hash
-              list <- recipeList tags "recipes/*.md" 
-              makeItem list
-                  >>= loadAndApplyTemplate "templates/recipes-index.html" archiveCtx
+              let bodyPieces = map  (\ t -> do
+                                      list <- recipeList tags (explorePattern tags t)
+                                      return ["<h2>", t , "</h2>", "<ul>", list, "</ul>"]
+                                    ) allTags
+              makeItem ""
+                  >>= withItemBody (\ a -> liftM (concat . concat) (sequence bodyPieces))
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
-   
+              
       create ["soapbox/index.html", "soapbox-index.html"] $ do
           route idRoute
           compile $ do
