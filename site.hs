@@ -26,6 +26,7 @@ main :: IO ()
 main =
  do (y,m,d) <- liftM (toGregorian . utctDay) getCurrentTime 
 
+    -- this ugliness retrieves the current git commit hash.
     path <- getCurrentDirectory
     let repoOpts = RepositoryOptions { repoPath = path
                                      , repoWorkingDir = Nothing
@@ -33,28 +34,24 @@ main =
                                      , repoAutoCreate = False
                                      }
     repo <- liftIO $ openLgRepository repoOpts
-    commitFromRef <- liftIO $ runStderrLoggingT $ runLgRepository repo action
-    putStrLn $ "commit = " ++ show commitFromRef
+    commitFromRef <- liftIO $ runStderrLoggingT
+                            $ runLgRepository repo
+                                (do let masterRef = "refs/heads/master"
+                                    Just ref <- resolveReference masterRef
+                                    return ref)
     let hash = show commitFromRef
+    -- end git ugliness
 
     hakyll $ do
 
-       match "images/*" $ do
+       match ( "images/*"
+          .||. "css/*.css"
+          .||. "bib/*"
+          .||. "pdf/*" ) $ do
            route   idRoute
            compile copyFileCompiler
    
-       match "css/*.css" $ do
-           route   idRoute
-           compile compressCssCompiler
-   
-       match "bib/*" $ do
-           route   idRoute
-           compile copyFileCompiler
-   
-       match "pdf/*" $ do
-           route   idRoute
-           compile copyFileCompiler
-   
+    -- TODO: all of this stuff needs de-duplication, it's awfully similar
        match "recipes/*.md" $ do
            route $ setExtension "html"
            compile $ do
@@ -142,11 +139,6 @@ main =
    
        match "templates/*" $ compile templateCompiler
 
-  where
-    action = do
-      let masterRef = "refs/heads/master"
-      Just cParent <- resolveReference masterRef
-      return cParent
       
 --------------------------------------------------------------------------------
 articleDateCtx :: Context String
