@@ -13,6 +13,7 @@ executable site
                , gitlib-libgit2
                , gitlib == 3.*
                , monads-tf
+               , split >= 0.2
                , monad-logger
                , time
   ghc-options: -threaded
