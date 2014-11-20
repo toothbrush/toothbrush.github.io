@@ -4,6 +4,7 @@
 import Control.Applicative ((<$>))
 import Data.Monoid         (mappend)
 import Hakyll
+import Data.Char (toUpper, toLower)
 import Text.Printf
 import Data.Time.Clock
 import Data.Time.Calendar
@@ -115,12 +116,11 @@ main =
               let archiveCtx = 
                       constField "title" "Recipes by tag"  `mappend`
                       myCtx y m d hash
-
               let allTags = map fst (tagsMap tags)
-
+              -- TODO should probably use template system here
               let bodyPieces = map  (\ t -> do
                                       list <- recipeList tags (explorePattern tags t)
-                                      return ["<h2>", t , "</h2>", "<ul>", list, "</ul>"]
+                                      return ["<h2>", capWord t , "</h2>", "<ul>", list, "</ul>"]
                                     ) allTags
               makeItem ""
                   >>= withItemBody (\ a -> liftM (concat . concat) (sequence bodyPieces))
@@ -252,3 +252,8 @@ postList pattern postCtx sortFilter = do
                        posts   <- sortFilter =<< loadAll pattern
                        itemTpl <- loadBody "templates/recipe-item.html"
                        applyTemplateList itemTpl postCtx posts
+
+capWord :: String -> String
+capWord word = case word of
+  [] -> []
+  (h:t) -> toUpper h : map toLower t
