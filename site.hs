@@ -98,7 +98,6 @@ main =
         compile $ do
           list <- loadAll pattern
           let archiveCtx = 
-                --constField "recipes" list `mappend`
                 constField "title" title `mappend`
                 myCtx y m d hash
           makeItem ""
@@ -192,7 +191,7 @@ myCtx y m d hash =
 --------------------------------------------------------------------------------
 recipesIndex :: Maybe Int -> Compiler String
 recipesIndex recent = do
-    all     <- loadAll "recipes/*.md" -- recipes
+    all     <- loadAll "recipes/*.md" 
     let pubs = case recent of
                     Nothing -> all
                     Just recent -> take recent all
@@ -227,14 +226,6 @@ tagsCtx :: Tags -> Context String
 tagsCtx tags =
   tagsField "prettytags" tags `mappend`
   defaultContext
-
---recipeListCont :: ([Item String] -> Compiler [Item String]) -> Compiler String
---recipeListCont tags = do
---    posts   <- loadAll "recipes/*.md"
---    --posts   <- sortFilter =<< loadAll "recipes/*.md"
---    itemTpl <- loadBody "templates/recipe-item.html"
---    list    <- applyTemplateList itemTpl (tagsCtx tags) posts
---    return (traceShow posts list)
 
 -- | Builds a pattern to match only posts tagged with a given primary tag.
 explorePattern :: Tags -> String -> Pattern
