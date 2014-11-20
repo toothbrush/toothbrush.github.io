@@ -21,12 +21,8 @@ import Data.Text.Encoding (encodeUtf8)
 import qualified Data.Text as T
 import System.Directory (getCurrentDirectory)
 
+import Debug.Trace
 
--- data Recipe = R String -- title
---                 [String] -- tags
---                 String -- body
--- instance Show Recipe where
---   show (R title ts bod) = "R " ++ title ++ ", tags="++show ts++ ", "++ take 40 bod ++ "\n"
 --------------------------------------------------------------------------------
 main :: IO ()
 main =
@@ -99,47 +95,47 @@ main =
         let title = "Recipes tagged '" ++ tag ++ "'"
         route idRoute
         compile $ do
-          list <- recipeList tags pattern recentFirst
+          list <- loadAll pattern
           let archiveCtx = 
-                constField "recipes" list `mappend`
+                --constField "recipes" list `mappend`
                 constField "title" title `mappend`
                 myCtx y m d hash
           makeItem ""
-             >>= loadAndApplyTemplate "templates/recipes-index.html" (constField "title" title `mappend`
-                                                                      constField "body" list `mappend`
-                                                                      archiveCtx)
-             >>= saveSnapshot ("tag")
+             >>= loadAndApplyTemplate "templates/recipes-for-index.html"
+                 (constField "title" title `mappend`
+                  listField "recipes" (tagsCtx tags) (return list) `mappend`
+                  archiveCtx)
              >>= loadAndApplyTemplate "templates/default.html" archiveCtx
              >>= relativizeUrls
 
-   --   -- Render RSS feed
-   --   create ["rss.xml"] $ do
-   --     route idRoute
-   --     compile $ do
-   --                let indexCtx = (field "body" $ \_ ->
-   --                                    recipeListCont $ {- fmap (take 3) . -} recentFirst) `mappend`
-   --                                    constField "title" "test"
-   --    
-   --                --error $ "ASFDDSA " ++ indexCtx
-   --                makeItem "" 
-   --                --getResourceBody
-   --                  --  >>= applyAsTemplate indexCtx
-   --                    >>= loadAndApplyTemplate "templates/default.html" indexCtx
-   --                    >>= relativizeUrls
-   --                    -- >>= removeIndexHtml
+
+      create ["recipes/tags.html"] $ do
+          route idRoute
+          compile $ do
+              let archiveCtx = 
+                      constField "title" "Recipes by tag"  `mappend`
+                      myCtx y m d hash
+
+              let allTags = map fst (tagsMap tags)
+              list <- recipeList tags (explorePattern tags "main")
+              list2 <- recipeList tags (explorePattern tags "cake")
+              
+              makeItem ""
+                  >>= loadAndApplyTemplate "templates/recipes-index.html" (constField "body" list `mappend` archiveCtx)
+                  >>= loadAndApplyTemplate "templates/recipes-index.html" (constField "body" list2 `mappend` archiveCtx)
+                  >>= withItemBody (\ a -> return "frooble")
+                  -- >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                  >>= relativizeUrls
+              
 
       create ["recipes/index.html", "recipes-index.html"] $ do
           route idRoute
           compile $ do
-              -- rs <- recipes
               let archiveCtx = 
-                      -- field "recipes" (const $ recipesIndex Nothing) `mappend`
-                      --field "recipes" getRecipesForTag `mappend`
                       constField "title" "Recipes"  `mappend`
                       tagsField "tags" tags `mappend`
                       myCtx y m d hash
-              list <- recipeList tags "recipes/*.md" recentFirst
-              --error (show list)
+              list <- recipeList tags "recipes/*.md" 
               makeItem list
                   >>= loadAndApplyTemplate "templates/recipes-index.html" archiveCtx
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
@@ -218,27 +214,6 @@ recipesIndex recent = do
     applyTemplateList itemTpl defaultContext (sortBy (compare `on` itemIdentifier) pubs)
     
 --------------------------------------------------------------------------------
---recipeTags :: [Recipe] -> [String]
---recipeTags   []   = []
---recipeTags (R _ ts _ :rs) = ts ++ recipeTags rs
---
---
---
---
---------------------------------------------------
---recipes :: Compiler [Recipe]
---recipes = do
-    --all <- loadAll "recipes/*.md"
-    --mapM formatRecipeItem all
-      --where
-        --formatRecipeItem :: Item String -> Compiler Recipe
-        --formatRecipeItem item = do met <- getMetadata (itemIdentifier item)
-                                   --title <- getMetadataField' (itemIdentifier item) "title"
-                                   --tags  <- getMetadataField' (itemIdentifier item) "tags"
-                                   --return (R title (map trim (splitOn "," tags)) (itemBody item))
-   -- 
---getRecipesForTag tag  = error (show tag)
---------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
 sbIndex recent = do
     all     <- loadAll "soapbox/*.md" >>= recentFirst
@@ -256,10 +231,10 @@ pubList = do
     applyTemplateList itemTpl articleDateCtx pubs
 
 -- fetch all recipes and sort alphabetically.
-recipeList :: Tags -> Pattern -> ([Item String] -> Compiler [Item String]) -> Compiler String
-recipeList tags pattern preprocess' = do
+recipeList :: Tags -> Pattern ->  Compiler String
+recipeList tags pattern = do
     postItemTpl <- loadBody "templates/recipe-item.html"
-    posts <- preprocess' =<< loadAll pattern
+    posts <- loadAll pattern
     applyTemplateList postItemTpl (tagsCtx tags) (sortBy (compare `on` itemIdentifier) posts)
 
 tagsCtx :: Tags -> Context String
@@ -267,20 +242,27 @@ tagsCtx tags =
   tagsField "prettytags" tags `mappend`
   defaultContext
 
+--recipeListCont :: ([Item String] -> Compiler [Item String]) -> Compiler String
+--recipeListCont tags = do
+--    posts   <- loadAll "recipes/*.md"
+--    --posts   <- sortFilter =<< loadAll "recipes/*.md"
+--    itemTpl <- loadBody "templates/recipe-item.html"
+--    list    <- applyTemplateList itemTpl (tagsCtx tags) posts
+--    return (traceShow posts list)
 
-feedConfiguration :: FeedConfiguration
-feedConfiguration = FeedConfiguration
-          { feedTitle = "Keruspe's blag - RSS feed"
-          , feedDescription = "Various free software hacking stuff"
-          , feedAuthorName = "Marc-Anroine Perennou"
-          , feedAuthorEmail = "Marc-Antoine@Perennou.com"
-          , feedRoot = "http://www.imagination-land.org"
-          }
+-- | Builds a pattern to match only posts tagged with a given primary tag.
+explorePattern :: Tags -> String -> Pattern
+explorePattern tags primaryTag = fromList identifiers
+  where identifiers = fromMaybe [] $ lookup primaryTag (tagsMap tags)
 
---------------------------------------------------------------------------------
-recipeListCont :: ([Item String] -> Compiler [Item String]) -> Compiler String
-recipeListCont sortFilter = do
-    posts   <- sortFilter =<< loadAllSnapshots "recipes/tags/*" "tag"
-    itemTpl <- loadBody "templates/recipe-item.html"
-    list    <- applyTemplateList itemTpl (defaultContext) posts
-    return list
+
+-- | Creates a compiler to render a list of posts for a given pattern, context,
+-- and sorting/filtering function
+postList :: Pattern
+         -> Context String
+         -> ([Item String] -> Compiler [Item String])
+         -> Compiler String
+postList pattern postCtx sortFilter = do
+                       posts   <- sortFilter =<< loadAll pattern
+                       itemTpl <- loadBody "templates/recipe-item.html"
+                       applyTemplateList itemTpl postCtx posts
