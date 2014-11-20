@@ -118,12 +118,12 @@ main =
                       myCtx y m d hash
               let allTags = map fst (tagsMap tags)
               -- TODO should probably use template system here
-              let bodyPieces = map  (\ t -> do
+              let bodyPieces = liftM concat $ mapM (\ t -> do
                                       list <- recipeList tags (explorePattern tags t)
-                                      return ["<h2>", capWord t , "</h2>", "<ul>", list, "</ul>"]
+                                      return $ "<h2>" ++ capWord t ++ "</h2>" ++ "<ul>" ++ list ++ "</ul>"
                                     ) allTags
               makeItem ""
-                  >>= withItemBody (\ a -> liftM (concat . concat) (sequence bodyPieces))
+                  >>= withItemBody (const bodyPieces)
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
               
