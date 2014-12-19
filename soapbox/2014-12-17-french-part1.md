@@ -1,6 +1,6 @@
 ---
 title: The French, part 1
-tags: test
+tags: french
 ---
 
 Introduction
@@ -47,6 +47,10 @@ crypto-autist,
 hypochondriac, or for any other reason), be sure that this will be taken as
 a direct personal affront. Every time. No such thing as getting used to
 foreigners and their idiosyncrasies[^2] ;).
+
+Anyway, even if you don't like touchy people, it's probably good for your microbial
+resistance to invade other people's airspace on a regular basis ;).
+
 
 [^1]: This is a whole other subject. Depending on my mood, i will either identify as anglophone
 or Dutch, whichever happens to be "better" in that situation. There is of course no hypocrisy in that.
