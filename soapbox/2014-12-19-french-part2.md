@@ -58,9 +58,9 @@ apparent, i find it rather difficult to tolerate, and the locals find it difficu
 contain their amazement at every turn. After the nth time someone puts
 on a concerned frown and asks, with a characteristic gratingly naive rising inflection, if
 
-* tu manges debout?!
-* tu manges beurre de cacahuette sur une baguette?!
-* tu manges salé à 16h de l'après-midi?!
+* tu manges debout?! (for eating a snack while standing, without having laid the table and lit the candles)
+* tu manges beurre de cacahuette sur une baguette?! (admittedly a strange combination, but when rushed, bread and peanut butter really cannot be beaten)
+* tu manges salé à 16h de l'après-midi?! (late breakfast → late lunch → confused French)
 * etc., you get the drift,
 
 one starts feeling like shouting that one can, in fact, eat perfectly
