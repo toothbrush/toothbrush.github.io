@@ -4,7 +4,7 @@ date: 2014-12-25
 tags: soup, vegetarian
 ---
 
-''source: Strasbourg''
+_source: Strasbourg_
 
 Ingredients
 ===========

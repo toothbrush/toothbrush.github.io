@@ -4,7 +4,7 @@ tags: salad, vegetarian
 date: 2014-12-27
 ---
 
-''source: Tristan and Linde, serves 4'' 
+_source: Tristan and Linde, serves 4_
 
 Ingredients
 ===========
