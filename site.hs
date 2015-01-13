@@ -14,13 +14,10 @@ import Control.Monad.Reader
 import Control.Monad.Logger
 import Data.List
 import Data.List.Split
-import Git
-import Git.Libgit2
 import Data.ByteString (ByteString)
 import Data.Maybe
 import Data.Text.Encoding (encodeUtf8)
 import qualified Data.Text as T
-import System.Directory (getCurrentDirectory)
 
 import Debug.Trace
 
@@ -28,22 +25,6 @@ import Debug.Trace
 main :: IO ()
 main =
  do (y,m,d) <- liftM (toGregorian . utctDay) getCurrentTime 
-
-    -- this ugliness retrieves the current git commit hash.
-    path <- getCurrentDirectory
-    let repoOpts = RepositoryOptions { repoPath = path
-                                     , repoWorkingDir = Nothing
-                                     , repoIsBare = False
-                                     , repoAutoCreate = False
-                                     }
-    repo <- liftIO $ openLgRepository repoOpts
-    commitFromRef <- liftIO $ runStderrLoggingT
-                            $ runLgRepository repo
-                                (do let masterRef = "refs/heads/master"
-                                    Just ref <- resolveReference masterRef
-                                    return ref)
-    let hash = show commitFromRef
-    -- end git ugliness
 
     hakyll $ do
 
@@ -67,7 +48,7 @@ main =
           compile $ do
                   let sbCtx = 
                          tagsCtx tags `mappend`
-                         myCtx y m d hash
+                         myCtx y m d
                   pandocCompiler
                          >>= loadAndApplyTemplate "templates/recipe-body.html"  sbCtx
                          >>= loadAndApplyTemplate "templates/default.html" sbCtx
@@ -78,7 +59,7 @@ main =
           compile $ do
                   let sbCtx = 
                          articleDateCtx `mappend`
-                         myCtx y m d hash
+                         myCtx y m d
                   pandocCompiler
                          >>= loadAndApplyTemplate "templates/sb-body.html"  sbCtx
                          >>= loadAndApplyTemplate "templates/default.html" sbCtx
@@ -88,7 +69,7 @@ main =
           route $ setExtension "html"
           compile $ pandocCompiler
               >>= loadAndApplyTemplate "templates/pub.html"    articleDateCtx
-              >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d hash)
+              >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
               >>= relativizeUrls
    
       -- Post tags
@@ -99,7 +80,7 @@ main =
           list <- loadAll pattern
           let archiveCtx = 
                 constField "title" title `mappend`
-                myCtx y m d hash
+                myCtx y m d
           makeItem ""
              >>= loadAndApplyTemplate "templates/recipes-for-index.html"
                  (constField "title" title `mappend`
@@ -114,7 +95,7 @@ main =
           compile $ do
               let archiveCtx = 
                       constField "title" "Recipes by tag"  `mappend`
-                      myCtx y m d hash
+                      myCtx y m d
               let allTags = map fst (tagsMap tags)
               -- TODO should probably use template system here
               let bodyPieces = liftM concat $ mapM (\ t -> do
@@ -132,7 +113,7 @@ main =
               let archiveCtx =
                       field "soaps" (\_ -> sbIndex Nothing) `mappend`
                       constField "title" "Soapbox"  `mappend`
-                      myCtx y m d hash `mappend`
+                      myCtx y m d `mappend`
                       articleDateCtx
               makeItem ""
                   >>= loadAndApplyTemplate "templates/soapbox-index.html" archiveCtx
@@ -142,7 +123,7 @@ main =
       create ["soapbox.html"] $ do
           route idRoute
           compile $ do
-              let archiveCtx = myCtx y m d hash
+              let archiveCtx = myCtx y m d
               (pub:_) <- loadAll "soapbox/*.md" >>= recentFirst
               makeItem (itemBody pub)
                   >>= relativizeUrls
@@ -153,7 +134,7 @@ main =
               let archiveCtx =
                       field "pubs" (const pubList)       `mappend`
                       constField "title" "Publications"  `mappend`
-                      myCtx y m d hash
+                      myCtx y m d
    
               makeItem ""
                   >>= loadAndApplyTemplate "templates/pubs.html" archiveCtx
@@ -168,7 +149,7 @@ main =
                       field "soaps" (\_ -> sbIndex $ Just 3)
               getResourceBody
                   >>= applyAsTemplate indexCtx
-                  >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d hash)
+                  >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
                   >>= relativizeUrls
    
       match "templates/*" $ compile templateCompiler
@@ -180,12 +161,9 @@ articleDateCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
-myCtx :: Integer -> Int -> Int -> String -> Context String
-myCtx y m d hash =
+myCtx :: Integer -> Int -> Int -> Context String
+myCtx y m d =
   field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` 
-  constField "longHash" hash `mappend`
-  constField "shortHash" (take 10 hash) `mappend`
-  constField "lfmtheme" "Awesome35" `mappend`
   defaultContext
 
 --------------------------------------------------------------------------------

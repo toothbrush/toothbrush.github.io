@@ -10,8 +10,6 @@ executable site
                , directory
                , text
                , bytestring
-               , gitlib-libgit2
-               , gitlib == 3.*
                , monads-tf
                , split >= 0.2
                , monad-logger
