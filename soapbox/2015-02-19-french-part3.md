@@ -1,5 +1,5 @@
 ---
-title: The French, part 3
+title: The French, part 3: Patronising announcements
 tags: french
 ---
 
@@ -43,14 +43,14 @@ thinking it could be rationalised away as still being the same
 transport company -- perhaps their communications department was just
 a little snarky. But i couldn't deny it much longer: i started seeing
 these patronising, condescendingly-worded announcements everywhere.
-There was a book lying on my coffee table, announcing that *"je
+There was a book lying on my coffee table, entitled *"je
 réussis mon compost et lombricompost"*, and my online banking service
 had buttons helpfully holding my hand by proclaiming that if i clicked
 them, that in fact *"je me connecte"* and the governmental tax website straight-facedly
 offers  me a  button marked  *"je paye mes impôts en ligne"*.
 
 Why am i getting my gender-neutral undergarments in a knot, you ask?
-What is so frustrating about these clumsily-worded but well-meaning phrases?
+What is so frustrating about these clumsily-worded but earnest and well-meaning phrases[^1]?
 It's probably the fact that i am just not used to this mode of sentence construction,
 but they all feel incredibly condescending, insulting almost. It's as if
 the person writing them thinks to themselves that their target audience
@@ -58,12 +58,16 @@ must have the intellect of at most a 4-year old, or at the *very least* a seriou
 lack of theory of mind capabilities. As if whoever reads the instructions
 clearly wouldn't have the mental fortitude to read a sentence written in
 the imperative, realise it applies to them, and accordingly decide to act upon it. No,
-everything should be preprocessed, so that the bumbling imbecile in the bus can
-mouth the sentence to themself, and then, as if taken by surprise at what they
+everything should be preprocessed into the first person, so that the bumbling imbecile in the bus can
+mouth the sentence to themselves, and then, as if taken by surprise at what they
 just verbalised, follow the instructions they have read to themselves. Indeed,
-i get on the bus. I validate my ticket.
+i get on the bus. Oh! That means i validate my ticket! \*beep\* Shudder.
 
-Anyway, this sort of topic is probably bad for my blood pressure, so i
-will now try and wind down. Luckily the 1980's are not far away;
-perhaps, to relax, i will write myself a cheque or something.
+I finish writing now, because
+if i am tired, i go to bed. Also, i send Paul fanmail.
 
+
+[^1]: Of course, anybody, no matter who, who is too earnest, straight-faced
+and irony-free should be immediately categorised as not to be trusted. These
+shifty individuals pop up all over the place, trying their damnedest to spoil
+any good old black, bile-filled sarcastic mocking.
