@@ -1,7 +1,7 @@
 ---
 title: Declaration-driven Frameworks: a Language-agnositic Approach
 authors: Paul van der Walt, Charles Consel and Emilie Balland
-subline: Manuscript
+subline: Manuscript.
 ---
 
 ### Abstract
