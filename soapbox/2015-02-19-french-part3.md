@@ -63,8 +63,38 @@ mouth the sentence to themselves, and then, as if taken by surprise at what they
 just verbalised, follow the instructions they have read to themselves. Indeed,
 i get on the bus. Oh! That means i validate my ticket! \*beep\* Shudder.
 
-I finish writing now, because
-if i am tired, i go to bed. Also, i send Paul fanmail.
+Super tasteless copywriting aimed at self-satisfied do-gooders exists too, yo
+-----------------------------------------------------------------------------
+
+Yes, there is another category of text aimed at the public that drives me up the wall!
+I'm sure you would never have guessed that could be possible. I'll provide samples
+[here](http://www.ethiquable.coop/sites/www.ethiquable.coop/files/sucre-complet-de-canne-facing-bd.jpg) and
+[here](http://img5.portal.carrefour.fr/gg/the-vert-bio-ethiquable-gingembre-citron-vert_4273329_3760091720160.jpg).
+In case you're super lethargic and couldn't be arsed to follow those links, the first one is a pack of sugar which screams
+*"That which i love: cane sugar; what i defend: vague ecological ideals,"*
+while the second one is a pack of teabags which hollers
+*"What i drink: tea!!! What i defend: vague feel-good statements about fair trade!!!111!1"*
+Seriously. The box of tea says, "i drink tea". Literally. My god, what am i supposed to do, stumble into
+the supermarket distractedly mumbling "i drink tea i drink tea i drink tea" to myself, and then,
+"oh good a label! I read the label! I drink tea!!! Bingo,
+i look for the cashier now!!"
+This time, not only have the copywriters managed to insult my
+intelligence via their obtuse application of the first person where
+it's completely inappropriate, they now also manage to imply that the
+people who are likely to buy their products would feel better about
+themselves after having had to do the supermarket-shelf-to-till walk
+of shame while sheepishly trying to smuggle a garish wrapper shouting
+"look at me! I think i'm saving the world by paying €0.30 more for my
+organic chocolate!!!". Honestly, i'm probably somebody who is
+precisely in their target demographic and is, all things being equal,
+pretty likely to buy their stuff anyway, but this grates so hard i
+almost don't want to any more. I mean, i don't *actually* think i'm saving the
+world, so i feel ridiculous buying something which tries to convince everybody
+around me that i do!
+
+
+Anyway, fuck this. I finish writing now.
+If i am tired, i go to bed. Also, i send Paul fanmail.
 
 
 [^1]: Of course, anybody, no matter who, who is too earnest, straight-faced
