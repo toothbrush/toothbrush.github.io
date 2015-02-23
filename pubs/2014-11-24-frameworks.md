@@ -6,7 +6,7 @@ subline: Manuscript.
 
 ### Abstract
 
-Download full article here: [pdf](/pdf/progfw.pdf)
+Download full article here: [pdf](http://people.bordeaux.inria.fr/docs/progfw.pdf)
 
 
 Programming frameworks are an accepted fixture in the
