@@ -1,7 +1,7 @@
 ---
 title: Constraining application behaviour by generating languages
 authors: Paul van der Walt
-subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/pwalt/code/diaracket.zip">code</a>]
+subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/pwalt/code/diaracket.tgz">code</a>]
 ---
 
 ### Abstract
