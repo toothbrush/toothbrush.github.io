@@ -13,4 +13,4 @@ clean:
 
 .PHONY: upload nothing build clean
 upload: build
-	rsync -av _site/ nfs:/home/public/
+	rsync --delete -av _site/ nfs:/home/public/

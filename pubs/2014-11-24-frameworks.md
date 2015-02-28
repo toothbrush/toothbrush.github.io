@@ -1,7 +1,7 @@
 ---
 title: Declaration-driven Frameworks: a Language-agnositic Approach
 authors: Paul van der Walt, Charles Consel and Emilie Balland
-subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/code/frameworks.tgz">code</a>]
+subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/docs/progfw.pdf">pdf</a>] [<a href="http://people.bordeaux.inria.fr/code/frameworks.tgz">code</a>]
 ---
 
 ### Abstract
