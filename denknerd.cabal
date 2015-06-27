@@ -5,7 +5,7 @@ cabal-version: >= 1.18
 executable site
   main-is: site.hs
   build-depends: base == 4.*
-               , hakyll == 4.6.*
+               , hakyll >= 4.6
                , system-filepath
                , directory
                , text
