@@ -3,7 +3,7 @@ build: site
 
 site: site.hs
 	cabal build
-	hlint -c site.hs
+	-hlint -c site.hs
 
 nothing:
 	@echo "Use 'make upload' to upload"
