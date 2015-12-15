@@ -158,14 +158,28 @@ main =
 --------------------------------------------------------------------------------
 articleDateCtx :: Context String
 articleDateCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "date" "%e %B, %Y" `mappend`
     defaultContext
 
 myCtx :: Integer -> Int -> Int -> Context String
 myCtx y m d =
-  field "modified" (\item -> return $ printf "%d/%d/%d" d m y) `mappend` 
+  field "modified" (\item -> return $ printf "%d/%s/%d" d ( months !! (m - 1)) y) `mappend` 
   defaultContext
 
+months :: [String]
+months = ["Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+         ]
 --------------------------------------------------------------------------------
 recipesIndex :: Maybe Int -> Compiler String
 recipesIndex recent = do
