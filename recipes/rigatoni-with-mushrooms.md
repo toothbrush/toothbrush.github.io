@@ -10,27 +10,27 @@ Tristan & Linde*
 Ingredients
 -----------
 
--   3 1lb packages rigatoni or other big pasta of choice
+- 3 1lb packages rigatoni or other big pasta of choice
 
 For the béchamel:
 
--   1½ sticks butter
--   1 cup all-purpose flour
--   8 cups milk
--   Freshly grated nutmeg
+- 1½ sticks butter
+- 1 cup all-purpose flour
+- 8 cups milk
+- Freshly grated nutmeg
 
-For the mushroom mixture: 3oz dried porcini mushrooms, soaked in 2 cups
-boiling water
+For the mushroom mixture:
 
--   ¾ stick butter
--   1 tablespoon vegetable oil
--   1½ cups parsley, chopped, plus more for decoration
--   1 teaspoon dried thyme
--   3 fat cloves garlic, minced
--   1 lb 8oz mixed mushrooms, about 12 cups chopped
--   ½ cup Amontillado sherry
--   2 cups Parmesan, freshly grated
--   Fresh thyme for decoration
+- 3oz dried porcini mushrooms, soaked in 2 cups boiling water
+- ¾ stick butter
+- 1 tablespoon vegetable oil
+- 1½ cups parsley, chopped, plus more for decoration
+- 1 teaspoon dried thyme
+- 3 fat cloves garlic, minced
+- 1 lb 8oz mixed mushrooms, about 12 cups chopped
+- ½ cup Amontillado sherry
+- 2 cups Parmesan, freshly grated
+- Fresh thyme for decoration
 
 Directions
 ----------
