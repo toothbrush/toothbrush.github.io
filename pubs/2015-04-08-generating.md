@@ -6,7 +6,7 @@ subline: ELS 2015, London. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/
 
 ### Abstract
 
-Download full article here: [pdf](http://people.bordeaux.inria.fr/docs/decls.pdf)
+Download full article here: [pdf](http://people.bordeaux.inria.fr/pwalt/docs/decls.pdf)
 
 Writing a platform for reactive applications which enforces operational
 constraints is difficult, and has been approached in various ways. In

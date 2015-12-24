@@ -1,12 +1,12 @@
 ---
 title: Frameworks compiled from declarations: a language-independent approach
 authors: Paul van der Walt, Charles Consel and Emilie Balland
-subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/docs/progfw.pdf">pdf</a>] [<a href="http://people.bordeaux.inria.fr/code/frameworks.tgz">code</a>]
+subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/progfw.pdf">pdf</a>] [<a href="http://people.bordeaux.inria.fr/pwalt/code/frameworks.tgz">code</a>]
 ---
 
 ### Abstract
 
-Download full article here: [pdf](http://people.bordeaux.inria.fr/docs/progfw.pdf)
+Download full article here: [pdf](http://people.bordeaux.inria.fr/pwalt/docs/progfw.pdf)
 
 
 
