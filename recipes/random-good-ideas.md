@@ -9,8 +9,10 @@ ideas are more inspired than others. Beware.
 
 ### Without recipe
 
--   penne + roast potatoes ([smitten
-    kitchen](http://smittenkitchen.com/2009/03/penne-with-potatoes-and-rocket/))
+- Japanese green tea stuff icecream!  With flaky pastry and condensed
+  milk sprinkled on top.
+-   penne + roast potatoes
+    ([smitten kitchen](http://smittenkitchen.com/2009/03/penne-with-potatoes-and-rocket/))
 -   coffee + {garlic, salt, cinnamon}
 -   cheese fondue (possibly with Quadrupel. turns out this works okay.
     need more beer though, flavour wasn't overwhelming)

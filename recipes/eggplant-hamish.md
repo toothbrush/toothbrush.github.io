@@ -14,7 +14,7 @@ Ingredients
 - olive oil obviously
 - feta
 - olives
-- fresh mint
+- fresh mint (and/or origano)
 - topped off with breadcrumbs, parmesan and optionally pine nuts
 - pepper, liberally
 
@@ -30,7 +30,7 @@ You might also want to salt them beforehand and place heavy stuff on
 them to get the juices out.
 
 Slice up tomatoes and eggplants into discs, place a layer of eggplants
-then a layer of tomatoes, then a layer of feta/mint/olives crumbled
+alternated with tomatoes, then a layer of feta/mint/olives crumbled
 randomly in between each layer of tomato and eggplant.  Repeat until
 your tomato and eggplant is finished.
 
