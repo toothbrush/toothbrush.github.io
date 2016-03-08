@@ -1,5 +1,6 @@
 build: site
 	./dist/build/site/site rebuild
+	chmod g+w _site
 
 site: site.hs
 	cabal build
