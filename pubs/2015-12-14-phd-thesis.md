@@ -6,7 +6,7 @@ subline: PhD thesis, 2015, Université de Bordeaux. [<a href="https://hal.inria.
 
 ### Abstract
 
-Download full manuscript here: [pdf](https://hal.inria.fr/tel-01251882)
+Download full manuscript here: [pdf](https://hal.inria.fr/tel-01251882).
 
 
 

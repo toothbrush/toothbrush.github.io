@@ -7,7 +7,7 @@ subline: MSc thesis, 2012, Utrecht University. [<a href="http://dspace.library.u
 #### Supervised by Wouter Swierstra and Johan Jeuring
 ### Abstract
 
-Download full text here: [pdf](http://dspace.library.uu.nl/handle/1874/256628)
+Download full text here: [pdf](http://dspace.library.uu.nl/handle/1874/256628).
 
 This project explores the recent addition to Agda enabling reflection,
 in the style of Lisp, MetaML, and Template Haskell. It illustrates
