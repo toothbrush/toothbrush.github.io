@@ -1,7 +1,7 @@
 ---
 title: A language-independent methodology for compiling declarations into open platform frameworks
 authors: Paul van der Walt
-subline: PhD thesis, 2015. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/vanderWalt-thesis.pdf">pdf</a>]
+subline: PhD thesis, 2015, Université de Bordeaux. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/vanderWalt-thesis.pdf">pdf</a>]
 ---
 
 ### Abstract
