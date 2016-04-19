@@ -1,7 +1,7 @@
 ---
 title: Constraining application behaviour by generating languages
 authors: Paul van der Walt
-subline: 8th European Lisp Symposium, Apr 2015, London. [<a href="https://hal.inria.fr/hal-01140459">pdf</a>] [<a href="http://people.bordeaux.inria.fr/pwalt/code/diaracket.tgz">code</a>]
+subline: 8th European Lisp Symposium, Apr 2015, London. [<a href="https://hal.inria.fr/hal-01140459">pdf</a>] [<a href="https://www.github.com/toothbrush/diaracket">code</a>]
 ---
 
 ### Abstract
