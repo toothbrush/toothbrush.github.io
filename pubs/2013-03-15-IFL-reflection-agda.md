@@ -6,7 +6,7 @@ subline: IFL 2012, Oxford.  [<a href="https://hal.inria.fr/hal-00987610">pdf</a>
 
 ### Abstract
 
-Download full article here: [pdf](https://hal.inria.fr/hal-00987610)
+Download full article here: [pdf](https://hal.inria.fr/hal-00987610).
 
 This paper explores the recent addition to Agda enabling _reflection_,
 in the style of Lisp and Template Haskell.  It gives a brief
