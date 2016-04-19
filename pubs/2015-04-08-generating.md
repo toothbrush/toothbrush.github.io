@@ -1,12 +1,14 @@
 ---
 title: Constraining application behaviour by generating languages
 authors: Paul van der Walt
-subline: ELS 2015, London. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/decls.pdf">pdf</a>] [<a href="http://people.bordeaux.inria.fr/pwalt/code/diaracket.tgz">code</a>]
+subline: 8th European Lisp Symposium, Apr 2015, London. [<a href="https://hal.inria.fr/hal-01140459">pdf</a>] [<a href="http://people.bordeaux.inria.fr/pwalt/code/diaracket.tgz">code</a>]
 ---
 
 ### Abstract
 
-Download full article here: [pdf](http://people.bordeaux.inria.fr/pwalt/docs/decls.pdf)
+Download article [here](https://hal.inria.fr/hal-01140459), or full
+proceedings
+[here](http://www.european-lisp-symposium.org/editions/2015/ELS2015.pdf).
 
 Writing a platform for reactive applications which enforces operational
 constraints is difficult, and has been approached in various ways. In
