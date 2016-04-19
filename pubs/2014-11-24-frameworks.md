@@ -8,18 +8,17 @@ subline: Manuscript. [<a href="http://people.bordeaux.inria.fr/pwalt/docs/progfw
 
 Download full article here: [pdf](http://people.bordeaux.inria.fr/pwalt/docs/progfw.pdf)
 
-
-
 Programming frameworks are an accepted fixture in the object-oriented
 world, motivated by the need for code reuse, developer guidance, and
-restriction.  A new trend is emerging where frameworks require
-domain-specific declarations, which influence the structure and
-behaviour of the resulting application, to address concerns such as
-user privacy. Although many popular open platforms such as Android are
-based on such frameworks, current implementations provide ad hoc and
-narrow solutions to concerns raised by their openness to non-certified
-developers.  Most widely used frameworks fail to address serious
-privacy leaks, and provide the user with little insight into
+restriction.  A new trend is emerging where frameworks require domain
+experts to provide declarations using a domain-specific language
+(DSL), influencing the structure and behaviour of the resulting
+application.  These mechanisms address concerns such as user privacy.
+Although many popular open platforms such as Android are based on
+declaration-driven frameworks, current implementations provide ad hoc
+and narrow solutions to concerns raised by their openness to
+non-certified developers.  Most widely used frameworks fail to address
+serious privacy leaks, and provide the user with little insight into
 application behaviour.
 
 To address these shortcomings, we show that declaration-driven
@@ -30,6 +29,7 @@ apply them systematically to both an object-oriented language, Java,
 and a dynamic functional language, Racket.  The resulting programming
 framework generators are used to develop a prototype mobile
 application, illustrating how we mitigate a common class of privacy
-leaks. Finally, we explore the design choices and propose development
-principles for developing declaration-driven frameworks, applicable
-across a spectrum of programming paradigms.
+leaks.  Finally, we explore the possible design choices and propose
+development principles for developing domain-specific language
+compilers to produce frameworks, applicable across a spectrum of
+programming paradigms.
