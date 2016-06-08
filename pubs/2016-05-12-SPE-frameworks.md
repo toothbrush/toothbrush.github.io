@@ -1,7 +1,7 @@
 ---
 title: Frameworks compiled from declarations: a language-independent approach
 authors: Paul van der Walt, Charles Consel and Emilie Balland
-subline: 2016, Software: Practice and Experience, to appear. [<a href="https://hal.inria.fr/hal-01236352">pdf</a>] [<a href="https://www.github.com/toothbrush/diaracket">code</a>]
+subline: 2016, Software: Practice and Experience, DOI: <a href="http://dx.doi.org/10.1002/spe.2417">10.1002/spe.2417</a>. [<a href="https://hal.inria.fr/hal-01236352">pdf</a>] [<a href="https://www.github.com/toothbrush/diaracket">code</a>]
 ---
 
 ### Abstract
