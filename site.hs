@@ -132,7 +132,7 @@ main =
           route idRoute
           compile $ do
               let archiveCtx =
-                      field "pubs" (const pubList)       `mappend`
+                      field "pubs" (const (pubList 0))       `mappend`
                       constField "title" "Publications"  `mappend`
                       myCtx y m d
    
@@ -145,7 +145,7 @@ main =
       match (fromList ["index.html", "projects.html"]) $ do
           route idRoute
           compile $ do
-              let indexCtx = field "pubs" (const pubList) `mappend`
+              let indexCtx = field "pubs" (const (pubList 3)) `mappend`
                       field "soaps" (\_ -> sbIndex $ Just 3)
               getResourceBody
                   >>= applyAsTemplate indexCtx
@@ -201,11 +201,12 @@ sbIndex recent = do
     applyTemplateList itemTpl articleDateCtx pubs
    
 --------------------------------------------------------------------------------
-pubList :: Compiler String
-pubList = do
+pubList :: Int -> Compiler String
+pubList n = do
     pubs    <- loadAll "pubs/*.md" >>= recentFirst
     itemTpl <- loadBody "templates/pub-item.html"
-    applyTemplateList itemTpl articleDateCtx pubs
+    case n of 0 -> applyTemplateList itemTpl articleDateCtx pubs
+              n -> applyTemplateList itemTpl articleDateCtx (take n pubs)
 
 -- fetch all recipes and sort alphabetically.
 recipeList :: Tags -> Pattern ->  Compiler String
