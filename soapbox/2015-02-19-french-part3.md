@@ -1,5 +1,5 @@
 ---
-title: The French, part 3: Patronising announcements
+title: 'The French, part 3: Patronising announcements'
 tags: french
 ---
 

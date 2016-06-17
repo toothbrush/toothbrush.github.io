@@ -1,5 +1,5 @@
 ---
-title: The French, part 2: Normativity
+title: 'The French, part 2: Normativity'
 tags: french
 ---
 

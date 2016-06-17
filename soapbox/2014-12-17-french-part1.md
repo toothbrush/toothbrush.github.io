@@ -1,5 +1,5 @@
 ---
-title: The French, part 1: Touching
+title: 'The French, part 1: Touching'
 tags: french
 ---
 

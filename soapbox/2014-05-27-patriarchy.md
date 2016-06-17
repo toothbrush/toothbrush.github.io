@@ -1,5 +1,5 @@
 ---
-title: &lt;/patriarchy&gt;
+title: '&lt;/patriarchy&gt;'
 ---
 
 Link: [About Feminism: manifesto](http://aboutfeminism.me/)
