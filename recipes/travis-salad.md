@@ -14,4 +14,5 @@ What a great fresh salad idea!
 - thick leafy green stuff - kale?
 - taugé / soy sprouts
 - zucchini, raw is okay
+- pickles/gherkins
 - soy sauce + fresh squeezed lemon juice
