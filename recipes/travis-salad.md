@@ -15,4 +15,5 @@ What a great fresh salad idea!
 - taugé / soy sprouts
 - zucchini, raw is okay
 - pickles/gherkins
-- soy sauce + fresh squeezed lemon juice
+- (soy sauce?) + fresh squeezed lemon juice
+- sesame seed oil!
