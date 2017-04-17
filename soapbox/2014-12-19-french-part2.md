@@ -53,10 +53,10 @@ something that happens exclusively in newfangled cities, and India, it would see
 It's a way, if you will, of displaying street cred,   saying, "look at how cool i am, i
 have never experienced other culinary cultures!".
 
-This faux naivete extends to most situations concerning food.     As is probably
+This faux naïveté extends to most situations concerning food.     As is probably
 apparent, i find it rather difficult to tolerate, and the locals find it difficult to
 contain their amazement at every turn. After the nth time someone puts
-on a concerned frown and asks, with a characteristic gratingly naive rising inflection, if
+on a concerned frown and asks, with a characteristic gratingly naïve rising inflection, if
 
 * tu manges debout?! (for eating a snack while standing, without having laid the table and lit the candles)
 * tu manges beurre de cacahuette sur une baguette?! (admittedly a strange combination, but when rushed, bread and peanut butter really cannot be beaten)
@@ -68,7 +68,7 @@ satisfactorily while standing, simultaneously holding a conversation
 and a beer, and that no, one will not stop eating one's lunch at
 4p.m., even if you consider that an affront to decency and/or normalcy.
 
-Other than that, the locals are a friendly bunch, and will perfectly happy try out your
+Other than that, the locals are a friendly bunch, and will perfectly happily try out your
 exotic concoctions -- don't let my raving put you off. After having
 shouted a bit[^3] i already feel a lot better about things, so i'll now go
 for an apéro at exactly the condoned time. I definitely seem to
