@@ -13,6 +13,7 @@ clean:
 	rm -vrf dist
 
 .PHONY: upload nothing build clean
+
 upload: build
-	rsync -av _site/ nfs:/home/public/
-#rsync --delete -av _site/ nfs:/home/public/
+	mkdir -p _site/.well-known/acme-challenge
+	rsync -av --delete _site/ nfs:/home/public/
