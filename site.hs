@@ -73,12 +73,12 @@ main =
               >>= relativizeUrls
    
       -- Post tags
-      tagsRules tags $ \tag pattern -> do
+      tagsRules tags $ \tag pat -> do
         let title = "Recipes tagged '" ++ tag ++ "'"
         route idRoute
         compile $ do
-          list <- loadAll pattern
-          let archiveCtx = 
+          list <- loadAll pat
+          let archiveCtx =
                 constField "title" title `mappend`
                 myCtx y m d
           makeItem ""
@@ -210,9 +210,9 @@ pubList n = do
 
 -- fetch all recipes and sort alphabetically.
 recipeList :: Tags -> Pattern ->  Compiler String
-recipeList tags pattern = do
+recipeList tags pat = do
     postItemTpl <- loadBody "templates/recipe-item.html"
-    posts <- loadAll pattern
+    posts <- loadAll pat
     applyTemplateList postItemTpl (tagsCtx tags) (sortBy (compare `on` itemIdentifier) posts)
 
 tagsCtx :: Tags -> Context String
@@ -232,8 +232,8 @@ postList :: Pattern
          -> Context String
          -> ([Item String] -> Compiler [Item String])
          -> Compiler String
-postList pattern postCtx sortFilter = do
-                       posts   <- sortFilter =<< loadAll pattern
+postList pat postCtx sortFilter = do
+                       posts   <- sortFilter =<< loadAll pat
                        itemTpl <- loadBody "templates/recipe-item.html"
                        applyTemplateList itemTpl postCtx posts
 
