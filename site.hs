@@ -24,7 +24,7 @@ import Debug.Trace
 --------------------------------------------------------------------------------
 main :: IO ()
 main =
- do (y,m,d) <- liftM (toGregorian . utctDay) getCurrentTime 
+ do (y,m,d) <- fmap (toGregorian . utctDay) getCurrentTime
 
     hakyll $ do
 
@@ -41,37 +41,37 @@ main =
       match "css/*.css" $ do
         route idRoute
         compile compressCssCompiler
-   
+
       -- TODO: all of this stuff needs de-duplication, it's awfully similar
       match "recipes/*.md" $ do
           route $ setExtension "html"
           compile $ do
-                  let sbCtx = 
+                  let sbCtx =
                          tagsCtx tags `mappend`
                          myCtx y m d
                   pandocCompiler
                          >>= loadAndApplyTemplate "templates/recipe-body.html"  sbCtx
                          >>= loadAndApplyTemplate "templates/default.html" sbCtx
                          >>= relativizeUrls
-   
+
       match "soapbox/*.md" $ do
           route $ setExtension "html"
           compile $ do
-                  let sbCtx = 
+                  let sbCtx =
                          articleDateCtx `mappend`
                          myCtx y m d
                   pandocCompiler
                          >>= loadAndApplyTemplate "templates/sb-body.html"  sbCtx
                          >>= loadAndApplyTemplate "templates/default.html" sbCtx
                          >>= relativizeUrls
-   
+
       match "pubs/*.md" $ do
           route $ setExtension "html"
           compile $ pandocCompiler
               >>= loadAndApplyTemplate "templates/pub.html"    articleDateCtx
               >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
               >>= relativizeUrls
-   
+
       -- Post tags
       tagsRules tags $ \tag pat -> do
         let title = "Recipes tagged '" ++ tag ++ "'"
@@ -93,12 +93,12 @@ main =
       create ["recipes/index.html", "recipes-index.html"] $ do
           route idRoute
           compile $ do
-              let archiveCtx = 
+              let archiveCtx =
                       constField "title" "Recipes by tag"  `mappend`
                       myCtx y m d
               let allTags = map fst (tagsMap tags)
               -- TODO should probably use template system here
-              let bodyPieces = liftM concat $ mapM (\ t -> do
+              let bodyPieces = concat <$> mapM (\ t -> do
                                       list <- recipeList tags (explorePattern tags t)
                                       return $ "<h2>" ++ capWord t ++ "</h2>" ++ "<ul>" ++ list ++ "</ul>"
                                     ) allTags
@@ -106,7 +106,7 @@ main =
                   >>= withItemBody (const bodyPieces)
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
-              
+
       create ["soapbox/index.html", "soapbox-index.html"] $ do
           route idRoute
           compile $ do
@@ -119,7 +119,7 @@ main =
                   >>= loadAndApplyTemplate "templates/soapbox-index.html" archiveCtx
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
-   
+
       create ["soapbox.html"] $ do
           route idRoute
           compile $ do
@@ -127,7 +127,7 @@ main =
               (pub:_) <- loadAll "soapbox/*.md" >>= recentFirst
               makeItem (itemBody pub)
                   >>= relativizeUrls
-   
+
       create ["pubs/index.html", "pubs.html"] $ do
           route idRoute
           compile $ do
@@ -135,13 +135,13 @@ main =
                       field "pubs" (const (pubList 0))       `mappend`
                       constField "title" "Publications"  `mappend`
                       myCtx y m d
-   
+
               makeItem ""
                   >>= loadAndApplyTemplate "templates/pubs.html" archiveCtx
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
-   
-   
+
+
       match (fromList ["index.html", "projects.html"]) $ do
           route idRoute
           compile $ do
@@ -151,10 +151,10 @@ main =
                   >>= applyAsTemplate indexCtx
                   >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
                   >>= relativizeUrls
-   
+
       match "templates/*" $ compile templateCompiler
 
-      
+
 --------------------------------------------------------------------------------
 articleDateCtx :: Context String
 articleDateCtx =
@@ -163,7 +163,7 @@ articleDateCtx =
 
 myCtx :: Integer -> Int -> Int -> Context String
 myCtx y m d =
-  field "modified" (\item -> return $ printf "%d/%s/%d" d ( months !! (m - 1)) y) `mappend` 
+  field "modified" (\item -> return $ printf "%d/%s/%d" d (months !! (m - 1)) y) `mappend`
   defaultContext
 
 months :: [String]
@@ -183,13 +183,13 @@ months = ["Jan",
 --------------------------------------------------------------------------------
 recipesIndex :: Maybe Int -> Compiler String
 recipesIndex recent = do
-    all     <- loadAll "recipes/*.md" 
+    all     <- loadAll "recipes/*.md"
     let pubs = case recent of
                     Nothing -> all
                     Just recent -> take recent all
     itemTpl <- loadBody "templates/recipe-item.html"
     applyTemplateList itemTpl defaultContext (sortBy (compare `on` itemIdentifier) pubs)
-    
+
 --------------------------------------------------------------------------------
 sbIndex :: Maybe Int -> Compiler String
 sbIndex recent = do
@@ -199,7 +199,7 @@ sbIndex recent = do
                     Just recent -> take recent all
     itemTpl <- loadBody "templates/sb-item.html"
     applyTemplateList itemTpl articleDateCtx pubs
-   
+
 --------------------------------------------------------------------------------
 pubList :: Int -> Compiler String
 pubList n = do
