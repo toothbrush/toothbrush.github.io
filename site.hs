@@ -54,17 +54,6 @@ main =
                          >>= loadAndApplyTemplate "templates/default.html" sbCtx
                          >>= relativizeUrls
 
-      match "soapbox/*.md" $ do
-          route $ setExtension "html"
-          compile $ do
-                  let sbCtx =
-                         articleDateCtx `mappend`
-                         myCtx y m d
-                  pandocCompiler
-                         >>= loadAndApplyTemplate "templates/sb-body.html"  sbCtx
-                         >>= loadAndApplyTemplate "templates/default.html" sbCtx
-                         >>= relativizeUrls
-
       match "pubs/*.md" $ do
           route $ setExtension "html"
           compile $ pandocCompiler
@@ -107,27 +96,6 @@ main =
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
 
-      create ["soapbox/index.html", "soapbox-index.html"] $ do
-          route idRoute
-          compile $ do
-              let archiveCtx =
-                      field "soaps" (\_ -> sbIndex Nothing) `mappend`
-                      constField "title" "Soapbox"  `mappend`
-                      myCtx y m d `mappend`
-                      articleDateCtx
-              makeItem ""
-                  >>= loadAndApplyTemplate "templates/soapbox-index.html" archiveCtx
-                  >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                  >>= relativizeUrls
-
-      create ["soapbox.html"] $ do
-          route idRoute
-          compile $ do
-              let archiveCtx = myCtx y m d
-              (pub:_) <- loadAll "soapbox/*.md" >>= recentFirst
-              makeItem (itemBody pub)
-                  >>= relativizeUrls
-
       create ["pubs/index.html", "pubs.html"] $ do
           route idRoute
           compile $ do
@@ -145,8 +113,7 @@ main =
       match (fromList ["index.html", "projects.html"]) $ do
           route idRoute
           compile $ do
-              let indexCtx = field "pubs" (const (pubList 3)) `mappend`
-                      field "soaps" (\_ -> sbIndex $ Just 3)
+              let indexCtx = field "pubs" (const (pubList 3))
               getResourceBody
                   >>= applyAsTemplate indexCtx
                   >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
@@ -189,16 +156,6 @@ recipesIndex recent = do
                     Just recent -> take recent all
     itemTpl <- loadBody "templates/recipe-item.html"
     applyTemplateList itemTpl defaultContext (sortBy (compare `on` itemIdentifier) pubs)
-
---------------------------------------------------------------------------------
-sbIndex :: Maybe Int -> Compiler String
-sbIndex recent = do
-    all     <- loadAll "soapbox/*.md" >>= recentFirst
-    let pubs = case recent of
-                    Nothing -> all
-                    Just recent -> take recent all
-    itemTpl <- loadBody "templates/sb-item.html"
-    applyTemplateList itemTpl articleDateCtx pubs
 
 --------------------------------------------------------------------------------
 pubList :: Int -> Compiler String
