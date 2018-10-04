@@ -6,7 +6,7 @@ executable site
   main-is: site.hs
   build-depends: base == 4.*
                , hakyll >= 4.6
-               , system-filepath
+               , filepath
                , directory
                , text
                , bytestring
