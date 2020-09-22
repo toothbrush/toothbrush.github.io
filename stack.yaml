@@ -1,3 +1,4 @@
+# Inspiration from https://typeclasses.com/stack-and-nix
 resolver: lts-16.15
 
 packages:
