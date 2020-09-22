@@ -3,25 +3,23 @@
 {-# LANGUAGE TupleSections #-}
 
 import Control.Applicative ((<$>))
-import Data.Monoid         (mappend)
-import Hakyll
-import Data.Char (toUpper, toLower)
-import Text.Printf
-import Data.Time.Clock
-import Data.Ord (comparing)
-import Data.Time.Calendar
-import Data.Function (on)
 import Control.Monad (liftM)
-import Control.Monad.Reader
 import Control.Monad.Logger
+import Control.Monad.Reader
+import Data.ByteString (ByteString)
+import Data.Char (toUpper, toLower)
+import Data.Function (on)
 import Data.List
 import Data.List.Split
-import Data.ByteString (ByteString)
 import Data.Maybe
+import Data.Monoid         (mappend)
+import Data.Ord (comparing)
 import Data.Text.Encoding (encodeUtf8)
+import Data.Time.Calendar
+import Data.Time.Clock
+import Hakyll
 import qualified Data.Text as T
-
-import Debug.Trace
+import Text.Printf
 
 --------------------------------------------------------------------------------
 main :: IO ()
