@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE TupleSections #-}
 
 import Control.Applicative ((<$>))
 import Data.Monoid         (mappend)
@@ -7,6 +8,7 @@ import Hakyll
 import Data.Char (toUpper, toLower)
 import Text.Printf
 import Data.Time.Clock
+import Data.Ord (comparing)
 import Data.Time.Calendar
 import Data.Function (on)
 import Control.Monad (liftM)
@@ -61,12 +63,12 @@ main =
               >>= loadAndApplyTemplate "templates/default.html" (articleDateCtx `mappend` myCtx y m d)
               >>= relativizeUrls
 
-      -- Post tags
+      -- Recipes by tag
       tagsRules tags $ \tag pat -> do
         let title = "Recipes tagged '" ++ tag ++ "'"
         route idRoute
         compile $ do
-          list <- loadAll pat
+          list <- byTitle =<< loadAll pat
           let archiveCtx =
                 constField "title" title `mappend`
                 myCtx y m d
@@ -150,7 +152,7 @@ months = ["Jan",
 --------------------------------------------------------------------------------
 recipesIndex :: Maybe Int -> Compiler String
 recipesIndex recent = do
-    all     <- loadAll "recipes/*.md"
+    all     <- byTitle =<< loadAll "recipes/*.md"
     let pubs = case recent of
                     Nothing -> all
                     Just recent -> take recent all
@@ -169,8 +171,25 @@ pubList n = do
 recipeList :: Tags -> Pattern ->  Compiler String
 recipeList tags pat = do
     postItemTpl <- loadBody "templates/recipe-item.html"
-    posts <- loadAll pat
-    applyTemplateList postItemTpl (tagsCtx tags) (sortBy (compare `on` itemIdentifier) posts)
+    posts <- byTitle =<< loadAll pat
+    applyTemplateList postItemTpl (tagsCtx tags) posts
+
+-- this parses the coolness out of an item
+-- it defaults to 0 if it's missing, or can't be parsed as an Int
+--
+-- Inspiration from https://stackoverflow.com/questions/62714654/sort-hakyll-item-list-by-a-custom-field
+titleExtract :: MonadMetadata m => Item a -> m String
+titleExtract i = do
+    mStr <- getMetadataField (itemIdentifier i) "title"
+    let title = fromJust mStr
+    return title
+
+byTitle :: MonadMetadata m => [Item a] -> m [Item a]
+byTitle = sortByM titleExtract
+  where
+    sortByM :: (Monad m, Ord k) => (a -> m k) -> [a] -> m [a]
+    sortByM f xs = liftM (map fst . sortBy (comparing snd)) $
+                   mapM (\x -> liftM (x,) (f x)) xs
 
 tagsCtx :: Tags -> Context String
 tagsCtx tags =
