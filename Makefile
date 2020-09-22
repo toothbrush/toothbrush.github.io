@@ -1,16 +1,14 @@
 .PHONY: build
 build: site
-	./dist/build/site/site rebuild
+	stack exec -- site rebuild
 	chmod g+w _site
 
 site: site.hs
-	cabal build
-	-hlint -c site.hs
+	stack build
 
 .PHONY: clean
 clean:
-	rm -vrf dist
-
+	stack clean
 
 .PHONY: upload
 upload: build
