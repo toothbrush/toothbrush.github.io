@@ -3,6 +3,10 @@ build: site
 	stack exec -- site rebuild
 	chmod g+w _site
 
+.PHONY: watch
+watch:
+	stack exec -- site watch
+
 site: site.hs
 	stack build
 
