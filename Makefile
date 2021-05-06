@@ -4,6 +4,8 @@ PAGES = _site/index.html _site/recipes/index.html
 RECIPES_IN = $(wildcard recipes/*.md)
 RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
 
+GITSHA := $(shell git rev-parse HEAD)
+
 .PHONY: all
 all: ${RECIPES_OUT} ${PAGES} _site/css _site/images
 
@@ -31,6 +33,7 @@ _site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
+	  --variable gitsha="${GITSHA}" \
 	  --template templates/pandoc-default.html \
 	  --output $@
 
