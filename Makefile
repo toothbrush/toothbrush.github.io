@@ -2,13 +2,25 @@ SHELL = bash
 
 PAGES = _site/index.html
 .PHONY: all
-all: ${PAGES}
+all: ${PAGES} _site/css _site/images
+
+_site/css: $(wildcard css/*) | _site
+	mkdir -p $@
+	cp $^ $@
+
+_site/images: $(wildcard images/*) | _site
+	mkdir -p $@
+	cp $^ $@
 
 _site:
-	mkdir -p ./_site
+	mkdir -p $@
 
-_site/index.html: index.md | _site
-	pandoc $< --template templates/pandoc-default.html --standalone --output $@
+_site/index.html: index.md templates/pandoc-default.html | _site
+	pandoc $< \
+	  --variable modified="$(shell date +"%d/%B/%Y")" \
+	  --template templates/pandoc-default.html \
+	  --standalone \
+	  --output $@
 
 .PHONY: preview
 preview:
