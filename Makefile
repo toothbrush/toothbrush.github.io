@@ -43,6 +43,6 @@ clean:
 	rm -rf _site
 
 .PHONY: upload
-upload: build
+upload: clean all
 	mkdir -p _site/.well-known/acme-challenge
 	rsync -av --delete _site/ nfs:/home/public/
