@@ -21,14 +21,11 @@ _site/recipes: | _site
 _site:
 	mkdir -p $@
 
-_site/recipes/index.html: templates/pandoc-default.html ${RECIPES_IN} ./generate_recipes_index.sh | _site/recipes
-	./generate_recipes_index.sh > recipes.md
-	pandoc recipes.md \
-	  --variable title-prefix="paul" \
-	  --variable modified="$(shell date +"%d/%B/%Y")" \
-	  --template templates/pandoc-default.html \
-	  --output $@
-	rm recipes.md
+recipes.md: ${RECIPES_IN} generate_recipes_index.sh
+	./generate_recipes_index.sh > $@
+
+_site/recipes/index.html: _site/recipes.html | _site/recipes
+	cp $< $@
 
 _site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
