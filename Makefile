@@ -23,8 +23,8 @@ _site/recipes: | _site
 _site:
 	mkdir -p $@
 
-recipes.md: ${RECIPES_IN} generate_recipes_index.sh
-	./generate_recipes_index.sh > $@
+recipes.md: ${RECIPES_IN} lib/generate_recipes_index.sh
+	./lib/generate_recipes_index.sh > $@
 
 _site/recipes/index.html: _site/recipes.html | _site/recipes
 	cp $< $@
