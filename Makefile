@@ -23,7 +23,6 @@ _site/index.html: index.md templates/pandoc-default.html | _site
 	  --variable title-prefix="paul" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
 	  --template templates/pandoc-default.html \
-	  --standalone \
 	  --output $@
 
 .PHONY: preview
