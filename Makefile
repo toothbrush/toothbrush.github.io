@@ -17,6 +17,7 @@ _site:
 
 _site/index.html: index.md templates/pandoc-default.html | _site
 	pandoc $< \
+	  --variable title-prefix="paul" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
 	  --template templates/pandoc-default.html \
 	  --standalone \
