@@ -1,18 +1,18 @@
-.PHONY: build
-build: site
-	stack exec -- site rebuild
-	chmod g+w _site
+SHELL = bash
 
-.PHONY: watch
-watch:
-	stack exec -- site watch
+_site:
+	mkdir -p ./_site
 
-site: site.hs
-	stack build
+_site/index.html: index.html | _site
+	pandoc $< --output $@
+
+.PHONY: preview
+preview:
+	@echo "TODO find a simple directory-server."
 
 .PHONY: clean
 clean:
-	stack clean
+	rm -rf _site
 
 .PHONY: upload
 upload: build
