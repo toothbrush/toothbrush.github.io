@@ -1,10 +1,14 @@
 SHELL = bash
 
+PAGES = _site/index.html
+.PHONY: all
+all: ${PAGES}
+
 _site:
 	mkdir -p ./_site
 
-_site/index.html: index.html | _site
-	pandoc $< --output $@
+_site/index.html: index.md | _site
+	pandoc $< --template templates/pandoc-default.html --standalone --output $@
 
 .PHONY: preview
 preview:
