@@ -30,14 +30,7 @@ _site/recipes/index.html: templates/pandoc-default.html ${RECIPES_IN} ./generate
 	  --output $@
 	rm recipes.md
 
-_site/index.html: index.md templates/pandoc-default.html | _site
-	pandoc $< \
-	  --variable title-prefix="paul" \
-	  --variable modified="$(shell date +"%d/%B/%Y")" \
-	  --template templates/pandoc-default.html \
-	  --output $@
-
-_site/recipes/%.html: recipes/%.md | _site/recipes
+_site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
