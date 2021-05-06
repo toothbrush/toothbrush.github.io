@@ -5,7 +5,7 @@ RECIPES_IN = $(wildcard recipes/*.md)
 RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
 
 .PHONY: all
-all: ${PAGES} _site/css _site/images
+all: ${PAGES} ${RECIPES_OUT} _site/css _site/images
 
 _site/css: $(wildcard css/*) | _site
 	mkdir -p $@
@@ -15,10 +15,20 @@ _site/images: $(wildcard images/*) | _site
 	mkdir -p $@
 	cp $^ $@
 
+_site/recipes: | _site
+	mkdir -p $@
+
 _site:
 	mkdir -p $@
 
 _site/index.html: index.md templates/pandoc-default.html | _site
+	pandoc $< \
+	  --variable title-prefix="paul" \
+	  --variable modified="$(shell date +"%d/%B/%Y")" \
+	  --template templates/pandoc-default.html \
+	  --output $@
+
+_site/recipes/%.html: recipes/%.md | _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \

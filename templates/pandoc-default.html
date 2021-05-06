@@ -30,20 +30,6 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
-<header id="title-block-header">
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<p class="subtitle">$subtitle$</p>
-$endif$
-$for(author)$
-<p class="author">$author$</p>
-$endfor$
-$if(date)$
-<p class="date">$date$</p>
-$endif$
-</header>
-$endif$
 $if(toc)$
 <nav id="$idprefix$TOC" role="doc-toc">
 $if(toc-title)$
@@ -55,7 +41,24 @@ $endif$
 <div class="colmask leftmenu">
   <div class="colleft">
     <div class="col1">
+
+$if(title)$
+<h2 class="title">$title$</h2>
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+$for(author)$
+<p class="author">$author$</p>
+$endfor$
+$if(date)$
+<p class="date">$date$</p>
+$endif$
+<p>$tags$</p>
+<hr style="margin-bottom: 20px " />
+$endif$
+
 $body$
+
     </div>
     <div class="col2">
       <h2>Content</h2>
