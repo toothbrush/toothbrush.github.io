@@ -1,6 +1,9 @@
 SHELL = bash
 
 PAGES = _site/index.html
+RECIPES_IN = $(wildcard recipes/*.md)
+RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
+
 .PHONY: all
 all: ${PAGES} _site/css _site/images
 
