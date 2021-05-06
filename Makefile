@@ -21,6 +21,9 @@ _site/recipes: | _site
 _site:
 	mkdir -p $@
 
+recipes.md: ${RECIPES_IN} ./generate_recipes_index.sh
+	./generate_recipes_index.sh > $@
+
 _site/recipes/index.html: recipes.md templates/pandoc-default.html | _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
