@@ -1,6 +1,6 @@
 SHELL = bash
 
-PAGES = _site/index.html
+PAGES = _site/index.html _site/recipes/index.html
 RECIPES_IN = $(wildcard recipes/*.md)
 RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
 
@@ -20,6 +20,13 @@ _site/recipes: | _site
 
 _site:
 	mkdir -p $@
+
+_site/recipes/index.html: recipes.md templates/pandoc-default.html | _site/recipes
+	pandoc $< \
+	  --variable title-prefix="paul" \
+	  --variable modified="$(shell date +"%d/%B/%Y")" \
+	  --template templates/pandoc-default.html \
+	  --output $@
 
 _site/index.html: index.md templates/pandoc-default.html | _site
 	pandoc $< \
