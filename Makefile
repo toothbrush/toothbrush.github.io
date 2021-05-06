@@ -32,6 +32,7 @@ _site/recipes/index.html: _site/recipes.html | _site/recipes
 _site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
+	  --variable date="$(shell lib/pretty_date.sh $<)" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
 	  --variable gitsha="${GITSHA}" \
 	  --template templates/pandoc-default.html \

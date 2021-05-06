@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu -o pipefail
 
 _title_case() {
     printf "%s" "$1" | sed 's/.*/\L&/; s/[a-z]*/\u&/g'
