@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
-_get_field() {
-    local field=$1
-    local filename=$2
-    grep -E "^${field}:" "${filename}" | head -n 5 | sed "s/^${field}: //"
-}
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+# shellcheck source=lib/shared.sh
+source "${SCRIPT_DIR}/shared.sh"
 
 cat <<FRONT
 ---
@@ -16,7 +14,7 @@ title: List of Recipes
 FRONT
 
 for recipe in recipes/*.md; do
-    filename=$(basename ${recipe})
+    filename=$(basename "${recipe}")
     title=$(_get_field title "${recipe}")
     url="/recipes/${filename%.md}.html"
     tags=$(_get_field tags "${recipe}")
