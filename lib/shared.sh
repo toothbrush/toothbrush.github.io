@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+_title_case() {
+    printf "%s" "$1" | sed 's/.*/\L&/; s/[a-z]*/\u&/g'
+}
+
 _get_field() {
     local field=$1
     local filename=$2
