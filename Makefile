@@ -12,7 +12,7 @@ _site/index.html: index.md | _site
 
 .PHONY: preview
 preview:
-	@echo "TODO find a simple directory-server."
+	( cd _site && python3 -m http.server )
 
 .PHONY: clean
 clean:
