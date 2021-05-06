@@ -41,6 +41,10 @@ _site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
 preview:
 	( cd _site && python3 -m http.server )
 
+.PHONY: check
+check:
+	shellcheck lib/*.sh
+
 .PHONY: clean
 clean:
 	rm -rf _site
