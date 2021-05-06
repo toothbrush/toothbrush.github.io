@@ -5,7 +5,7 @@ RECIPES_IN = $(wildcard recipes/*.md)
 RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
 
 .PHONY: all
-all: ${PAGES} ${RECIPES_OUT} _site/css _site/images
+all: ${RECIPES_OUT} ${PAGES} _site/css _site/images
 
 _site/css: $(wildcard css/*) | _site
 	mkdir -p $@
