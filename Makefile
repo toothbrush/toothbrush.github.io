@@ -1,5 +1,3 @@
-SHELL = bash
-
 PAGES = _site/index.html _site/recipes/index.html
 RECIPES_IN = $(wildcard recipes/*.md)
 RECIPES_OUT = $(addprefix _site/,${RECIPES_IN:md=html})
@@ -32,10 +30,13 @@ recipes.md: ${RECIPES_IN} lib/generate_recipes_index.sh sort/sort
 _site/recipes/index.html: _site/recipes.html | _site/recipes
 	cp $< $@
 
-_site/%.html: %.md templates/pandoc-default.html | _site _site/recipes
+%.md.date: %.md lib/pretty_date.sh
+	lib/pretty_date.sh $< > $@
+
+_site/%.html: %.md %.md.date templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
 	  --variable title-prefix="paul" \
-	  --variable date="$(shell lib/pretty_date.sh $<)" \
+	  --variable date="$(shell cat $*.md.date)" \
 	  --variable modified="$(shell date +"%d/%B/%Y")" \
 	  --variable gitsha="${GITSHA}" \
 	  --template templates/pandoc-default.html \
