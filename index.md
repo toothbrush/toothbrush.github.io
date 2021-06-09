@@ -1,5 +1,6 @@
 ---
 title: Brief bio
+date: 2012-04-07
 ---
 
 <img alt="The Nosedude" src="/images/noseman.jpg" style="float: right; margin-left: 25px; margin-bottom: 10px;" />

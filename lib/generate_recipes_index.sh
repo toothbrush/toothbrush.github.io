@@ -8,6 +8,7 @@ source "${SCRIPT_DIR}/shared.sh"
 cat <<FRONT
 ---
 title: List of Recipes
+date: 2021-05-06
 ---
 
 # Recipes
