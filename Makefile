@@ -31,7 +31,7 @@ _site/recipes/index.html: _site/recipes.html | _site/recipes
 	cp $< $@
 
 %.md.date: %.md lib/pretty_date.sh
-	lib/pretty_date.sh $< > $@
+	@lib/pretty_date.sh $< > $@
 
 _site/%.html: %.md %.md.date templates/pandoc-default.html | _site _site/recipes
 	pandoc $< \
