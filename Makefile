@@ -23,7 +23,10 @@ _site/recipes: | _site
 _site:
 	mkdir -p $@
 
-recipes.md: ${RECIPES_IN} lib/generate_recipes_index.sh
+sort/sort:
+	( cd sort && go build )
+
+recipes.md: ${RECIPES_IN} lib/generate_recipes_index.sh sort/sort
 	./lib/generate_recipes_index.sh > $@
 
 _site/recipes/index.html: _site/recipes.html | _site/recipes
