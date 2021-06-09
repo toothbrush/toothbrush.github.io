@@ -76,6 +76,7 @@ title: List of Recipes
 * [Hamish's pasta with red wine](/recipes/hamish-pasta-red-wine.html). main
 * [Hummus and wasabi wraps](/recipes/hummus-and-wasabi-wraps.html). main, vegan
 * [Hunza Pie](/recipes/hunza-pie.html). main
+* [İmam bayıldı](/recipes/imam-bayildi.html). main
 * [Lasagne](/recipes/lasagne.html). main
 * [Malay kerrie](/recipes/malay-kerrie.html). main
 * [Marokkaans brickflapje](/recipes/marokkaans-brickflapje.html). main
@@ -99,8 +100,8 @@ title: List of Recipes
 * [Shepherds' pie](/recipes/shepherds-pie.html). main
 * [Some Lebanese ideas](/recipes/some-lebanese-ideas.html). main
 * [Spicy lasagne](/recipes/spicy-lasagne.html). main
-* [Spinach Calzone](/recipes/spinach-calzone.html). main
 * [Spinach and cheese cannelloni](/recipes/spinach-and-cheese-cannelloni.html). main
+* [Spinach Calzone](/recipes/spinach-calzone.html). main
 * [Spinach curry with naan](/recipes/spinach-curry-with-naan.html). main
 * [Spinazie met zoete aardappel curry](/recipes/spinazie-met-zoete-aardappel-curry.html). main
 * [Squash and ricotta pasta bake](/recipes/squash-and-ricotta-pasta-bake.html). main
@@ -108,7 +109,6 @@ title: List of Recipes
 * [Tomatoey egg bake](/recipes/tomatoey-egg-bake.html). main
 * [Tortilla ovenschotel](/recipes/tortilla-ovenschotel.html). main
 * [Zucchini, feta, basil, zest = penne](/recipes/zucchini-soup-pasta.html). main
-* [İmam bayıldı](/recipes/imam-bayildi.html). main
 
 ## Mediocre
 
