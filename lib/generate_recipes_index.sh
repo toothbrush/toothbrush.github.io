@@ -13,6 +13,25 @@ title: List of Recipes
 
 FRONT
 
+# Wow okay so there's a whole thing about stable sorting.  I wrote
+# this on my Linux box and didn't think twice, but on macOS, the
+# recipes are sorted differently (even though i'm using `sort` from
+# coreutils).
+#
+# Some references:
+# https://unix.stackexchange.com/questions/362728/why-does-gnu-sort-sort-differently-on-my-osx-machine-and-linux-machine
+# and https://blog.zhimingwang.org/macos-lc_collate-hunt.
+#
+# I hoped that a particular LC_COLLATE=.. setting would convince macOS
+# to sort the same as Linux (because i prefer the output - İmam
+# bayıldı by the "I"), but it appears there is no such luck.  At least
+# setting LC_ALL=C should make the output consistent on both
+# platforms.
+#
+# -- paul, 9/Jun/2021
+
+export LC_COLLATE=POSIX
+
 echo "Collecting recipe tags list..." >&2
 readarray -t tags < <( "${SCRIPT_DIR}/tag_list.sh" )
 
