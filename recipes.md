@@ -8,6 +8,7 @@ title: List of Recipes
 ## Breakfast
 
 * [Baked beans, breakfast](/recipes/breakfast-baked-beans.html). breakfast, side
+* [Granola](/recipes/granola.html). breakfast
 
 ## Cake
 
