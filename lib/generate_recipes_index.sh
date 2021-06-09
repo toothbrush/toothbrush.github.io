@@ -25,13 +25,10 @@ FRONT
 #
 # I hoped that a particular LC_COLLATE=.. setting would convince macOS
 # to sort the same as Linux (because i prefer the output - İmam
-# bayıldı by the "I"), but it appears there is no such luck.  At least
-# setting LC_ALL=C should make the output consistent on both
-# platforms.
+# bayıldı by the "I"), but it appears there is no such luck.  Easiest
+# was to implement my own in a real language.
 #
 # -- paul, 9/Jun/2021
-
-export LC_COLLATE=POSIX
 
 echo "Collecting recipe tags list..." >&2
 readarray -t tags < <( "${SCRIPT_DIR}/tag_list.sh" )
@@ -50,5 +47,5 @@ for tag in "${tags[@]}"; do
         recipe_tags=$(_get_field tags "${recipe}")
 
         echo "* [${title}](${url}). ${recipe_tags}"
-    done | sort
+    done | ./sort/sort
 done
