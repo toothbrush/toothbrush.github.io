@@ -6,6 +6,10 @@ date: 2021-05-06
 # Recipes
 
 
+## Bread
+
+* [No-fuss Focaccia](/recipes/focaccia.html). bread
+
 ## Breakfast
 
 * [Baked beans, breakfast](/recipes/breakfast-baked-beans.html). breakfast, side
