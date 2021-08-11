@@ -42,6 +42,7 @@ date: 2021-05-06
 * [Galatopita](/recipes/galatopita.html). dessert
 * [Meringue with fruity sauce](/recipes/meringue-with-fruity-sauce.html). dessert
 * [Meringues](/recipes/meringues.html). dessert
+* [Ou Kaap Brandewyntert](/recipes/ou-kaap-brandewyntert.html). dessert
 * [Panna cotta](/recipes/panna-cotta.html). dessert
 * [Pecan nut pie](/recipes/pecan-nut-pie.html). dessert
 * [Poor mans' pudding](/recipes/poor-mans-pudding.html). dessert
