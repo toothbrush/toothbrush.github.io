@@ -42,7 +42,6 @@ date: 2021-05-06
 * [Galatopita](/recipes/galatopita.html). dessert
 * [Meringue with fruity sauce](/recipes/meringue-with-fruity-sauce.html). dessert
 * [Meringues](/recipes/meringues.html). dessert
-* [Monchoutaart](/recipes/monchoutaart.html). dessert, mediocre
 * [Panna cotta](/recipes/panna-cotta.html). dessert
 * [Pecan nut pie](/recipes/pecan-nut-pie.html). dessert
 * [Poor mans' pudding](/recipes/poor-mans-pudding.html). dessert
@@ -114,10 +113,6 @@ date: 2021-05-06
 * [Tomatoey egg bake](/recipes/tomatoey-egg-bake.html). main
 * [Tortilla ovenschotel](/recipes/tortilla-ovenschotel.html). main
 * [Zucchini, feta, basil, zest = penne](/recipes/zucchini-soup-pasta.html). main
-
-## Mediocre
-
-* [Monchoutaart](/recipes/monchoutaart.html). dessert, mediocre
 
 ## Salad
 
