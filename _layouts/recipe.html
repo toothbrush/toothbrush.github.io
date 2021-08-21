@@ -8,7 +8,8 @@ layout: default
 </h2>
 {%- endif -%}
 
+<p class="date">{{ page.date | date: "%-d/%b/%Y" }}</p>
 
-foo foo foo
-
+<p>Tags: {{ page.tags | join: ", " }}</p>
+<hr style="margin-bottom: 20px " />
 {{ content }}
