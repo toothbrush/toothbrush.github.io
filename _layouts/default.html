@@ -9,8 +9,33 @@
     <link rel="stylesheet" href="{{ "/css/swier.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-
+  <div id="header">
+    <h1>paul</h1>
+  </div>
+  <div class="colmask leftmenu">
+  <div class="colleft">
+    <div class="col1">
       {{ content }}
-
+    </div>
+    <div class="col2">
+      <h2>Content</h2>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/recipes/index.html">Recipes</a></li>
+      </ul>
+      <h2>Contact</h2>
+      <p>
+        paul at this domain
+        <br />
+        GPG: <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0xEAF20AB71D1292C0" id="normallink">0xEAF20AB71D1292C0</a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p>
+    Last updated on $modified$, <a href="https://github.com/toothbrush/denknerd/commit/$gitsha$">source</a>.
+  </p>
+</div>
   </body>
 </html>
