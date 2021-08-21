@@ -33,6 +33,13 @@ collections:
   recipes:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
+
 # Build settings
 theme: minima
 # plugins:
