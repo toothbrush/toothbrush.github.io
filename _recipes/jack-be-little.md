@@ -1,7 +1,7 @@
 ---
 title: Jack Be Little en œuf cocotte, brebis noix
 date: 2014-11-30
-tags: starter, vegetarian
+tags: starter vegetarian
 ---
 
 _source: [Gastro'n'Home](http://www.gastroandhome.com/?_escaped_fragment_=potiron-oeuf-cocotte/c1kez#!potiron-oeuf-cocotte/c1kez)_

@@ -1,7 +1,7 @@
 ---
 title: Paul's massaman sweet potato & eggplant curry
 date:  2020-06-11
-tags: main, vegan
+tags: main vegan
 ---
 # Vegan sweet potato and aubergine massaman curry
 

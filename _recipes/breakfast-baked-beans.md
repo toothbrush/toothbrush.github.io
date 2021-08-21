@@ -1,7 +1,7 @@
 ---
 title: Baked beans, breakfast
 date:  2014-09-10
-tags: breakfast, side
+tags: breakfast side
 ---
 
 Nicer baked beans...

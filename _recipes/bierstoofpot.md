@@ -1,7 +1,7 @@
 ---
 title: Bierstoofpot
 date:  2014-09-10
-tags: main, vegetarian
+tags: main vegetarian
 ---
 Vego bierstoofpot
 =================

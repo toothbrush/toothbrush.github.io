@@ -1,7 +1,7 @@
 ---
 title: Cauliflower Soup
 date: 2014-12-25
-tags: soup, vegetarian
+tags: soup vegetarian
 ---
 
 _source: Strasbourg_

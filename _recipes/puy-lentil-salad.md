@@ -1,7 +1,7 @@
 ---
 title: Puy lentil, parsnip & walnut salad
 date: 2014-12-26
-tags: salad, vegan
+tags: salad vegan
 ---
 
 Ingredients

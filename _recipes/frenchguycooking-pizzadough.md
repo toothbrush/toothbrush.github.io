@@ -1,7 +1,7 @@
 ---
 title: Pizza dough
 date:  2020-06-11
-tags: main, vegan
+tags: main vegan
 ---
 # Pizza dough
 

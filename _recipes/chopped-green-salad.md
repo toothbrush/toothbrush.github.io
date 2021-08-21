@@ -1,6 +1,6 @@
 ---
 title: Chopped green salad
-tags: salad, vegetarian
+tags: salad vegetarian
 date: 2014-12-27
 ---
 
