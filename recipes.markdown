@@ -30,7 +30,7 @@ Categories: {{ cat_links | join: ", " }}
 <ul>
 {% for recipe in cat_recipes %}
   <li>
-    <a href="{{ recipe.url | relative_url }}">{{ recipe.title | escape }}</a>. {{ recipe.tags }}
+    <a href="{{ recipe.url | relative_url }}">{{ recipe.title | escape }}</a>. {{ recipe.tags | join: ", " }}
   </li>
 {% endfor %}
 </ul>
