@@ -4,18 +4,22 @@ permalink: /recipes/
 layout: default
 ---
 
-# Recipes
-
 {% assign cats = site.recipes | map: "tags" | uniq | sort %}
+{% comment %}
+omigod, this was kinda hard
+https://stackoverflow.com/questions/22763180/assign-an-array-literal-to-a-variable-in-liquid-template
+{% endcomment %}
 
-Categories:
-
+{% capture cat_links %}
 {%- for cat in cats %}
 [{{ cat | capitalize }}](#{{ cat }})
 {%- endfor -%}
+{% endcapture %}
+{% assign cat_links = cat_links | strip | newline_to_br | strip_newlines | split: "<br />" %}
 
+# Recipes
 
-
+Categories: {{ cat_links | join: ", " }}
 
 {% for cat in cats %}
 
