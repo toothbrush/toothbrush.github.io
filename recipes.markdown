@@ -25,7 +25,7 @@ Categories: {{ cat_links | join: ", " }}
 
 ## {{ cat | capitalize }}
 
-{% assign cat_recipes = site.recipes | sort: "title" | where_exp: "recipe", "recipe.tags contains cat" %}
+{% assign cat_recipes = site.recipes | sort_natural: "title" | where_exp: "recipe", "recipe.tags contains cat" %}
 
 <ul>
 {% for recipe in cat_recipes %}
