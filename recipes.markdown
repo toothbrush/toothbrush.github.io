@@ -8,7 +8,14 @@ layout: default
 
 {% assign cats = site.recipes | map: "tags" | uniq | sort %}
 
-Categories: {{ cats | array_to_sentence_string }}
+Categories:
+
+{%- for cat in cats %}
+[{{ cat | capitalize }}](#{{ cat }})
+{%- endfor -%}
+
+
+
 
 {% for cat in cats %}
 
