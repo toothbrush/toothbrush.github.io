@@ -1,6 +1,7 @@
 ---
 title: List of Recipes
-date: 2021-05-06
+permalink: /recipes/
+layout: default
 ---
 
 # Recipes
