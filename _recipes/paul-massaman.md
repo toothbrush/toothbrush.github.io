@@ -5,7 +5,7 @@ tags: main vegan
 ---
 # Vegan sweet potato and aubergine massaman curry
 
-_Source: Paul E._
+_Source: Paul A._
 
 ## For the paste
 * 5 red bird's-eye chillies

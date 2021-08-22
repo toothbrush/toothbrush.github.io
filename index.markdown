@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brief bio
+title: Welcome!
 date: 2012-04-07
 ---
 

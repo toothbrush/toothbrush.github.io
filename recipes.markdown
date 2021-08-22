@@ -17,8 +17,6 @@ https://stackoverflow.com/questions/22763180/assign-an-array-literal-to-a-variab
 {% endcapture %}
 {% assign cat_links = cat_links | strip | newline_to_br | strip_newlines | split: "<br />" %}
 
-# Recipes
-
 Categories: {{ cat_links | join: ", " }}
 
 {% for cat in cats %}

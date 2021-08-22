@@ -2,14 +2,8 @@
 layout: default
 ---
 
-{%- if page.title -%}
-<h2 class="title">
-  {{ page.title }}
-</h2>
-{%- endif -%}
+<p class="date">Added {{ page.date | date: "%-d/%b/%Y" }}</p>
 
-<p class="date">{{ page.date | date: "%-d/%b/%Y" }}</p>
-
-<p>Tags: {{ page.tags | join: ", " }}</p>
 <hr style="margin-bottom: 20px " />
+
 {{ content }}

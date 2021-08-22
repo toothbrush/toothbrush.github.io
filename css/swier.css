@@ -9,7 +9,6 @@ body {
   color: rgb(220,220,220);
   /*background: black;*/
   background: rgb(35,35,35);
-  min-width:600px;
   font-size:90%;
 }
 
@@ -39,13 +38,6 @@ p {
   padding:0;
 }
 
-#lfmchart {
-    margin-left: 0px;
-    margin-top:  5px;
-    float: left;
-
-}
-
 h3 {
     letter-spacing: -1px;
     font-weight: normal;
@@ -58,6 +50,7 @@ h3 {
   float:left;
   width:100%;
 }
+
 #header h2 {
   float: left;
   padding:.4em 15px 15px 15px;

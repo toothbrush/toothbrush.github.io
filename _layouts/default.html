@@ -4,35 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
+    <title>{{page.title}} :: {{site.title}}</title>
+{% seo title=false %}
     <link rel="stylesheet" href="{{ "/css/swier.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-  <div id="header">
-    <h1>paul</h1>
-  </div>
-  <div class="colmask leftmenu">
-  <div class="colleft">
-    <div class="col1">
-      {{ content }}
-    </div>
-    <div class="col2">
-      <h2>Content</h2>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/recipes/index.html">Recipes</a></li>
-      </ul>
-      <h2>Contact</h2>
-      <p>
-        paul at this domain
-      </p>
-    </div>
-  </div>
-</div>
+    <h3>
+      <strong>Content:</strong> <a href="/index.html">Home</a>, <a href="/recipes/index.html">Recipes</a>
+    </h3>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
 <div class="footer">
   <p>
-    This is on Github Pages and i can't figure out how to put a last-modified date here. <a href="https://github.com/toothbrush/toothbrush.github.io/commit/{{ site.github.build_revision }}">source</a>.
+    Contact: paul at this domain. <a href="https://github.com/toothbrush/toothbrush.github.io/commit/{{ site.github.build_revision }}">source</a>.
   </p>
 </div>
   </body>
