@@ -6,12 +6,9 @@ date: 2012-04-07
 
 <img alt="The Nosedude" src="/images/noseman.jpg" style="float: right; margin-left: 25px; margin-bottom: 10px;" />
 
-Hi!  I'm paul! 👋 <strike>I'm a recent arrival to Melbourne, and i'm looking for software
-development projects.</strike> I do <strike>Racket, Haskell,</strike> Lisp, pretty much anything
-functional, but i will consider other options for food.  Before, i was a PhD student in computer
-science at <a href="http://people.bordeaux.inria.fr/pwalt">INRIA Bordeaux</a>.  Earlier still, i was
-an MSc student at <a href="http://www.staff.science.uu.nl/~swier004/">Utrecht University</a>.  More
-often than not my work these days involves Kubernetes, shell scripts, and infrastructure things.
+Hi!  I'm paul! 👋
+
+None of what you read here is true.
 
 <p>
   <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" />
@@ -21,13 +18,6 @@ often than not my work these days involves Kubernetes, shell scripts, and infras
   affordances of the modern web (such as no Shockwave or Java
   applets...)
 </p>
-
-<p>On this site you'll find <strike>a list of my recent academic work</strike>,
-    as well as <strike>pointers to slightly more off-topic things
-    such as my hobbies</strike> &mdash; many are to be found online. There also
-    used to be the soapbox, where i used to expound on issues that
-    grabbed my attention. I tend to get wound up about privacy,
-    feminism, animal rights, music, gender, etc.</p>
 
 <p><em>“Emacs users [...] probably brush their teeth more often and
 are more considerate lovers” &mdash; somebody on the Internet</em></p>
