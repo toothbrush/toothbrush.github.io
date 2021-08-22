@@ -23,6 +23,8 @@ email: first name at domain
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.denknerd.org" # the base hostname & protocol for your site, e.g. http://example.com
 
+theme: "minima"
+
 collections:
   recipes:
     output: true
