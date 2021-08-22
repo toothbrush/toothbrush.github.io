@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Brief bio
 date: 2012-04-07
 ---
