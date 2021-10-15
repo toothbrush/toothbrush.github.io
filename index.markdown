@@ -11,6 +11,19 @@ Hi!  I'm paul! 👋
 None of what you read here is true.
 
 <p>
+  <strong><a href="https://breq.net/sol">SOL.EXE</a> a.k.a. retro Solitaire for iOS</strong>
+  &ndash; We made a game for iOS telephones, and we find it quite amusing.  It's like playing Solitaire in Windows 95.
+  For now Apple is letting us keep it in the app store, but i fear the day they get a call from Bill G to take it down.
+</p>
+
+<p>
+  <strong><a href="https://github.com/toothbrush/Spotiqueue">Spotiqueue</a></strong>
+  &ndash; Do you use macOS?  Do you have Spotify Premium (sorry, i don't make the rules)?  Do you want a simpler player interface?
+  Maybe try out Spotiqueue, it's a keyboard-interface Spotify client for macOS which.. i think me and one colleague use with some success?
+  Oh you can script a couple of things in it using GNU Guile (keybindings, hooks, ...).
+</p>
+
+<p>
   <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" />
   <strong><a href="https://www.twoyoutubevideosandamotherflippingcrossfader.com/">TWOYOUTUBEVIDEOSANDAMOTHERFLIPPINGCROSSFADER.COM</a>!</strong>
   &ndash; A bit like the older side-project, this one is also best understood in the context of Flash Player and a very different state of the web 
@@ -21,14 +34,11 @@ None of what you read here is true.
 
 <p>
   <strong><a href="https://www.vistaserv.net/">Vistaserv.net</a></strong>
-  &ndash; Check out Vistaserv, my latest silly side project.  It tries
-  to be a super retro themed clone of Geocities, but with a few
+  &ndash; Check out Vistaserv, one of my silly side projects.  It tries
+  to be a super retro-themed clone of Geocities, but with a few
   affordances of the modern web (such as no Shockwave or Java
   applets...)
 </p>
 
 <p><em>“Emacs users [...] probably brush their teeth more often and
 are more considerate lovers” &mdash; somebody on the Internet</em></p>
-
-<p><a href="https://www.fsf.org/fb"><img src="/images/no-facebook-me.png"
-alt="Not f'd — you won't find me on Facebook" style="width:200px;" /></a></p>
