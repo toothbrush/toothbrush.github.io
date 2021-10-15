@@ -11,7 +11,7 @@ Hi!  I'm paul! 👋
 None of what you read here is true.
 
 <p>
-  <strong><a href="https://breq.net/sol">SOL.EXE</a> a.k.a. retro Solitaire for iOS</strong>
+  <strong><a href="https://breq.net/solitaire.html">SOL.EXE</a> a.k.a. retro Solitaire for iOS</strong>
   &ndash; We made a game for iOS telephones, and we find it quite amusing.  It's like playing Solitaire in Windows 95.
   For now Apple is letting us keep it in the app store, but i fear the day they get a call from Bill G to take it down.
 </p>
