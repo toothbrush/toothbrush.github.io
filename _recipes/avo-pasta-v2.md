@@ -9,7 +9,7 @@ tags: main
 -   2-3 large ripe Avocado, pitted
 -   1 fresh lemon from the garden, juiced + lemon zest to garnish
 -   6+ garlic cloves, to taste
--   2 onioins
+-   2 onions
 -   1/2 tsp salt, or to taste
 -   proper olive oil
 -   penne
