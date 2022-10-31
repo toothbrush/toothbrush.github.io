@@ -24,12 +24,12 @@ None of what you read here is true.
 </p>
 
 <p>
-  <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" />
-  <strong><a href="https://www.twoyoutubevideosandamotherflippingcrossfader.com/">TWOYOUTUBEVIDEOSANDAMOTHERFLIPPINGCROSSFADER.COM</a>!</strong>
-  &ndash; A bit like the older side-project, this one is also best understood in the context of Flash Player and a very different state of the web 
+  <strike><strong><a href="https://www.twoyoutubevideosandamotherflippingcrossfader.com/">TWOYOUTUBEVIDEOSANDAMOTHERFLIPPINGCROSSFADER.COM</a>!</strong>
+  &ndash; A bit like the older side-project, this one is also best understood in the context of Flash Player and a very different state of the web
   a decade or so ago.
   The extremely similarly-named project still exists on the web, but is defunct because of the endless treadmill of updated technologies
-  and deprecated APIs.  One fine weekend, we said to ourselves that it'd be mighty fine to resurrect it, or at least something in the same spirit. Enjoy!
+  and deprecated APIs.  One fine weekend, we said to ourselves that it'd be mighty fine to resurrect
+  it, or at least something in the same spirit. Enjoy!</strike> Oh no the domain name lapsed!
 </p>
 
 <p>
