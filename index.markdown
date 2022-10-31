@@ -34,7 +34,7 @@ None of what you read here is true.
 
 <p>
   <strong><a href="https://www.vistaserv.net/">Vistaserv.net</a></strong>
-  &ndash; Check out Vistaserv, one of my silly side projects.  It tries
+  &ndash; Check out Vistaserv, another one of our silly side projects.  It tries
   to be a super retro-themed clone of Geocities, but with a few
   affordances of the modern web (such as no Shockwave or Java
   applets...)
