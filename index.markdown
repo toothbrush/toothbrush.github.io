@@ -8,7 +8,7 @@ date: 2012-04-07
 
 Hi!  I'm paul! 👋
 
-None of what you read here is true.
+Read at your own risk.
 
 <p>
   <strong><a href="https://breq.net/solitaire.html">SOL.EXE</a> a.k.a. retro Solitaire for iOS</strong>
