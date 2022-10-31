@@ -20,7 +20,8 @@ None of what you read here is true.
   <strong><a href="https://github.com/toothbrush/Spotiqueue">Spotiqueue</a></strong>
   &ndash; Do you use macOS?  Do you have Spotify Premium (sorry, i don't make the rules)?  Do you want a simpler player interface?
   Maybe try out Spotiqueue, it's a keyboard-interface Spotify client for macOS which.. i think me and one colleague use with some success?
-  Oh you can script a couple of things in it using GNU Guile (keybindings, hooks, ...).
+  Oh you can script a couple of things in it using GNU Guile (keybindings, hooks, ...).  One day
+  it'll be the Emacs of Spotify!
 </p>
 
 <p>
