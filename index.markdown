@@ -42,11 +42,11 @@ Read at your own risk.
 </p>
 
 <p>
-  <strong><a href="https://www.vistaserv.net/">Vistaserv.net</a></strong>
+  <strike><strong><a href="https://www.vistaserv.net/">Vistaserv.net</a></strong>
   &ndash; Check out Vistaserv, another one of our silly side projects.  It tries
   to be a super retro-themed clone of Geocities, but with a few
   affordances of the modern web (such as no Shockwave or Java
-  applets...)
+  applets...)</strike> Oh no mothballed!
 </p>
 
 <p><em>“Emacs users [...] probably brush their teeth more often and
