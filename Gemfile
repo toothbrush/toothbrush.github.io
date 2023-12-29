@@ -10,3 +10,7 @@ group :jekyll_plugins do
 
   gem "github-pages", "~> 228"
 end
+
+gem "csv", "~> 3.2"
+
+gem "bigdecimal", "~> 3.1"
