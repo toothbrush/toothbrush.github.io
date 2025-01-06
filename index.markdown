@@ -4,7 +4,7 @@ title: Welcome!
 date: 2012-04-07
 ---
 
-<img alt="The Nosedude" src="/images/noseman.jpg" style="float: right; margin-left: 25px; margin-bottom: 10px;" />
+<img alt="The Nosedude" src="/images/noseman.jpg" style="float: right; margin-left: 25px; margin-bottom: 2em; margin-right: 4px;" />
 
 Hi, i'm paul! Read at your own risk.
 
