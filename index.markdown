@@ -11,7 +11,7 @@ Hi!  I'm paul! 👋
 Read at your own risk.
 
 <p>
-  <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" />
+  <!-- <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" /> -->
   <strong><a href="https://photo.breq.net/">PHOTO.EXE</a> a.k.a. retro Instagram clone with fast GPU
   dithering for iOS</strong>
   &ndash; We like Bayer dithering and we also like the idea of a social network with privacy.  Just
