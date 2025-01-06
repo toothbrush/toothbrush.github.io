@@ -23,9 +23,9 @@ p, dl, ul, ol {
 a {
     color: #27fffc;
     text-decoration: none;
-    transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
 }
 a:hover {
     color: #276b6b;
