@@ -11,6 +11,18 @@ body {
     font-size:90%;
 }
 
+::selection {
+  background: magenta;
+  color: white;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: magenta;
+  color: white;
+  text-shadow: none;
+}
+
 html, body {
     overflow-x: hidden;
 }
