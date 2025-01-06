@@ -1,14 +1,14 @@
 /* Main settings */
 body {
-  padding:20px 0 20px 0;
-  border:0;
-  width:80%;
-  max-width:800px;
-  margin: 0 auto;
-  font-family: Helvetica, Arial, sans serif;
-  color: black;
-  background: #FFEA00;
-  font-size:90%;
+    padding:20px 0 20px 0;
+    border:0;
+    width:80%;
+    max-width:800px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans serif;
+    color: black;
+    background: #FFEA00;
+    font-size:90%;
 }
 
 /* More roomy lists and paragraphs*/
@@ -42,8 +42,8 @@ a:hover {
 
 /* Paragraph settings */
 p {
-  margin:.4em 0 .8em 0;
-  padding:0;
+    margin:.4em 0 .8em 0;
+    padding:0;
 }
 
 h3 {
@@ -54,13 +54,13 @@ h3 {
 
 /* Footer styles */
 .footer {
-  clear:both;
-  float:left;
-  width:100%;
+    clear:both;
+    float:left;
+    width:100%;
 }
 .footer p {
-  padding:0px 50px 0px 0px;
-  text-align: right;
+    padding:0px 50px 0px 0px;
+    text-align: right;
     font-size: 0.75em;
 }
 
