@@ -6,9 +6,7 @@ date: 2012-04-07
 
 <img alt="The Nosedude" src="/images/noseman.jpg" style="float: right; margin-left: 25px; margin-bottom: 10px;" />
 
-Hi!  I'm paul! 👋
-
-Read at your own risk.
+Hi, i'm paul! Read at your own risk.
 
 <p>
   <!-- <img alt="New!" src="/images/new.gif" style="vertical-align: middle; margin: 0;" /> -->
